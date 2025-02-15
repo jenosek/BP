@@ -243,7 +243,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 91.44) (xy 85.09 78.74)
+			(xy 85.09 100.33) (xy 85.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -283,7 +283,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 96.52) (xy 80.01 83.82)
+			(xy 80.01 105.41) (xy 80.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -300,6 +300,26 @@
 			(type default)
 		)
 		(uuid "33da7b84-4d82-466d-aca1-44c8627537b9")
+	)
+	(wire
+		(pts
+			(xy 80.01 154.94) (xy 80.01 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ff301d-73d8-4bfb-9757-17bfece0d6c7")
+	)
+	(wire
+		(pts
+			(xy 80.01 135.89) (xy 220.98 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d81fb0-e369-494f-97d8-81f5afbd9def")
 	)
 	(wire
 		(pts
@@ -353,6 +373,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 165.1) (xy 90.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb163d1-a21c-457a-b32e-e78d4d8a6753")
+	)
+	(wire
+		(pts
 			(xy 133.35 50.8) (xy 148.59 50.8)
 		)
 		(stroke
@@ -403,6 +433,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 160.02) (xy 85.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7000ea57-a6f6-4041-a7a0-6512f92fede0")
+	)
+	(wire
+		(pts
+			(xy 58.42 154.94) (xy 80.01 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dbf63f-5f32-4ea0-92c7-e0331e368609")
+	)
+	(wire
+		(pts
 			(xy 80.01 21.59) (xy 80.01 58.42)
 		)
 		(stroke
@@ -420,6 +470,16 @@
 			(type default)
 		)
 		(uuid "81029ec4-6dfa-49c0-9d82-0ab33f6515a6")
+	)
+	(wire
+		(pts
+			(xy 85.09 140.97) (xy 220.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91218cbc-8b10-43af-8c2b-5a5266413635")
 	)
 	(wire
 		(pts
@@ -443,6 +503,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 146.05) (xy 220.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956d5008-fdde-4679-b85c-cd100c05caa5")
+	)
+	(wire
+		(pts
 			(xy 58.42 118.11) (xy 220.98 118.11)
 		)
 		(stroke
@@ -463,6 +533,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74626a3-8614-4010-8606-06692eaaaefc")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89ce5e1-d31a-4427-abd2-0b2f9824627a")
+	)
+	(wire
+		(pts
 			(xy 21.59 21.59) (xy 80.01 21.59)
 		)
 		(stroke
@@ -480,6 +570,26 @@
 			(type default)
 		)
 		(uuid "aafe59b3-534b-4a92-a354-140086a83f6b")
+	)
+	(wire
+		(pts
+			(xy 58.42 160.02) (xy 85.09 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab02cf3c-a279-4ddb-a5fd-a94a98b116da")
+	)
+	(wire
+		(pts
+			(xy 90.17 165.1) (xy 90.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac94aba2-277d-49eb-ae8d-535b0b1bee0f")
 	)
 	(wire
 		(pts
@@ -513,7 +623,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 96.52) (xy 80.01 96.52)
+			(xy 220.98 105.41) (xy 80.01 105.41)
 		)
 		(stroke
 			(width 0)
@@ -613,7 +723,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 91.44) (xy 85.09 91.44)
+			(xy 220.98 100.33) (xy 85.09 100.33)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +999,7 @@
 	)
 	(sheet
 		(at 220.98 38.1)
-		(size 29.21 109.855)
+		(size 29.21 119.38)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -909,7 +1019,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 220.98 148.5396 0)
+			(at 220.98 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +1088,7 @@
 			(uuid "4c3261ba-4e79-495b-8b7c-c12520d9472d")
 		)
 		(pin "ADC_VBUS" input
-			(at 220.98 91.44 180)
+			(at 220.98 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +1098,7 @@
 			(uuid "1fd216f0-4529-46e4-b18b-df545f410c18")
 		)
 		(pin "FLT{slash}" input
-			(at 220.98 96.52 180)
+			(at 220.98 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,6 +1297,56 @@
 			)
 			(uuid "709ff807-0113-46c5-95d0-ca84c8ab747f")
 		)
+		(pin "BYPASS_CC2" bidirectional
+			(at 220.98 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0cf74df-dfec-4ef9-84de-b2929f30ff87")
+		)
+		(pin "BYPASS_CC1" bidirectional
+			(at 220.98 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61caebd8-7089-495f-a850-4ba9d83c9d39")
+		)
+		(pin "USB_OTG_HS_VBUS" input
+			(at 220.98 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d069ff94-6f6b-4956-94dc-1a3b459543b0")
+		)
+		(pin "USB_OTG_HS_D-" bidirectional
+			(at 220.98 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6862d9c5-c4f0-4e57-9df0-4ab6852dedb2")
+		)
+		(pin "USB_OTG_HS_D+" bidirectional
+			(at 220.98 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b90ab7bd-6cd6-4a76-bccd-ab097d8af8fd")
+		)
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5"
@@ -1207,7 +1367,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a0c7114d-8344-4dfb-8086-bd9d063d8594")
-		(property "Sheetname" "Camera OV7670"
+		(property "Sheetname" "Camera"
 			(at 257.81 50.0884 0)
 			(effects
 				(font
@@ -1618,6 +1778,74 @@
 		)
 	)
 	(sheet
+		(at 33.02 149.86)
+		(size 25.4 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f28d5476-62ad-47ee-95fb-15cfd356e27c")
+		(property "Sheetname" "USB-B_micro"
+			(at 33.02 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_b.kicad_sch"
+			(at 33.02 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_OTG_HS_VBUS" output
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b1bd73f-6437-42d0-960c-f0f878935a1b")
+		)
+		(pin "USB_OTG_HS_D+" bidirectional
+			(at 58.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd88e441-4092-4012-89cf-1f7d7b12990f")
+		)
+		(pin "USB_OTG_HS_D-" bidirectional
+			(at 58.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8999694d-6123-413b-ad1f-9fa8b579ea4b")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 143.51 26.67)
 		(size 22.86 12.7)
 		(fields_autoplaced yes)
@@ -1667,7 +1895,7 @@
 	)
 	(sheet
 		(at 93.98 58.42)
-		(size 27.94 25.4)
+		(size 27.94 34.29)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1687,7 +1915,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_interface.kicad_sch"
-			(at 93.98 84.4046 0)
+			(at 93.98 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,6 +1992,26 @@
 				(justify right)
 			)
 			(uuid "594ba529-0589-40c6-bc65-87a5fcb59834")
+		)
+		(pin "BYPASS_CC2" bidirectional
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd4c773c-7717-4fd5-b801-e124b8a50a72")
+		)
+		(pin "BYPASS_CC1" bidirectional
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8626f096-5fb3-4faf-9a2b-5afce8019f86")
 		)
 		(instances
 			(project "obvod"

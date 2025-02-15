@@ -601,11 +601,15 @@
     ],
     [
       "a0c7114d-8344-4dfb-8086-bd9d063d8594",
-      "Camera OV7670"
+      "Camera"
     ],
     [
       "540adf6e-5b6f-4df1-af18-d763618ddc56",
       "USB-C"
+    ],
+    [
+      "f28d5476-62ad-47ee-95fb-15cfd356e27c",
+      "USB-B_micro"
     ],
     [
       "fdd3d46b-c5ef-429c-ba04-a467d2c6100e",

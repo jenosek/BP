@@ -713,6 +713,12 @@
 		)
 	)
 	(junction
+		(at 203.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0245f5f4-42f1-4543-b432-0c5427a5c31b")
+	)
+	(junction
 		(at 99.06 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -729,6 +735,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38c49ac8-e0f6-4b8f-a196-fde4760aa6a1")
+	)
+	(junction
+		(at 190.5 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59be80d6-f94a-4bbe-9341-bf6648eb3286")
 	)
 	(junction
 		(at 111.76 83.82)
@@ -786,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 182.88 83.82)
+			(xy 171.45 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 182.88 78.74)
+			(xy 149.86 78.74) (xy 220.98 78.74)
 		)
 		(stroke
 			(width 0)
@@ -893,6 +905,26 @@
 			(type default)
 		)
 		(uuid "38580a4e-0af8-4a60-bac6-695f22f75f97")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d883c7-365f-4273-8829-e4d076035280")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a307119-f217-403b-a2d2-6405f2e7c40f")
 	)
 	(wire
 		(pts
@@ -923,6 +955,16 @@
 			(type default)
 		)
 		(uuid "44d8d7d8-724b-4ff1-b36e-ee9d6f1fc3d1")
+	)
+	(wire
+		(pts
+			(xy 190.5 118.11) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5d3911-813f-43df-ae5f-6bfbfbadbb6c")
 	)
 	(wire
 		(pts
@@ -966,6 +1008,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 115.57) (xy 203.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d255bfa-c80b-4e30-acfc-6ed0e9461e2d")
+	)
+	(wire
+		(pts
 			(xy 111.76 50.8) (xy 134.62 50.8)
 		)
 		(stroke
@@ -996,6 +1048,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 81.28) (xy 203.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0c6dd6-6896-4216-b764-90c726bc3040")
+	)
+	(wire
+		(pts
 			(xy 111.76 50.8) (xy 111.76 62.23)
 		)
 		(stroke
@@ -1013,6 +1075,16 @@
 			(type default)
 		)
 		(uuid "859400cb-cd0f-4027-9959-8fe70aec0401")
+	)
+	(wire
+		(pts
+			(xy 203.2 115.57) (xy 220.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8784bf71-a33c-445a-92ec-d97fe5b099b0")
 	)
 	(wire
 		(pts
@@ -1036,7 +1108,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 81.28) (xy 182.88 81.28)
+			(xy 158.75 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1136,6 +1208,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 118.11) (xy 220.98 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8fbbc0-757f-4fd6-a0a9-23a3202f0f08")
+	)
+	(wire
+		(pts
 			(xy 137.16 50.8) (xy 137.16 71.12)
 		)
 		(stroke
@@ -1143,6 +1225,16 @@
 			(type default)
 		)
 		(uuid "f2313f57-d658-4aab-9c73-eb2ed87c8a26")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c13fb0-9d5f-4df0-882a-d63c6d2b864a")
 	)
 	(wire
 		(pts
@@ -1155,8 +1247,20 @@
 		(uuid "f861ffc2-2645-40e3-856e-04599c6a8bc8")
 	)
 	(rectangle
-		(start 181.61 77.47)
-		(end 242.57 80.01)
+		(start 186.69 88.9)
+		(end 260.35 99.06)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1068128b-5861-4df5-8e53-fcc53b3196dd)
+	)
+	(rectangle
+		(start 219.71 77.47)
+		(end 280.67 80.01)
 		(stroke
 			(width 0)
 			(type dot)
@@ -1165,6 +1269,18 @@
 			(type none)
 		)
 		(uuid 411e97fc-97f9-4f53-a5ab-62b677d4ac24)
+	)
+	(rectangle
+		(start 41.91 60.96)
+		(end 119.38 71.12)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dd6da3da-ac98-4d54-8c0d-b8288b367172)
 	)
 	(rectangle
 		(start 48.26 82.55)
@@ -1188,9 +1304,29 @@
 		)
 		(uuid "0afa761b-3f3b-40cd-8a8c-bca1c65362a4")
 	)
+	(text "Do not solder, if FUSB302B is used."
+		(exclude_from_sim no)
+		(at 61.722 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "143802d1-aa33-4695-8a28-1a65aab89bc7")
+	)
+	(text "Bypass of FUSB302BMPX's CC lines "
+		(exclude_from_sim no)
+		(at 235.458 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73d3b98f-61e1-452d-8492-68c26daa0ac7")
+	)
 	(text "Used for connector attach and detach detection."
 		(exclude_from_sim no)
-		(at 216.916 78.994 0)
+		(at 255.016 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1200,7 +1336,7 @@
 	)
 	(hierarchical_label "USB_CC2"
 		(shape bidirectional)
-		(at 182.88 83.82 0)
+		(at 220.98 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1208,6 +1344,17 @@
 			(justify left)
 		)
 		(uuid "0b6e9446-0c3d-4dd4-9568-e7e10d6e82db")
+	)
+	(hierarchical_label "BYPASS_CC1"
+		(shape bidirectional)
+		(at 220.98 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1faa2781-6003-4436-ac5e-cb8fe79eb471")
 	)
 	(hierarchical_label "INT_N"
 		(shape output)
@@ -1233,7 +1380,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 182.88 78.74 0)
+		(at 220.98 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1255,7 +1402,7 @@
 	)
 	(hierarchical_label "USB_CC1"
 		(shape bidirectional)
-		(at 182.88 81.28 0)
+		(at 220.98 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,6 +1421,17 @@
 			(justify left)
 		)
 		(uuid "a5cddf03-dbe4-4947-b2e3-06ca6fd3e663")
+	)
+	(hierarchical_label "BYPASS_CC2"
+		(shape bidirectional)
+		(at 220.98 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d32e28b4-9cd5-4a75-810b-b8afe68a870b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1608,6 +1766,146 @@
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e929ab5-313e-44a4-80b9-599ebaf898b9")
+		(property "Reference" "R28"
+			(at 205.74 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 205.74 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 201.422 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b5aa2e3-46fb-4a29-afb4-ae688bab5f24")
+		)
+		(pin "2"
+			(uuid "c92b7cda-af84-424d-90e4-01356245ed52")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8294ba06-1a6e-42c0-a8f8-06f30ce6a94d")
+		(property "Reference" "R27"
+			(at 193.04 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 193.04 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 188.722 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88ce2a76-55f1-4845-b767-84404d5c1f02")
+		)
+		(pin "2"
+			(uuid "73e75561-c13b-4700-b9e9-186141ddaa61")
+		)
+		(instances
+			(project ""
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
+					(reference "R27")
 					(unit 1)
 				)
 			)
