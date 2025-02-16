@@ -303,7 +303,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 154.94) (xy 80.01 135.89)
+			(xy 74.93 154.94) (xy 74.93 135.89)
 		)
 		(stroke
 			(width 0)
@@ -313,7 +313,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 135.89) (xy 220.98 135.89)
+			(xy 74.93 135.89) (xy 220.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -373,7 +373,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 165.1) (xy 90.17 165.1)
+			(xy 58.42 165.1) (xy 85.09 165.1)
 		)
 		(stroke
 			(width 0)
@@ -433,17 +433,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 160.02) (xy 85.09 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7000ea57-a6f6-4041-a7a0-6512f92fede0")
-	)
-	(wire
-		(pts
-			(xy 58.42 154.94) (xy 80.01 154.94)
+			(xy 58.42 154.94) (xy 74.93 154.94)
 		)
 		(stroke
 			(width 0)
@@ -473,7 +463,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 140.97) (xy 220.98 140.97)
+			(xy 58.42 160.02) (xy 80.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e4df4e-ee63-4273-b530-366417f51441")
+	)
+	(wire
+		(pts
+			(xy 80.01 140.97) (xy 220.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -503,13 +503,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 146.05) (xy 220.98 146.05)
+			(xy 85.09 146.05) (xy 220.98 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "956d5008-fdde-4679-b85c-cd100c05caa5")
+	)
+	(wire
+		(pts
+			(xy 80.01 140.97) (xy 80.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab88a5c-c5a6-45bd-8ec3-8cf6b7d33026")
 	)
 	(wire
 		(pts
@@ -573,17 +583,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 160.02) (xy 85.09 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab02cf3c-a279-4ddb-a5fd-a94a98b116da")
-	)
-	(wire
-		(pts
-			(xy 90.17 165.1) (xy 90.17 146.05)
+			(xy 85.09 146.05) (xy 85.09 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1622,8 +1622,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 106.68)
-		(size 25.4 29.21)
+		(at 33.02 109.22)
+		(size 25.4 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1634,7 +1634,7 @@
 		)
 		(uuid "d3fe727f-e59c-4b25-a97d-baf79ecd8dec")
 		(property "Sheetname" "SWD"
-			(at 33.02 105.9684 0)
+			(at 33.02 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1643,7 @@
 			)
 		)
 		(property "Sheetfile" "swd.kicad_sch"
-			(at 33.02 136.4746 0)
+			(at 33.02 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,8 +1894,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 58.42)
-		(size 27.94 34.29)
+		(at 93.98 59.69)
+		(size 27.94 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1906,7 +1906,7 @@
 		)
 		(uuid "fdd3d46b-c5ef-429c-ba04-a467d2c6100e")
 		(property "Sheetname" "USB-C_Interface"
-			(at 93.98 57.7084 0)
+			(at 93.98 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
