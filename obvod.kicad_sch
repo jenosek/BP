@@ -900,6 +900,44 @@
 		)
 	)
 	(sheet
+		(at 107.95 168.91)
+		(size 12.7 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21633f2b-133b-44f0-ac2e-c32a8c0675be")
+		(property "Sheetname" "RF"
+			(at 107.95 168.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf.kicad_sch"
+			(at 107.95 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 54.61)
 		(size 25.4 33.02)
 		(fields_autoplaced yes)
