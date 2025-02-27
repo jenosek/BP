@@ -1,0 +1,84 @@
+(status): Nexxim version: 2024.2.0 WIN64, build time: May 23 2024, 02:38:15
+
+(status): Analyzing C:/Skola/Bakalarka/ans/QWIT.aedtresults/Circuit1/temp/DV53_S18_V52.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 4
+circuit_details(status): Total device types: 3
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         2
+inductor                                          1
+port_impedance                                    2
+(status): License checkout took 0.272 seconds.
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.

@@ -1,0 +1,967 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000027, hour=000000000018, min=000000000048, sec=000000000031)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000039571, lin=000000000863, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=641
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=642
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='$c=\'1.1000000000000001pF\'', ID=398)
+		Map(V='$c=\'1.1000000000000001pF\' c=\'6.2999999999999998pF\'', ID=210)
+		Map(V='$c=\'1.2pF\'', ID=399)
+		Map(V='$c=\'1.2pF\' c=\'6.2999999999999998pF\'', ID=211)
+		Map(V='$c=\'1.3999999999999999pF\'', ID=401)
+		Map(V='$c=\'1.3999999999999999pF\' c=\'6.2999999999999998pF\'', ID=213)
+		Map(V='$c=\'1.3pF\'', ID=400)
+		Map(V='$c=\'1.3pF\' c=\'6.2999999999999998pF\'', ID=212)
+		Map(V='$c=\'1.5pF\'', ID=402)
+		Map(V='$c=\'1.5pF\' c=\'6.2999999999999998pF\'', ID=214)
+		Map(V='$c=\'1.6000000000000001pF\'', ID=403)
+		Map(V='$c=\'1.6000000000000001pF\' c=\'6.2999999999999998pF\'', ID=215)
+		Map(V='$c=\'1.7pF\'', ID=404)
+		Map(V='$c=\'1.7pF\' c=\'6.2999999999999998pF\'', ID=216)
+		Map(V='$c=\'1.8999999999999999pF\' c=\'6.2999999999999998pF\'', ID=218)
+		Map(V='$c=\'1.8pF\'', ID=405)
+		Map(V='$c=\'1.8pF\' c=\'6.2999999999999998pF\'', ID=217)
+		Map(V='$c=\'10.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=299)
+		Map(V='$c=\'10.1pF\' c=\'6.2999999999999998pF\'', ID=298)
+		Map(V='$c=\'10.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=300)
+		Map(V='$c=\'10.4pF\' c=\'6.2999999999999998pF\'', ID=301)
+		Map(V='$c=\'10.5pF\' c=\'6.2999999999999998pF\'', ID=302)
+		Map(V='$c=\'10.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=304)
+		Map(V='$c=\'10.6pF\' c=\'6.2999999999999998pF\'', ID=303)
+		Map(V='$c=\'10.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=305)
+		Map(V='$c=\'10.9pF\' c=\'6.2999999999999998pF\'', ID=306)
+		Map(V='$c=\'10pF\' c=\'6.2999999999999998pF\'', ID=297)
+		Map(V='$c=\'11.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=309)
+		Map(V='$c=\'11.1pF\' c=\'6.2999999999999998pF\'', ID=308)
+		Map(V='$c=\'11.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=310)
+		Map(V='$c=\'11.4pF\' c=\'6.2999999999999998pF\'', ID=311)
+		Map(V='$c=\'11.5pF\' c=\'6.2999999999999998pF\'', ID=312)
+		Map(V='$c=\'11.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=314)
+		Map(V='$c=\'11.6pF\' c=\'6.2999999999999998pF\'', ID=313)
+		Map(V='$c=\'11.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=315)
+		Map(V='$c=\'11.9pF\' c=\'6.2999999999999998pF\'', ID=316)
+		Map(V='$c=\'11pF\' c=\'6.2999999999999998pF\'', ID=307)
+		Map(V='$c=\'12.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=319)
+		Map(V='$c=\'12.1pF\' c=\'6.2999999999999998pF\'', ID=318)
+		Map(V='$c=\'12.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=320)
+		Map(V='$c=\'12.4pF\' c=\'6.2999999999999998pF\'', ID=321)
+		Map(V='$c=\'12.5pF\' c=\'6.2999999999999998pF\'', ID=322)
+		Map(V='$c=\'12.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=324)
+		Map(V='$c=\'12.6pF\' c=\'6.2999999999999998pF\'', ID=323)
+		Map(V='$c=\'12.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=325)
+		Map(V='$c=\'12.9pF\' c=\'6.2999999999999998pF\'', ID=326)
+		Map(V='$c=\'12pF\' c=\'6.2999999999999998pF\'', ID=317)
+		Map(V='$c=\'13.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=329)
+		Map(V='$c=\'13.1pF\' c=\'6.2999999999999998pF\'', ID=328)
+		Map(V='$c=\'13.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=330)
+		Map(V='$c=\'13.4pF\' c=\'6.2999999999999998pF\'', ID=331)
+		Map(V='$c=\'13.5pF\' c=\'6.2999999999999998pF\'', ID=332)
+		Map(V='$c=\'13.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=334)
+		Map(V='$c=\'13.6pF\' c=\'6.2999999999999998pF\'', ID=333)
+		Map(V='$c=\'13.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=335)
+		Map(V='$c=\'13.9pF\' c=\'6.2999999999999998pF\'', ID=336)
+		Map(V='$c=\'13pF\' c=\'6.2999999999999998pF\'', ID=327)
+		Map(V='$c=\'14.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=339)
+		Map(V='$c=\'14.1pF\' c=\'6.2999999999999998pF\'', ID=338)
+		Map(V='$c=\'14.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=340)
+		Map(V='$c=\'14.4pF\' c=\'6.2999999999999998pF\'', ID=341)
+		Map(V='$c=\'14.5pF\' c=\'6.2999999999999998pF\'', ID=342)
+		Map(V='$c=\'14.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=344)
+		Map(V='$c=\'14.6pF\' c=\'6.2999999999999998pF\'', ID=343)
+		Map(V='$c=\'14.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=345)
+		Map(V='$c=\'14.900000000000002pF\' c=\'6.2999999999999998pF\'', ID=346)
+		Map(V='$c=\'14pF\' c=\'6.2999999999999998pF\'', ID=337)
+		Map(V='$c=\'15.099999999999998pF\' c=\'6.2999999999999998pF\'', ID=348)
+		Map(V='$c=\'15.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=349)
+		Map(V='$c=\'15.300000000000002pF\' c=\'6.2999999999999998pF\'', ID=350)
+		Map(V='$c=\'15.499999999999998pF\' c=\'6.2999999999999998pF\'', ID=352)
+		Map(V='$c=\'15.4pF\' c=\'6.2999999999999998pF\'', ID=351)
+		Map(V='$c=\'15.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=354)
+		Map(V='$c=\'15.6pF\' c=\'6.2999999999999998pF\'', ID=353)
+		Map(V='$c=\'15.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=355)
+		Map(V='$c=\'15.900000000000002pF\' c=\'6.2999999999999998pF\'', ID=356)
+		Map(V='$c=\'15pF\' c=\'6.2999999999999998pF\'', ID=347)
+		Map(V='$c=\'16.100000000000001pF\' c=\'6.2999999999999998pF\'', ID=358)
+		Map(V='$c=\'16.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=359)
+		Map(V='$c=\'16.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=360)
+		Map(V='$c=\'16.399999999999999pF\' c=\'6.2999999999999998pF\'', ID=361)
+		Map(V='$c=\'16.5pF\' c=\'6.2999999999999998pF\'', ID=362)
+		Map(V='$c=\'16.600000000000001pF\' c=\'6.2999999999999998pF\'', ID=363)
+		Map(V='$c=\'16.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=364)
+		Map(V='$c=\'16.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=365)
+		Map(V='$c=\'16.899999999999999pF\' c=\'6.2999999999999998pF\'', ID=366)
+		Map(V='$c=\'16pF\' c=\'6.2999999999999998pF\'', ID=357)
+		Map(V='$c=\'17.100000000000001pF\' c=\'6.2999999999999998pF\'', ID=368)
+		Map(V='$c=\'17.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=369)
+		Map(V='$c=\'17.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=370)
+		Map(V='$c=\'17.399999999999999pF\' c=\'6.2999999999999998pF\'', ID=371)
+		Map(V='$c=\'17.5pF\' c=\'6.2999999999999998pF\'', ID=372)
+		Map(V='$c=\'17.600000000000001pF\' c=\'6.2999999999999998pF\'', ID=373)
+		Map(V='$c=\'17.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=374)
+		Map(V='$c=\'17.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=375)
+		Map(V='$c=\'17.899999999999999pF\' c=\'6.2999999999999998pF\'', ID=376)
+		Map(V='$c=\'17pF\' c=\'6.2999999999999998pF\'', ID=367)
+		Map(V='$c=\'18.100000000000001pF\' c=\'6.2999999999999998pF\'', ID=378)
+		Map(V='$c=\'18.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=379)
+		Map(V='$c=\'18.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=380)
+		Map(V='$c=\'18.399999999999999pF\' c=\'6.2999999999999998pF\'', ID=381)
+		Map(V='$c=\'18.5pF\' c=\'6.2999999999999998pF\'', ID=382)
+		Map(V='$c=\'18.600000000000001pF\' c=\'6.2999999999999998pF\'', ID=383)
+		Map(V='$c=\'18.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=384)
+		Map(V='$c=\'18.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=385)
+		Map(V='$c=\'18.899999999999999pF\' c=\'6.2999999999999998pF\'', ID=386)
+		Map(V='$c=\'18pF\' c=\'6.2999999999999998pF\'', ID=377)
+		Map(V='$c=\'19.100000000000001pF\' c=\'6.2999999999999998pF\'', ID=388)
+		Map(V='$c=\'19.199999999999999pF\' c=\'6.2999999999999998pF\'', ID=389)
+		Map(V='$c=\'19.300000000000001pF\' c=\'6.2999999999999998pF\'', ID=390)
+		Map(V='$c=\'19.399999999999999pF\' c=\'6.2999999999999998pF\'', ID=391)
+		Map(V='$c=\'19.5pF\' c=\'6.2999999999999998pF\'', ID=392)
+		Map(V='$c=\'19.600000000000001pF\' c=\'6.2999999999999998pF\'', ID=393)
+		Map(V='$c=\'19.699999999999999pF\' c=\'6.2999999999999998pF\'', ID=394)
+		Map(V='$c=\'19.800000000000001pF\' c=\'6.2999999999999998pF\'', ID=395)
+		Map(V='$c=\'19.899999999999999pF\' c=\'6.2999999999999998pF\'', ID=396)
+		Map(V='$c=\'19pF\' c=\'6.2999999999999998pF\'', ID=387)
+		Map(V='$c=\'1pF\'', ID=406)
+		Map(V='$c=\'1pF\' c=\'6.2999999999999998pF\'', ID=209)
+		Map(V='$c=\'2.1000000000000001pF\' c=\'6.2999999999999998pF\'', ID=220)
+		Map(V='$c=\'2.2000000000000002pF\' c=\'6.2999999999999998pF\'', ID=221)
+		Map(V='$c=\'2.2999999999999998pF\' c=\'6.2999999999999998pF\'', ID=222)
+		Map(V='$c=\'2.3999999999999999pF\' c=\'6.2999999999999998pF\'', ID=223)
+		Map(V='$c=\'2.5pF\' c=\'6.2999999999999998pF\'', ID=224)
+		Map(V='$c=\'2.6000000000000001pF\' c=\'6.2999999999999998pF\'', ID=225)
+		Map(V='$c=\'2.7000000000000002pF\' c=\'6.2999999999999998pF\'', ID=226)
+		Map(V='$c=\'2.7999999999999998pF\' c=\'6.2999999999999998pF\'', ID=227)
+		Map(V='$c=\'2.8999999999999999pF\' c=\'6.2999999999999998pF\'', ID=228)
+		Map(V='$c=\'20pF\' c=\'6.2999999999999998pF\'', ID=397)
+		Map(V='$c=\'2pF\' c=\'6.2999999999999998pF\'', ID=219)
+		Map(V='$c=\'3.1000000000000001pF\' c=\'6.2999999999999998pF\'', ID=230)
+		Map(V='$c=\'3.2000000000000002pF\' c=\'6.2999999999999998pF\'', ID=231)
+		Map(V='$c=\'3.2999999999999998pF\' c=\'6.2999999999999998pF\'', ID=232)
+		Map(V='$c=\'3.3999999999999999pF\' c=\'6.2999999999999998pF\'', ID=233)
+		Map(V='$c=\'3.5pF\' c=\'6.2999999999999998pF\'', ID=234)
+		Map(V='$c=\'3.6000000000000001pF\' c=\'6.2999999999999998pF\'', ID=235)
+		Map(V='$c=\'3.7000000000000002pF\' c=\'6.2999999999999998pF\'', ID=236)
+		Map(V='$c=\'3.7999999999999998pF\' c=\'6.2999999999999998pF\'', ID=237)
+		Map(V='$c=\'3.8999999999999999pF\' c=\'6.2999999999999998pF\'', ID=238)
+		Map(V='$c=\'3pF\' c=\'6.2999999999999998pF\'', ID=229)
+		Map(V='$c=\'4.0999999999999996pF\' c=\'6.2999999999999998pF\'', ID=240)
+		Map(V='$c=\'4.2000000000000002pF\' c=\'6.2999999999999998pF\'', ID=241)
+		Map(V='$c=\'4.2999999999999998pF\' c=\'6.2999999999999998pF\'', ID=242)
+		Map(V='$c=\'4.4000000000000004pF\' c=\'6.2999999999999998pF\'', ID=243)
+		Map(V='$c=\'4.5999999999999996pF\' c=\'6.2999999999999998pF\'', ID=245)
+		Map(V='$c=\'4.5pF\' c=\'6.2999999999999998pF\'', ID=244)
+		Map(V='$c=\'4.7000000000000002pF\' c=\'6.2999999999999998pF\'', ID=246)
+		Map(V='$c=\'4.7999999999999998pF\' c=\'6.2999999999999998pF\'', ID=247)
+		Map(V='$c=\'4.9000000000000004pF\' c=\'6.2999999999999998pF\'', ID=248)
+		Map(V='$c=\'4pF\' c=\'6.2999999999999998pF\'', ID=239)
+		Map(V='$c=\'5.0999999999999996pF\' c=\'6.2999999999999998pF\'', ID=249)
+		Map(V='$c=\'5.2000000000000002pF\' c=\'6.2999999999999998pF\'', ID=250)
+		Map(V='$c=\'5.2999999999999998pF\' c=\'6.2999999999999998pF\'', ID=251)
+		Map(V='$c=\'5.4000000000000004pF\' c=\'6.2999999999999998pF\'', ID=252)
+		Map(V='$c=\'5.5999999999999996pF\' c=\'6.2999999999999998pF\'', ID=254)
+		Map(V='$c=\'5.5pF\' c=\'6.2999999999999998pF\'', ID=253)
+		Map(V='$c=\'5.7000000000000002pF\' c=\'6.2999999999999998pF\'', ID=255)
+		Map(V='$c=\'5.7999999999999998pF\' c=\'6.2999999999999998pF\'', ID=256)
+		Map(V='$c=\'5.9000000000000004pF\' c=\'6.2999999999999998pF\'', ID=257)
+		Map(V='$c=\'5p\'', ID=202)
+		Map(V='$c=\'5p\' c=\'6.2999999999999998pF\'', ID=206)
+		Map(V='$c=\'5pF\' c=\'7.2999999999999998pF\'', ID=428)
+		Map(V='$c=\'6.0999999999999996pF\' c=\'6.2999999999999998pF\'', ID=259)
+		Map(V='$c=\'6.2000000000000002pF\' c=\'6.2999999999999998pF\'', ID=260)
+		Map(V='$c=\'6.2999999999999998pF\' c=\'6.2999999999999998pF\'', ID=261)
+		Map(V='$c=\'6.4000000000000004pF\' c=\'6.2999999999999998pF\'', ID=262)
+		Map(V='$c=\'6.5999999999999996pF\' c=\'6.2999999999999998pF\'', ID=263)
+		Map(V='$c=\'6.5pF\'', ID=208)
+		Map(V='$c=\'6.5pF\' c=\'6.2999999999999998pF\'', ID=207)
+		Map(V='$c=\'6.7000000000000002pF\' c=\'6.2999999999999998pF\'', ID=264)
+		Map(V='$c=\'6.7999999999999998pF\' c=\'6.2999999999999998pF\'', ID=265)
+		Map(V='$c=\'6.9000000000000004pF\' c=\'6.2999999999999998pF\'', ID=266)
+		Map(V='$c=\'6pF\' c=\'6.2999999999999998pF\'', ID=258)
+		Map(V='$c=\'7.0999999999999996pF\' c=\'6.2999999999999998pF\'', ID=268)
+		Map(V='$c=\'7.2000000000000002pF\' c=\'6.2999999999999998pF\'', ID=269)
+		Map(V='$c=\'7.2999999999999998pF\' c=\'6.2999999999999998pF\'', ID=270)
+		Map(V='$c=\'7.4000000000000004pF\' c=\'6.2999999999999998pF\'', ID=271)
+		Map(V='$c=\'7.5999999999999996pF\' c=\'6.2999999999999998pF\'', ID=273)
+		Map(V='$c=\'7.5pF\' c=\'6.2999999999999998pF\'', ID=272)
+		Map(V='$c=\'7.7000000000000002pF\' c=\'6.2999999999999998pF\'', ID=274)
+		Map(V='$c=\'7.7999999999999998pF\' c=\'6.2999999999999998pF\'', ID=275)
+		Map(V='$c=\'7.9000000000000004pF\' c=\'6.2999999999999998pF\'', ID=276)
+		Map(V='$c=\'7pF\' c=\'6.2999999999999998pF\'', ID=267)
+		Map(V='$c=\'8.0999999999999996pF\' c=\'6.2999999999999998pF\'', ID=278)
+		Map(V='$c=\'8.1999999999999993pF\' c=\'6.2999999999999998pF\'', ID=279)
+		Map(V='$c=\'8.3000000000000007pF\' c=\'6.2999999999999998pF\'', ID=280)
+		Map(V='$c=\'8.4000000000000004pF\' c=\'6.2999999999999998pF\'', ID=281)
+		Map(V='$c=\'8.5999999999999996pF\' c=\'6.2999999999999998pF\'', ID=283)
+		Map(V='$c=\'8.5pF\' c=\'6.2999999999999998pF\'', ID=282)
+		Map(V='$c=\'8.6999999999999993pF\' c=\'6.2999999999999998pF\'', ID=284)
+		Map(V='$c=\'8.8000000000000007pF\' c=\'6.2999999999999998pF\'', ID=285)
+		Map(V='$c=\'8.9000000000000004pF\' c=\'6.2999999999999998pF\'', ID=286)
+		Map(V='$c=\'8pF\' c=\'6.2999999999999998pF\'', ID=277)
+		Map(V='$c=\'9.0999999999999996pF\' c=\'6.2999999999999998pF\'', ID=288)
+		Map(V='$c=\'9.1999999999999993pF\' c=\'6.2999999999999998pF\'', ID=289)
+		Map(V='$c=\'9.3000000000000007pF\' c=\'6.2999999999999998pF\'', ID=290)
+		Map(V='$c=\'9.4000000000000004pF\' c=\'6.2999999999999998pF\'', ID=291)
+		Map(V='$c=\'9.5999999999999996pF\' c=\'6.2999999999999998pF\'', ID=293)
+		Map(V='$c=\'9.5pF\' c=\'6.2999999999999998pF\'', ID=292)
+		Map(V='$c=\'9.6999999999999993pF\' c=\'6.2999999999999998pF\'', ID=294)
+		Map(V='$c=\'9.8000000000000007pF\' c=\'6.2999999999999998pF\'', ID=295)
+		Map(V='$c=\'9.9000000000000004pF\' c=\'6.2999999999999998pF\'', ID=296)
+		Map(V='$c=\'9pF\' c=\'6.2999999999999998pF\'', ID=287)
+		Map(V='c=\'1.1000000000000001pF\'', ID=430)
+		Map(V='c=\'1.2pF\'', ID=431)
+		Map(V='c=\'1.3999999999999999pF\'', ID=433)
+		Map(V='c=\'1.3pF\'', ID=432)
+		Map(V='c=\'1.5pF\'', ID=434)
+		Map(V='c=\'1.6000000000000001pF\'', ID=435)
+		Map(V='c=\'1.7pF\'', ID=436)
+		Map(V='c=\'1.8999999999999999pF\'', ID=438)
+		Map(V='c=\'1.8pF\'', ID=437)
+		Map(V='c=\'10.199999999999999pF\'', ID=522)
+		Map(V='c=\'10.1pF\'', ID=521)
+		Map(V='c=\'10.300000000000001pF\'', ID=523)
+		Map(V='c=\'10.4pF\'', ID=524)
+		Map(V='c=\'10.5pF\'', ID=525)
+		Map(V='c=\'10.699999999999999pF\'', ID=527)
+		Map(V='c=\'10.6pF\'', ID=526)
+		Map(V='c=\'10.800000000000001pF\'', ID=528)
+		Map(V='c=\'10.9pF\'', ID=529)
+		Map(V='c=\'10pF\'', ID=516)
+		Map(V='c=\'11pF\'', ID=530)
+		Map(V='c=\'1pF\'', ID=429)
+		Map(V='c=\'2.1000000000000001pF\'', ID=440)
+		Map(V='c=\'2.2000000000000002pF\'', ID=441)
+		Map(V='c=\'2.2999999999999998pF\'', ID=442)
+		Map(V='c=\'2.3999999999999999pF\'', ID=443)
+		Map(V='c=\'2.5pF\'', ID=444)
+		Map(V='c=\'2.6000000000000001pF\'', ID=445)
+		Map(V='c=\'2.7000000000000002pF\'', ID=446)
+		Map(V='c=\'2.7999999999999998pF\'', ID=447)
+		Map(V='c=\'2.8999999999999999pF\'', ID=448)
+		Map(V='c=\'2pF\'', ID=439)
+		Map(V='c=\'3.1000000000000001pF\'', ID=450)
+		Map(V='c=\'3.2000000000000002pF\'', ID=451)
+		Map(V='c=\'3.2999999999999998pF\'', ID=452)
+		Map(V='c=\'3.3999999999999999pF\'', ID=453)
+		Map(V='c=\'3.5pF\'', ID=454)
+		Map(V='c=\'3.6000000000000001pF\'', ID=455)
+		Map(V='c=\'3.7000000000000002pF\'', ID=456)
+		Map(V='c=\'3.7999999999999998pF\'', ID=457)
+		Map(V='c=\'3.8999999999999999pF\'', ID=458)
+		Map(V='c=\'3pF\'', ID=449)
+		Map(V='c=\'4.0999999999999996pF\'', ID=460)
+		Map(V='c=\'4.2000000000000002pF\'', ID=461)
+		Map(V='c=\'4.2999999999999998pF\'', ID=462)
+		Map(V='c=\'4.4000000000000004pF\'', ID=463)
+		Map(V='c=\'4.5999999999999996pF\'', ID=465)
+		Map(V='c=\'4.5pF\'', ID=464)
+		Map(V='c=\'4.7000000000000002pF\'', ID=466)
+		Map(V='c=\'4.7999999999999998pF\'', ID=467)
+		Map(V='c=\'4.9000000000000004pF\'', ID=468)
+		Map(V='c=\'4pF\'', ID=459)
+		Map(V='c=\'5.0999999999999996pF\'', ID=470)
+		Map(V='c=\'5.2000000000000002pF\'', ID=471)
+		Map(V='c=\'5.2999999999999998pF\'', ID=472)
+		Map(V='c=\'5.4000000000000004pF\'', ID=473)
+		Map(V='c=\'5.5999999999999996pF\'', ID=475)
+		Map(V='c=\'5.5pF\'', ID=474)
+		Map(V='c=\'5.7000000000000002pF\'', ID=476)
+		Map(V='c=\'5.7999999999999998pF\'', ID=477)
+		Map(V='c=\'5.9000000000000004pF\'', ID=478)
+		Map(V='c=\'5pF\'', ID=469)
+		Map(V='c=\'6.04pF\'', ID=407)
+		Map(V='c=\'6.0999999999999988pF\'', ID=531)
+		Map(V='c=\'6.0999999999999996pF\'', ID=480)
+		Map(V='c=\'6.2000000000000002pF\'', ID=481)
+		Map(V='c=\'6.2999999999999989pF\'', ID=532)
+		Map(V='c=\'6.2999999999999998pF\'', ID=411)
+		Map(V='c=\'6.4000000000000004pF\'', ID=482)
+		Map(V='c=\'6.5999999999999996pF\'', ID=483)
+		Map(V='c=\'6.5pF\'', ID=412)
+		Map(V='c=\'6.6699999999999999pF\'', ID=408)
+		Map(V='c=\'6.7000000000000002pF\'', ID=484)
+		Map(V='c=\'6.7999999999999998pF\'', ID=485)
+		Map(V='c=\'6.9000000000000004pF\'', ID=486)
+		Map(V='c=\'6pF\'', ID=479)
+		Map(V='c=\'7.0999999999999996pF\'', ID=488)
+		Map(V='c=\'7.2000000000000002pF\'', ID=489)
+		Map(V='c=\'7.2999999999999998pF\'', ID=409)
+		Map(V='c=\'7.4000000000000004pF\'', ID=490)
+		Map(V='c=\'7.5999999999999996pF\'', ID=492)
+		Map(V='c=\'7.5pF\'', ID=491)
+		Map(V='c=\'7.7000000000000002pF\'', ID=493)
+		Map(V='c=\'7.7999999999999998pF\'', ID=494)
+		Map(V='c=\'7.9000000000000004pF\'', ID=495)
+		Map(V='c=\'7.9300000000000006pF\'', ID=410)
+		Map(V='c=\'7pF\'', ID=487)
+		Map(V='c=\'8.0999999999999996pF\'', ID=497)
+		Map(V='c=\'8.1999999999999993pF\'', ID=498)
+		Map(V='c=\'8.3000000000000007pF\'', ID=499)
+		Map(V='c=\'8.4000000000000004pF\'', ID=500)
+		Map(V='c=\'8.5999999999999996pF\'', ID=502)
+		Map(V='c=\'8.5pF\'', ID=501)
+		Map(V='c=\'8.6999999999999993pF\'', ID=503)
+		Map(V='c=\'8.8000000000000007pF\'', ID=504)
+		Map(V='c=\'8.9000000000000004pF\'', ID=505)
+		Map(V='c=\'8pF\'', ID=496)
+		Map(V='c=\'9.0999999999999996pF\'', ID=507)
+		Map(V='c=\'9.1999999999999993pF\'', ID=508)
+		Map(V='c=\'9.3000000000000007pF\'', ID=509)
+		Map(V='c=\'9.4000000000000004pF\'', ID=510)
+		Map(V='c=\'9.5999999999999996pF\'', ID=512)
+		Map(V='c=\'9.5pF\'', ID=511)
+		Map(V='c=\'9.6999999999999993pF\'', ID=513)
+		Map(V='c=\'9.8000000000000007pF\'', ID=514)
+		Map(V='c=\'9.9000000000000004pF\'', ID=515)
+		Map(V='c=\'9pF\'', ID=506)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=129, Instance=\'SetupDefinition\', Solution=-1, VersionID=641)'='SolutionBlock541'
+	'SolutionKey(SimSetup=129, Instance=\'SolutionDefinition\', Solution=128, VersionID=641)'='SolutionBlock540'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'10pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock624'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.0999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock546'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.2000000000000002pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock547'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.2999999999999998pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock548'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.4000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock549'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.5999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock556'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.5pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock557'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.7000000000000002pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock558'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.7999999999999998pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock559'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6.9000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock560'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'6pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock550'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.0999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock566'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.2000000000000002pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock567'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.2999999999999998pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock568'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.4000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock569'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.5999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock576'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.5pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock577'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.7000000000000002pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock578'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.7999999999999998pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock579'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7.9000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock580'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'7pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock570'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.0999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock586'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.1999999999999993pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock587'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.3000000000000007pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock588'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.4000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock589'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.5999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock596'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.5pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock597'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.6999999999999993pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock598'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.8000000000000007pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock599'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8.9000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock544'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'8pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock590'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.0999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock604'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.1999999999999993pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock605'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.3000000000000007pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock606'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.4000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock607'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.5999999999999996pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock614'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.5pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock615'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.6999999999999993pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock616'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.8000000000000007pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock617'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9.9000000000000004pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock618'
+	'SolutionKey(SimSetup=129, Instance=\'c=\\\'9pF\\\'\', Solution=128, VersionID=641)'='SolutionBlock608'
+	'SolutionKey(SimSetup=200, Instance=\'SetupDefinition\', Solution=-1, VersionID=641)'='SolutionBlock543'
+	'SolutionKey(SimSetup=200, Instance=\'SolutionDefinition\', Solution=199, VersionID=641)'='SolutionBlock542'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'10pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock625'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.0999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock551'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.2000000000000002pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock552'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.2999999999999998pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock553'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.4000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock554'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.5999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock561'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.5pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock562'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.7000000000000002pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock563'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.7999999999999998pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock564'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6.9000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock565'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'6pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock555'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.0999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock571'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.2000000000000002pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock572'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.2999999999999998pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock573'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.4000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock574'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.5999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock581'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.5pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock582'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.7000000000000002pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock583'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.7999999999999998pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock584'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7.9000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock585'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'7pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock575'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.0999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock591'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.1999999999999993pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock592'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.3000000000000007pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock593'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.4000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock594'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.5999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock600'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.5pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock601'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.6999999999999993pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock602'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.8000000000000007pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock603'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8.9000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock545'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'8pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock595'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.0999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock609'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.1999999999999993pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock610'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.3000000000000007pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock611'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.4000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock612'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.5999999999999996pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock619'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.5pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock620'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.6999999999999993pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock621'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.8000000000000007pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock622'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9.9000000000000004pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock623'
+	'SolutionKey(SimSetup=200, Instance=\'c=\\\'9pF\\\'\', Solution=199, VersionID=641)'='SolutionBlock613'
+$end 'BlockMapName'
+$begin 'SolutionBlock540'
+	SolutionName='434meg'
+	SolutionID=128
+	V=641
+	$begin 'States'
+		F(VID=409, Ver=641)
+		F(VID=411, Ver=641)
+		F(VID=412, Ver=641)
+		F(VID=479, Ver=641)
+		F(VID=480, Ver=641)
+		F(VID=481, Ver=641)
+		F(VID=482, Ver=641)
+		F(VID=483, Ver=641)
+		F(VID=484, Ver=641)
+		F(VID=485, Ver=641)
+		F(VID=486, Ver=641)
+		F(VID=487, Ver=641)
+		F(VID=488, Ver=641)
+		F(VID=489, Ver=641)
+		F(VID=490, Ver=641)
+		F(VID=491, Ver=641)
+		F(VID=492, Ver=641)
+		F(VID=493, Ver=641)
+		F(VID=494, Ver=641)
+		F(VID=495, Ver=641)
+		F(VID=496, Ver=641)
+		F(VID=497, Ver=641)
+		F(VID=498, Ver=641)
+		F(VID=499, Ver=641)
+		F(VID=500, Ver=641)
+		F(VID=501, Ver=641)
+		F(VID=502, Ver=641)
+		F(VID=503, Ver=641)
+		F(VID=504, Ver=641)
+		F(VID=505, Ver=641)
+		F(VID=506, Ver=641)
+		F(VID=507, Ver=641)
+		F(VID=508, Ver=641)
+		F(VID=509, Ver=641)
+		F(VID=510, Ver=641)
+		F(VID=511, Ver=641)
+		F(VID=512, Ver=641)
+		F(VID=513, Ver=641)
+		F(VID=514, Ver=641)
+		F(VID=515, Ver=641)
+		F(VID=516, Ver=641)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock540'
+$begin 'SolutionBlock541'
+	SimSetupID=129
+	SimSetupName='434meg'
+	VersionID=641
+	DefaultSol=128
+$end 'SolutionBlock541'
+$begin 'SolutionBlock542'
+	SolutionName='LinearFrequency'
+	SolutionID=199
+	V=641
+	$begin 'States'
+		F(VID=409, Ver=641)
+		F(VID=411, Ver=641)
+		F(VID=412, Ver=641)
+		F(VID=479, Ver=641)
+		F(VID=480, Ver=641)
+		F(VID=481, Ver=641)
+		F(VID=482, Ver=641)
+		F(VID=483, Ver=641)
+		F(VID=484, Ver=641)
+		F(VID=485, Ver=641)
+		F(VID=486, Ver=641)
+		F(VID=487, Ver=641)
+		F(VID=488, Ver=641)
+		F(VID=489, Ver=641)
+		F(VID=490, Ver=641)
+		F(VID=491, Ver=641)
+		F(VID=492, Ver=641)
+		F(VID=493, Ver=641)
+		F(VID=494, Ver=641)
+		F(VID=495, Ver=641)
+		F(VID=496, Ver=641)
+		F(VID=497, Ver=641)
+		F(VID=498, Ver=641)
+		F(VID=499, Ver=641)
+		F(VID=500, Ver=641)
+		F(VID=501, Ver=641)
+		F(VID=502, Ver=641)
+		F(VID=503, Ver=641)
+		F(VID=504, Ver=641)
+		F(VID=505, Ver=641)
+		F(VID=506, Ver=641)
+		F(VID=507, Ver=641)
+		F(VID=508, Ver=641)
+		F(VID=509, Ver=641)
+		F(VID=510, Ver=641)
+		F(VID=511, Ver=641)
+		F(VID=512, Ver=641)
+		F(VID=513, Ver=641)
+		F(VID=514, Ver=641)
+		F(VID=515, Ver=641)
+		F(VID=516, Ver=641)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock542'
+$begin 'SolutionBlock543'
+	SimSetupID=200
+	SimSetupName='LinearFrequency'
+	VersionID=641
+	DefaultSol=199
+$end 'SolutionBlock543'
+$begin 'SolutionBlock551'
+	VariationDataID=-1
+	File='DV480_S199_V641.cir'
+$end 'SolutionBlock551'
+$begin 'SolutionBlock552'
+	VariationDataID=-1
+	File='DV481_S199_V641.cir'
+$end 'SolutionBlock552'
+$begin 'SolutionBlock553'
+	VariationDataID=-1
+	File='DV411_S199_V641.cir'
+$end 'SolutionBlock553'
+$begin 'SolutionBlock554'
+	VariationDataID=-1
+	File='DV482_S199_V641.cir'
+$end 'SolutionBlock554'
+$begin 'SolutionBlock555'
+	VariationDataID=-1
+	File='DV479_S199_V641.cir'
+$end 'SolutionBlock555'
+$begin 'SolutionBlock561'
+	VariationDataID=-1
+	File='DV483_S199_V641.cir'
+$end 'SolutionBlock561'
+$begin 'SolutionBlock562'
+	VariationDataID=-1
+	File='DV412_S199_V641.cir'
+$end 'SolutionBlock562'
+$begin 'SolutionBlock563'
+	VariationDataID=-1
+	File='DV484_S199_V641.cir'
+$end 'SolutionBlock563'
+$begin 'SolutionBlock564'
+	VariationDataID=-1
+	File='DV485_S199_V641.cir'
+$end 'SolutionBlock564'
+$begin 'SolutionBlock565'
+	VariationDataID=-1
+	File='DV486_S199_V641.cir'
+$end 'SolutionBlock565'
+$begin 'SolutionBlock571'
+	VariationDataID=-1
+	File='DV488_S199_V641.cir'
+$end 'SolutionBlock571'
+$begin 'SolutionBlock572'
+	VariationDataID=-1
+	File='DV489_S199_V641.cir'
+$end 'SolutionBlock572'
+$begin 'SolutionBlock573'
+	VariationDataID=-1
+	File='DV409_S199_V641.cir'
+$end 'SolutionBlock573'
+$begin 'SolutionBlock574'
+	VariationDataID=-1
+	File='DV490_S199_V641.cir'
+$end 'SolutionBlock574'
+$begin 'SolutionBlock575'
+	VariationDataID=-1
+	File='DV487_S199_V641.cir'
+$end 'SolutionBlock575'
+$begin 'SolutionBlock581'
+	VariationDataID=-1
+	File='DV492_S199_V641.cir'
+$end 'SolutionBlock581'
+$begin 'SolutionBlock582'
+	VariationDataID=-1
+	File='DV491_S199_V641.cir'
+$end 'SolutionBlock582'
+$begin 'SolutionBlock583'
+	VariationDataID=-1
+	File='DV493_S199_V641.cir'
+$end 'SolutionBlock583'
+$begin 'SolutionBlock584'
+	VariationDataID=-1
+	File='DV494_S199_V641.cir'
+$end 'SolutionBlock584'
+$begin 'SolutionBlock585'
+	VariationDataID=-1
+	File='DV495_S199_V641.cir'
+$end 'SolutionBlock585'
+$begin 'SolutionBlock591'
+	VariationDataID=-1
+	File='DV497_S199_V641.cir'
+$end 'SolutionBlock591'
+$begin 'SolutionBlock592'
+	VariationDataID=-1
+	File='DV498_S199_V641.cir'
+$end 'SolutionBlock592'
+$begin 'SolutionBlock593'
+	VariationDataID=-1
+	File='DV499_S199_V641.cir'
+$end 'SolutionBlock593'
+$begin 'SolutionBlock594'
+	VariationDataID=-1
+	File='DV500_S199_V641.cir'
+$end 'SolutionBlock594'
+$begin 'SolutionBlock595'
+	VariationDataID=-1
+	File='DV496_S199_V641.cir'
+$end 'SolutionBlock595'
+$begin 'SolutionBlock544'
+	VariationDataID=-1
+	File='DV505_S128_V641.cir'
+$end 'SolutionBlock544'
+$begin 'SolutionBlock600'
+	VariationDataID=-1
+	File='DV502_S199_V641.cir'
+$end 'SolutionBlock600'
+$begin 'SolutionBlock601'
+	VariationDataID=-1
+	File='DV501_S199_V641.cir'
+$end 'SolutionBlock601'
+$begin 'SolutionBlock602'
+	VariationDataID=-1
+	File='DV503_S199_V641.cir'
+$end 'SolutionBlock602'
+$begin 'SolutionBlock603'
+	VariationDataID=-1
+	File='DV504_S199_V641.cir'
+$end 'SolutionBlock603'
+$begin 'SolutionBlock545'
+	VariationDataID=-1
+	File='DV505_S199_V641.cir'
+$end 'SolutionBlock545'
+$begin 'SolutionBlock604'
+	VariationDataID=-1
+	File='DV507_S128_V641.cir'
+$end 'SolutionBlock604'
+$begin 'SolutionBlock605'
+	VariationDataID=-1
+	File='DV508_S128_V641.cir'
+$end 'SolutionBlock605'
+$begin 'SolutionBlock606'
+	VariationDataID=-1
+	File='DV509_S128_V641.cir'
+$end 'SolutionBlock606'
+$begin 'SolutionBlock607'
+	VariationDataID=-1
+	File='DV510_S128_V641.cir'
+$end 'SolutionBlock607'
+$begin 'SolutionBlock609'
+	VariationDataID=-1
+	File='DV507_S199_V641.cir'
+$end 'SolutionBlock609'
+$begin 'SolutionBlock610'
+	VariationDataID=-1
+	File='DV508_S199_V641.cir'
+$end 'SolutionBlock610'
+$begin 'SolutionBlock611'
+	VariationDataID=-1
+	File='DV509_S199_V641.cir'
+$end 'SolutionBlock611'
+$begin 'SolutionBlock612'
+	VariationDataID=-1
+	File='DV510_S199_V641.cir'
+$end 'SolutionBlock612'
+$begin 'SolutionBlock613'
+	VariationDataID=-1
+	File='DV506_S199_V641.cir'
+$end 'SolutionBlock613'
+$begin 'SolutionBlock614'
+	VariationDataID=-1
+	File='DV512_S128_V641.cir'
+$end 'SolutionBlock614'
+$begin 'SolutionBlock615'
+	VariationDataID=-1
+	File='DV511_S128_V641.cir'
+$end 'SolutionBlock615'
+$begin 'SolutionBlock616'
+	VariationDataID=-1
+	File='DV513_S128_V641.cir'
+$end 'SolutionBlock616'
+$begin 'SolutionBlock617'
+	VariationDataID=-1
+	File='DV514_S128_V641.cir'
+$end 'SolutionBlock617'
+$begin 'SolutionBlock618'
+	VariationDataID=-1
+	File='DV515_S128_V641.cir'
+$end 'SolutionBlock618'
+$begin 'SolutionBlock619'
+	VariationDataID=-1
+	File='DV512_S199_V641.cir'
+$end 'SolutionBlock619'
+$begin 'SolutionBlock620'
+	VariationDataID=-1
+	File='DV511_S199_V641.cir'
+$end 'SolutionBlock620'
+$begin 'SolutionBlock621'
+	VariationDataID=-1
+	File='DV513_S199_V641.cir'
+$end 'SolutionBlock621'
+$begin 'SolutionBlock622'
+	VariationDataID=-1
+	File='DV514_S199_V641.cir'
+$end 'SolutionBlock622'
+$begin 'SolutionBlock623'
+	VariationDataID=-1
+	File='DV515_S199_V641.cir'
+$end 'SolutionBlock623'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin 'SolutionBlock624'
+	VariationDataID=-1
+	File='DV516_S128_V641.cir'
+$end 'SolutionBlock624'
+$begin 'SolutionBlock625'
+	VariationDataID=-1
+	File='DV516_S199_V641.cir'
+$end 'SolutionBlock625'
+$begin 'SolutionBlock546'
+	VariationDataID=-1
+	File='DV480_S128_V641.cir'
+$end 'SolutionBlock546'
+$begin 'SolutionBlock547'
+	VariationDataID=-1
+	File='DV481_S128_V641.cir'
+$end 'SolutionBlock547'
+$begin 'SolutionBlock548'
+	VariationDataID=-1
+	File='DV411_S128_V641.cir'
+$end 'SolutionBlock548'
+$begin 'SolutionBlock549'
+	VariationDataID=-1
+	File='DV482_S128_V641.cir'
+$end 'SolutionBlock549'
+$begin 'SolutionBlock557'
+	VariationDataID=-1
+	File='DV412_S128_V641.cir'
+$end 'SolutionBlock557'
+$begin 'SolutionBlock556'
+	VariationDataID=-1
+	File='DV483_S128_V641.cir'
+$end 'SolutionBlock556'
+$begin 'SolutionBlock558'
+	VariationDataID=-1
+	File='DV484_S128_V641.cir'
+$end 'SolutionBlock558'
+$begin 'SolutionBlock559'
+	VariationDataID=-1
+	File='DV485_S128_V641.cir'
+$end 'SolutionBlock559'
+$begin 'SolutionBlock560'
+	VariationDataID=-1
+	File='DV486_S128_V641.cir'
+$end 'SolutionBlock560'
+$begin 'SolutionBlock570'
+	VariationDataID=-1
+	File='DV487_S128_V641.cir'
+$end 'SolutionBlock570'
+$begin 'SolutionBlock566'
+	VariationDataID=-1
+	File='DV488_S128_V641.cir'
+$end 'SolutionBlock566'
+$begin 'SolutionBlock567'
+	VariationDataID=-1
+	File='DV489_S128_V641.cir'
+$end 'SolutionBlock567'
+$begin 'SolutionBlock568'
+	VariationDataID=-1
+	File='DV409_S128_V641.cir'
+$end 'SolutionBlock568'
+$begin 'SolutionBlock569'
+	VariationDataID=-1
+	File='DV490_S128_V641.cir'
+$end 'SolutionBlock569'
+$begin 'SolutionBlock577'
+	VariationDataID=-1
+	File='DV491_S128_V641.cir'
+$end 'SolutionBlock577'
+$begin 'SolutionBlock576'
+	VariationDataID=-1
+	File='DV492_S128_V641.cir'
+$end 'SolutionBlock576'
+$begin 'SolutionBlock578'
+	VariationDataID=-1
+	File='DV493_S128_V641.cir'
+$end 'SolutionBlock578'
+$begin 'SolutionBlock579'
+	VariationDataID=-1
+	File='DV494_S128_V641.cir'
+$end 'SolutionBlock579'
+$begin 'SolutionBlock580'
+	VariationDataID=-1
+	File='DV495_S128_V641.cir'
+$end 'SolutionBlock580'
+$begin 'SolutionBlock590'
+	VariationDataID=-1
+	File='DV496_S128_V641.cir'
+$end 'SolutionBlock590'
+$begin 'SolutionBlock586'
+	VariationDataID=-1
+	File='DV497_S128_V641.cir'
+$end 'SolutionBlock586'
+$begin 'SolutionBlock587'
+	VariationDataID=-1
+	File='DV498_S128_V641.cir'
+$end 'SolutionBlock587'
+$begin 'SolutionBlock588'
+	VariationDataID=-1
+	File='DV499_S128_V641.cir'
+$end 'SolutionBlock588'
+$begin 'SolutionBlock589'
+	VariationDataID=-1
+	File='DV500_S128_V641.cir'
+$end 'SolutionBlock589'
+$begin 'SolutionBlock597'
+	VariationDataID=-1
+	File='DV501_S128_V641.cir'
+$end 'SolutionBlock597'
+$begin 'SolutionBlock596'
+	VariationDataID=-1
+	File='DV502_S128_V641.cir'
+$end 'SolutionBlock596'
+$begin 'SolutionBlock598'
+	VariationDataID=-1
+	File='DV503_S128_V641.cir'
+$end 'SolutionBlock598'
+$begin 'SolutionBlock599'
+	VariationDataID=-1
+	File='DV504_S128_V641.cir'
+$end 'SolutionBlock599'
+$begin 'SolutionBlock608'
+	VariationDataID=-1
+	File='DV506_S128_V641.cir'
+$end 'SolutionBlock608'
+$begin 'SolutionBlock550'
+	VariationDataID=-1
+	File='DV479_S128_V641.cir'
+$end 'SolutionBlock550'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock550(pos=39473, lin=859, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=18652, lin=321, lvl=0)
+		SolutionBlock540(pos=28871, lin=410, lvl=0)
+		SolutionBlock541(pos=30033, lin=465, lvl=0)
+		SolutionBlock542(pos=30153, lin=471, lvl=0)
+		SolutionBlock543(pos=31324, lin=526, lvl=0)
+		SolutionBlock551(pos=31453, lin=532, lvl=0)
+		SolutionBlock552(pos=31551, lin=536, lvl=0)
+		SolutionBlock553(pos=31649, lin=540, lvl=0)
+		SolutionBlock554(pos=31747, lin=544, lvl=0)
+		SolutionBlock555(pos=31845, lin=548, lvl=0)
+		SolutionBlock561(pos=31943, lin=552, lvl=0)
+		SolutionBlock562(pos=32041, lin=556, lvl=0)
+		SolutionBlock563(pos=32139, lin=560, lvl=0)
+		SolutionBlock564(pos=32237, lin=564, lvl=0)
+		SolutionBlock565(pos=32335, lin=568, lvl=0)
+		SolutionBlock571(pos=32433, lin=572, lvl=0)
+		SolutionBlock572(pos=32531, lin=576, lvl=0)
+		SolutionBlock573(pos=32629, lin=580, lvl=0)
+		SolutionBlock574(pos=32727, lin=584, lvl=0)
+		SolutionBlock575(pos=32825, lin=588, lvl=0)
+		SolutionBlock581(pos=32923, lin=592, lvl=0)
+		SolutionBlock582(pos=33021, lin=596, lvl=0)
+		SolutionBlock583(pos=33119, lin=600, lvl=0)
+		SolutionBlock584(pos=33217, lin=604, lvl=0)
+		SolutionBlock585(pos=33315, lin=608, lvl=0)
+		SolutionBlock591(pos=33413, lin=612, lvl=0)
+		SolutionBlock592(pos=33511, lin=616, lvl=0)
+		SolutionBlock593(pos=33609, lin=620, lvl=0)
+		SolutionBlock594(pos=33707, lin=624, lvl=0)
+		SolutionBlock595(pos=33805, lin=628, lvl=0)
+		SolutionBlock544(pos=33903, lin=632, lvl=0)
+		SolutionBlock600(pos=34001, lin=636, lvl=0)
+		SolutionBlock601(pos=34099, lin=640, lvl=0)
+		SolutionBlock602(pos=34197, lin=644, lvl=0)
+		SolutionBlock603(pos=34295, lin=648, lvl=0)
+		SolutionBlock545(pos=34393, lin=652, lvl=0)
+		SolutionBlock604(pos=34491, lin=656, lvl=0)
+		SolutionBlock605(pos=34589, lin=660, lvl=0)
+		SolutionBlock606(pos=34687, lin=664, lvl=0)
+		SolutionBlock607(pos=34785, lin=668, lvl=0)
+		SolutionBlock609(pos=34883, lin=672, lvl=0)
+		SolutionBlock610(pos=34981, lin=676, lvl=0)
+		SolutionBlock611(pos=35079, lin=680, lvl=0)
+		SolutionBlock612(pos=35177, lin=684, lvl=0)
+		SolutionBlock613(pos=35275, lin=688, lvl=0)
+		SolutionBlock614(pos=35373, lin=692, lvl=0)
+		SolutionBlock615(pos=35471, lin=696, lvl=0)
+		SolutionBlock616(pos=35569, lin=700, lvl=0)
+		SolutionBlock617(pos=35667, lin=704, lvl=0)
+		SolutionBlock618(pos=35765, lin=708, lvl=0)
+		SolutionBlock619(pos=35863, lin=712, lvl=0)
+		SolutionBlock620(pos=35961, lin=716, lvl=0)
+		SolutionBlock621(pos=36059, lin=720, lvl=0)
+		SolutionBlock622(pos=36157, lin=724, lvl=0)
+		SolutionBlock623(pos=36255, lin=728, lvl=0)
+		ResponseSurfaceCache(pos=36353, lin=732, lvl=0)
+		SolutionBlock624(pos=36435, lin=735, lvl=0)
+		SolutionBlock625(pos=36533, lin=739, lvl=0)
+		SolutionBlock546(pos=36631, lin=743, lvl=0)
+		SolutionBlock547(pos=36729, lin=747, lvl=0)
+		SolutionBlock548(pos=36827, lin=751, lvl=0)
+		SolutionBlock549(pos=36925, lin=755, lvl=0)
+		SolutionBlock557(pos=37023, lin=759, lvl=0)
+		SolutionBlock556(pos=37121, lin=763, lvl=0)
+		SolutionBlock558(pos=37219, lin=767, lvl=0)
+		SolutionBlock559(pos=37317, lin=771, lvl=0)
+		SolutionBlock560(pos=37415, lin=775, lvl=0)
+		SolutionBlock570(pos=37513, lin=779, lvl=0)
+		SolutionBlock566(pos=37611, lin=783, lvl=0)
+		SolutionBlock567(pos=37709, lin=787, lvl=0)
+		SolutionBlock568(pos=37807, lin=791, lvl=0)
+		SolutionBlock569(pos=37905, lin=795, lvl=0)
+		SolutionBlock577(pos=38003, lin=799, lvl=0)
+		SolutionBlock576(pos=38101, lin=803, lvl=0)
+		SolutionBlock578(pos=38199, lin=807, lvl=0)
+		SolutionBlock579(pos=38297, lin=811, lvl=0)
+		SolutionBlock580(pos=38395, lin=815, lvl=0)
+		SolutionBlock590(pos=38493, lin=819, lvl=0)
+		SolutionBlock586(pos=38591, lin=823, lvl=0)
+		SolutionBlock587(pos=38689, lin=827, lvl=0)
+		SolutionBlock588(pos=38787, lin=831, lvl=0)
+		SolutionBlock589(pos=38885, lin=835, lvl=0)
+		SolutionBlock597(pos=38983, lin=839, lvl=0)
+		SolutionBlock596(pos=39081, lin=843, lvl=0)
+		SolutionBlock598(pos=39179, lin=847, lvl=0)
+		SolutionBlock599(pos=39277, lin=851, lvl=0)
+		SolutionBlock608(pos=39375, lin=855, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=39571, lin=863, lvl=0)
+	$end '$index$'
+$end '$index$'

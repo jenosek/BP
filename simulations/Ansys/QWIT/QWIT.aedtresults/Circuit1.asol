@@ -1,0 +1,629 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000027, hour=000000000020, min=000000000040, sec=000000000036)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000020655, lin=000000000538, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=52
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=124
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=20)
+		Map(V='c=\'10pF\'', ID=123)
+		Map(V='c=\'3.1000000000000001pF\'', ID=54)
+		Map(V='c=\'3.2000000000000002pF\'', ID=55)
+		Map(V='c=\'3.2999999999999998pF\'', ID=56)
+		Map(V='c=\'3.3999999999999999pF\'', ID=57)
+		Map(V='c=\'3.5pF\'', ID=58)
+		Map(V='c=\'3.6000000000000001pF\'', ID=59)
+		Map(V='c=\'3.7000000000000002pF\'', ID=60)
+		Map(V='c=\'3.7999999999999998pF\'', ID=61)
+		Map(V='c=\'3.8999999999999999pF\'', ID=62)
+		Map(V='c=\'3pF\'', ID=53)
+		Map(V='c=\'4.0999999999999996pF\'', ID=64)
+		Map(V='c=\'4.2000000000000002pF\'', ID=65)
+		Map(V='c=\'4.2999999999999998pF\'', ID=66)
+		Map(V='c=\'4.4000000000000004pF\'', ID=67)
+		Map(V='c=\'4.5999999999999996pF\'', ID=69)
+		Map(V='c=\'4.5pF\'', ID=68)
+		Map(V='c=\'4.7000000000000002pF\'', ID=70)
+		Map(V='c=\'4.7999999999999998pF\'', ID=71)
+		Map(V='c=\'4.9000000000000004pF\'', ID=72)
+		Map(V='c=\'4pF\'', ID=63)
+		Map(V='c=\'5.0999999999999996pF\'', ID=74)
+		Map(V='c=\'5.2000000000000002pF\'', ID=75)
+		Map(V='c=\'5.2999999999999998pF\'', ID=76)
+		Map(V='c=\'5.4000000000000004pF\'', ID=77)
+		Map(V='c=\'5.5999999999999996pF\'', ID=79)
+		Map(V='c=\'5.5pF\'', ID=78)
+		Map(V='c=\'5.7000000000000002pF\'', ID=80)
+		Map(V='c=\'5.7999999999999998pF\'', ID=81)
+		Map(V='c=\'5.9000000000000004pF\'', ID=82)
+		Map(V='c=\'5pF\'', ID=73)
+		Map(V='c=\'6.0999999999999996pF\'', ID=84)
+		Map(V='c=\'6.2000000000000002pF\'', ID=85)
+		Map(V='c=\'6.2999999999999998pF\'', ID=86)
+		Map(V='c=\'6.4000000000000004pF\'', ID=87)
+		Map(V='c=\'6.5999999999999996pF\'', ID=89)
+		Map(V='c=\'6.5pF\'', ID=88)
+		Map(V='c=\'6.7000000000000002pF\'', ID=90)
+		Map(V='c=\'6.7999999999999998pF\'', ID=91)
+		Map(V='c=\'6.9000000000000004pF\'', ID=92)
+		Map(V='c=\'6pF\'', ID=83)
+		Map(V='c=\'7.0999999999999996pF\'', ID=94)
+		Map(V='c=\'7.2000000000000002pF\'', ID=95)
+		Map(V='c=\'7.2999999999999998pF\'', ID=96)
+		Map(V='c=\'7.4000000000000004pF\'', ID=97)
+		Map(V='c=\'7.5999999999999996pF\'', ID=99)
+		Map(V='c=\'7.5pF\'', ID=98)
+		Map(V='c=\'7.7000000000000002pF\'', ID=100)
+		Map(V='c=\'7.7999999999999998pF\'', ID=101)
+		Map(V='c=\'7.9000000000000004pF\'', ID=102)
+		Map(V='c=\'7pF\'', ID=93)
+		Map(V='c=\'8.0999999999999996pF\'', ID=104)
+		Map(V='c=\'8.1999999999999993pF\'', ID=105)
+		Map(V='c=\'8.3000000000000007pF\'', ID=106)
+		Map(V='c=\'8.4000000000000004pF\'', ID=107)
+		Map(V='c=\'8.5999999999999996pF\'', ID=109)
+		Map(V='c=\'8.5pF\'', ID=108)
+		Map(V='c=\'8.6999999999999993pF\'', ID=110)
+		Map(V='c=\'8.8000000000000007pF\'', ID=111)
+		Map(V='c=\'8.9000000000000004pF\'', ID=112)
+		Map(V='c=\'8pF\'', ID=103)
+		Map(V='c=\'9.0999999999999996pF\'', ID=114)
+		Map(V='c=\'9.1999999999999993pF\'', ID=115)
+		Map(V='c=\'9.3000000000000007pF\'', ID=116)
+		Map(V='c=\'9.4000000000000004pF\'', ID=117)
+		Map(V='c=\'9.5999999999999996pF\'', ID=119)
+		Map(V='c=\'9.5pF\'', ID=118)
+		Map(V='c=\'9.6999999999999993pF\'', ID=120)
+		Map(V='c=\'9.8000000000000007pF\'', ID=121)
+		Map(V='c=\'9.9000000000000004pF\'', ID=122)
+		Map(V='c=\'9pF\'', ID=113)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=19, Instance=\'SetupDefinition\', Solution=-1, VersionID=52)'='SolutionBlock69'
+	'SolutionKey(SimSetup=19, Instance=\'SolutionDefinition\', Solution=18, VersionID=52)'='SolutionBlock70'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'10pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock131'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.1000000000000001pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock59'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.2000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock60'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.2999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock61'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.3999999999999999pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock62'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock63'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.6000000000000001pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock64'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.7000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock65'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.7999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock66'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3.8999999999999999pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock67'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'3pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock68'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.0999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock71'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.2000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock72'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.2999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock73'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.4000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock74'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.5999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock75'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock76'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.7000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock77'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.7999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock78'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4.9000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock79'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'4pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock80'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.0999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock81'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.2000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock82'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.2999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock83'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.4000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock84'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.5999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock85'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock86'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.7000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock87'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.7999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock88'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5.9000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock89'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock90'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.0999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock91'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.2000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock92'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.2999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock93'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.4000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock94'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.5999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock95'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock96'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.7000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock97'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.7999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock98'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6.9000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock99'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'6pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock100'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.0999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock101'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.2000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock102'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.2999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock103'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.4000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock104'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.5999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock105'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock106'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.7000000000000002pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock107'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.7999999999999998pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock108'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7.9000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock109'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'7pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock110'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.0999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock111'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.1999999999999993pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock112'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.3000000000000007pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock113'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.4000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock114'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.5999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock115'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock116'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.6999999999999993pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock117'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.8000000000000007pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock118'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8.9000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock119'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'8pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock120'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.0999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock121'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.1999999999999993pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock122'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.3000000000000007pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock123'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.4000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock124'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.5999999999999996pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock125'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.5pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock126'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.6999999999999993pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock127'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.8000000000000007pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock128'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9.9000000000000004pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock129'
+	'SolutionKey(SimSetup=19, Instance=\'c=\\\'9pF\\\'\', Solution=18, VersionID=52)'='SolutionBlock130'
+$end 'BlockMapName'
+$begin 'SolutionBlock70'
+	SolutionName='LinearFrequency'
+	SolutionID=18
+	V=52
+	$begin 'States'
+		F(VID=53, Ver=52)
+		F(VID=54, Ver=52)
+		F(VID=55, Ver=52)
+		F(VID=56, Ver=52)
+		F(VID=57, Ver=52)
+		F(VID=58, Ver=52)
+		F(VID=59, Ver=52)
+		F(VID=60, Ver=52)
+		F(VID=61, Ver=52)
+		F(VID=62, Ver=52)
+		F(VID=63, Ver=52)
+		F(VID=64, Ver=52)
+		F(VID=65, Ver=52)
+		F(VID=66, Ver=52)
+		F(VID=67, Ver=52)
+		F(VID=68, Ver=52)
+		F(VID=69, Ver=52)
+		F(VID=70, Ver=52)
+		F(VID=71, Ver=52)
+		F(VID=72, Ver=52)
+		F(VID=73, Ver=52)
+		F(VID=74, Ver=52)
+		F(VID=75, Ver=52)
+		F(VID=76, Ver=52)
+		F(VID=77, Ver=52)
+		F(VID=78, Ver=52)
+		F(VID=79, Ver=52)
+		F(VID=80, Ver=52)
+		F(VID=81, Ver=52)
+		F(VID=82, Ver=52)
+		F(VID=83, Ver=52)
+		F(VID=84, Ver=52)
+		F(VID=85, Ver=52)
+		F(VID=86, Ver=52)
+		F(VID=87, Ver=52)
+		F(VID=88, Ver=52)
+		F(VID=89, Ver=52)
+		F(VID=90, Ver=52)
+		F(VID=91, Ver=52)
+		F(VID=92, Ver=52)
+		F(VID=93, Ver=52)
+		F(VID=94, Ver=52)
+		F(VID=95, Ver=52)
+		F(VID=96, Ver=52)
+		F(VID=97, Ver=52)
+		F(VID=98, Ver=52)
+		F(VID=99, Ver=52)
+		F(VID=100, Ver=52)
+		F(VID=101, Ver=52)
+		F(VID=102, Ver=52)
+		F(VID=103, Ver=52)
+		F(VID=104, Ver=52)
+		F(VID=105, Ver=52)
+		F(VID=106, Ver=52)
+		F(VID=107, Ver=52)
+		F(VID=108, Ver=52)
+		F(VID=109, Ver=52)
+		F(VID=110, Ver=52)
+		F(VID=111, Ver=52)
+		F(VID=112, Ver=52)
+		F(VID=113, Ver=52)
+		F(VID=114, Ver=52)
+		F(VID=115, Ver=52)
+		F(VID=116, Ver=52)
+		F(VID=117, Ver=52)
+		F(VID=118, Ver=52)
+		F(VID=119, Ver=52)
+		F(VID=120, Ver=52)
+		F(VID=121, Ver=52)
+		F(VID=122, Ver=52)
+		F(VID=123, Ver=52)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock70'
+$begin 'SolutionBlock69'
+	SimSetupID=19
+	SimSetupName='LinearFrequency'
+	VersionID=52
+	DefaultSol=18
+$end 'SolutionBlock69'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin 'SolutionBlock131'
+	VariationDataID=-1
+	File='DV123_S18_V52.cir'
+$end 'SolutionBlock131'
+$begin 'SolutionBlock130'
+	VariationDataID=-1
+	File='DV113_S18_V52.cir'
+$end 'SolutionBlock130'
+$begin 'SolutionBlock129'
+	VariationDataID=-1
+	File='DV122_S18_V52.cir'
+$end 'SolutionBlock129'
+$begin 'SolutionBlock128'
+	VariationDataID=-1
+	File='DV121_S18_V52.cir'
+$end 'SolutionBlock128'
+$begin 'SolutionBlock127'
+	VariationDataID=-1
+	File='DV120_S18_V52.cir'
+$end 'SolutionBlock127'
+$begin 'SolutionBlock126'
+	VariationDataID=-1
+	File='DV118_S18_V52.cir'
+$end 'SolutionBlock126'
+$begin 'SolutionBlock125'
+	VariationDataID=-1
+	File='DV119_S18_V52.cir'
+$end 'SolutionBlock125'
+$begin 'SolutionBlock124'
+	VariationDataID=-1
+	File='DV117_S18_V52.cir'
+$end 'SolutionBlock124'
+$begin 'SolutionBlock123'
+	VariationDataID=-1
+	File='DV116_S18_V52.cir'
+$end 'SolutionBlock123'
+$begin 'SolutionBlock122'
+	VariationDataID=-1
+	File='DV115_S18_V52.cir'
+$end 'SolutionBlock122'
+$begin 'SolutionBlock121'
+	VariationDataID=-1
+	File='DV114_S18_V52.cir'
+$end 'SolutionBlock121'
+$begin 'SolutionBlock120'
+	VariationDataID=-1
+	File='DV103_S18_V52.cir'
+$end 'SolutionBlock120'
+$begin 'SolutionBlock119'
+	VariationDataID=-1
+	File='DV112_S18_V52.cir'
+$end 'SolutionBlock119'
+$begin 'SolutionBlock118'
+	VariationDataID=-1
+	File='DV111_S18_V52.cir'
+$end 'SolutionBlock118'
+$begin 'SolutionBlock117'
+	VariationDataID=-1
+	File='DV110_S18_V52.cir'
+$end 'SolutionBlock117'
+$begin 'SolutionBlock116'
+	VariationDataID=-1
+	File='DV108_S18_V52.cir'
+$end 'SolutionBlock116'
+$begin 'SolutionBlock115'
+	VariationDataID=-1
+	File='DV109_S18_V52.cir'
+$end 'SolutionBlock115'
+$begin 'SolutionBlock114'
+	VariationDataID=-1
+	File='DV107_S18_V52.cir'
+$end 'SolutionBlock114'
+$begin 'SolutionBlock113'
+	VariationDataID=-1
+	File='DV106_S18_V52.cir'
+$end 'SolutionBlock113'
+$begin 'SolutionBlock112'
+	VariationDataID=-1
+	File='DV105_S18_V52.cir'
+$end 'SolutionBlock112'
+$begin 'SolutionBlock111'
+	VariationDataID=-1
+	File='DV104_S18_V52.cir'
+$end 'SolutionBlock111'
+$begin 'SolutionBlock110'
+	VariationDataID=-1
+	File='DV93_S18_V52.cir'
+$end 'SolutionBlock110'
+$begin 'SolutionBlock109'
+	VariationDataID=-1
+	File='DV102_S18_V52.cir'
+$end 'SolutionBlock109'
+$begin 'SolutionBlock108'
+	VariationDataID=-1
+	File='DV101_S18_V52.cir'
+$end 'SolutionBlock108'
+$begin 'SolutionBlock107'
+	VariationDataID=-1
+	File='DV100_S18_V52.cir'
+$end 'SolutionBlock107'
+$begin 'SolutionBlock106'
+	VariationDataID=-1
+	File='DV98_S18_V52.cir'
+$end 'SolutionBlock106'
+$begin 'SolutionBlock105'
+	VariationDataID=-1
+	File='DV99_S18_V52.cir'
+$end 'SolutionBlock105'
+$begin 'SolutionBlock104'
+	VariationDataID=-1
+	File='DV97_S18_V52.cir'
+$end 'SolutionBlock104'
+$begin 'SolutionBlock103'
+	VariationDataID=-1
+	File='DV96_S18_V52.cir'
+$end 'SolutionBlock103'
+$begin 'SolutionBlock102'
+	VariationDataID=-1
+	File='DV95_S18_V52.cir'
+$end 'SolutionBlock102'
+$begin 'SolutionBlock101'
+	VariationDataID=-1
+	File='DV94_S18_V52.cir'
+$end 'SolutionBlock101'
+$begin 'SolutionBlock100'
+	VariationDataID=-1
+	File='DV83_S18_V52.cir'
+$end 'SolutionBlock100'
+$begin 'SolutionBlock99'
+	VariationDataID=-1
+	File='DV92_S18_V52.cir'
+$end 'SolutionBlock99'
+$begin 'SolutionBlock98'
+	VariationDataID=-1
+	File='DV91_S18_V52.cir'
+$end 'SolutionBlock98'
+$begin 'SolutionBlock97'
+	VariationDataID=-1
+	File='DV90_S18_V52.cir'
+$end 'SolutionBlock97'
+$begin 'SolutionBlock96'
+	VariationDataID=-1
+	File='DV88_S18_V52.cir'
+$end 'SolutionBlock96'
+$begin 'SolutionBlock95'
+	VariationDataID=-1
+	File='DV89_S18_V52.cir'
+$end 'SolutionBlock95'
+$begin 'SolutionBlock94'
+	VariationDataID=-1
+	File='DV87_S18_V52.cir'
+$end 'SolutionBlock94'
+$begin 'SolutionBlock93'
+	VariationDataID=-1
+	File='DV86_S18_V52.cir'
+$end 'SolutionBlock93'
+$begin 'SolutionBlock92'
+	VariationDataID=-1
+	File='DV85_S18_V52.cir'
+$end 'SolutionBlock92'
+$begin 'SolutionBlock91'
+	VariationDataID=-1
+	File='DV84_S18_V52.cir'
+$end 'SolutionBlock91'
+$begin 'SolutionBlock90'
+	VariationDataID=-1
+	File='DV73_S18_V52.cir'
+$end 'SolutionBlock90'
+$begin 'SolutionBlock89'
+	VariationDataID=-1
+	File='DV82_S18_V52.cir'
+$end 'SolutionBlock89'
+$begin 'SolutionBlock88'
+	VariationDataID=-1
+	File='DV81_S18_V52.cir'
+$end 'SolutionBlock88'
+$begin 'SolutionBlock87'
+	VariationDataID=-1
+	File='DV80_S18_V52.cir'
+$end 'SolutionBlock87'
+$begin 'SolutionBlock86'
+	VariationDataID=-1
+	File='DV78_S18_V52.cir'
+$end 'SolutionBlock86'
+$begin 'SolutionBlock85'
+	VariationDataID=-1
+	File='DV79_S18_V52.cir'
+$end 'SolutionBlock85'
+$begin 'SolutionBlock84'
+	VariationDataID=-1
+	File='DV77_S18_V52.cir'
+$end 'SolutionBlock84'
+$begin 'SolutionBlock83'
+	VariationDataID=-1
+	File='DV76_S18_V52.cir'
+$end 'SolutionBlock83'
+$begin 'SolutionBlock82'
+	VariationDataID=-1
+	File='DV75_S18_V52.cir'
+$end 'SolutionBlock82'
+$begin 'SolutionBlock81'
+	VariationDataID=-1
+	File='DV74_S18_V52.cir'
+$end 'SolutionBlock81'
+$begin 'SolutionBlock80'
+	VariationDataID=-1
+	File='DV63_S18_V52.cir'
+$end 'SolutionBlock80'
+$begin 'SolutionBlock79'
+	VariationDataID=-1
+	File='DV72_S18_V52.cir'
+$end 'SolutionBlock79'
+$begin 'SolutionBlock78'
+	VariationDataID=-1
+	File='DV71_S18_V52.cir'
+$end 'SolutionBlock78'
+$begin 'SolutionBlock77'
+	VariationDataID=-1
+	File='DV70_S18_V52.cir'
+$end 'SolutionBlock77'
+$begin 'SolutionBlock76'
+	VariationDataID=-1
+	File='DV68_S18_V52.cir'
+$end 'SolutionBlock76'
+$begin 'SolutionBlock75'
+	VariationDataID=-1
+	File='DV69_S18_V52.cir'
+$end 'SolutionBlock75'
+$begin 'SolutionBlock74'
+	VariationDataID=-1
+	File='DV67_S18_V52.cir'
+$end 'SolutionBlock74'
+$begin 'SolutionBlock73'
+	VariationDataID=-1
+	File='DV66_S18_V52.cir'
+$end 'SolutionBlock73'
+$begin 'SolutionBlock72'
+	VariationDataID=-1
+	File='DV65_S18_V52.cir'
+$end 'SolutionBlock72'
+$begin 'SolutionBlock71'
+	VariationDataID=-1
+	File='DV64_S18_V52.cir'
+$end 'SolutionBlock71'
+$begin 'SolutionBlock68'
+	VariationDataID=-1
+	File='DV53_S18_V52.cir'
+$end 'SolutionBlock68'
+$begin 'SolutionBlock67'
+	VariationDataID=-1
+	File='DV62_S18_V52.cir'
+$end 'SolutionBlock67'
+$begin 'SolutionBlock66'
+	VariationDataID=-1
+	File='DV61_S18_V52.cir'
+$end 'SolutionBlock66'
+$begin 'SolutionBlock65'
+	VariationDataID=-1
+	File='DV60_S18_V52.cir'
+$end 'SolutionBlock65'
+$begin 'SolutionBlock64'
+	VariationDataID=-1
+	File='DV59_S18_V52.cir'
+$end 'SolutionBlock64'
+$begin 'SolutionBlock63'
+	VariationDataID=-1
+	File='DV58_S18_V52.cir'
+$end 'SolutionBlock63'
+$begin 'SolutionBlock62'
+	VariationDataID=-1
+	File='DV57_S18_V52.cir'
+$end 'SolutionBlock62'
+$begin 'SolutionBlock61'
+	VariationDataID=-1
+	File='DV56_S18_V52.cir'
+$end 'SolutionBlock61'
+$begin 'SolutionBlock60'
+	VariationDataID=-1
+	File='DV55_S18_V52.cir'
+$end 'SolutionBlock60'
+$begin 'SolutionBlock59'
+	VariationDataID=-1
+	File='DV54_S18_V52.cir'
+$end 'SolutionBlock59'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock59(pos=20562, lin=534, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=3599, lin=84, lvl=0)
+		SolutionBlock70(pos=12049, lin=160, lvl=0)
+		SolutionBlock69(pos=13758, lin=245, lvl=0)
+		ResponseSurfaceCache(pos=13882, lin=251, lvl=0)
+		SolutionBlock131(pos=13964, lin=254, lvl=0)
+		SolutionBlock130(pos=14060, lin=258, lvl=0)
+		SolutionBlock129(pos=14156, lin=262, lvl=0)
+		SolutionBlock128(pos=14252, lin=266, lvl=0)
+		SolutionBlock127(pos=14348, lin=270, lvl=0)
+		SolutionBlock126(pos=14444, lin=274, lvl=0)
+		SolutionBlock125(pos=14540, lin=278, lvl=0)
+		SolutionBlock124(pos=14636, lin=282, lvl=0)
+		SolutionBlock123(pos=14732, lin=286, lvl=0)
+		SolutionBlock122(pos=14828, lin=290, lvl=0)
+		SolutionBlock121(pos=14924, lin=294, lvl=0)
+		SolutionBlock120(pos=15020, lin=298, lvl=0)
+		SolutionBlock119(pos=15116, lin=302, lvl=0)
+		SolutionBlock118(pos=15212, lin=306, lvl=0)
+		SolutionBlock117(pos=15308, lin=310, lvl=0)
+		SolutionBlock116(pos=15404, lin=314, lvl=0)
+		SolutionBlock115(pos=15500, lin=318, lvl=0)
+		SolutionBlock114(pos=15596, lin=322, lvl=0)
+		SolutionBlock113(pos=15692, lin=326, lvl=0)
+		SolutionBlock112(pos=15788, lin=330, lvl=0)
+		SolutionBlock111(pos=15884, lin=334, lvl=0)
+		SolutionBlock110(pos=15980, lin=338, lvl=0)
+		SolutionBlock109(pos=16075, lin=342, lvl=0)
+		SolutionBlock108(pos=16171, lin=346, lvl=0)
+		SolutionBlock107(pos=16267, lin=350, lvl=0)
+		SolutionBlock106(pos=16363, lin=354, lvl=0)
+		SolutionBlock105(pos=16458, lin=358, lvl=0)
+		SolutionBlock104(pos=16553, lin=362, lvl=0)
+		SolutionBlock103(pos=16648, lin=366, lvl=0)
+		SolutionBlock102(pos=16743, lin=370, lvl=0)
+		SolutionBlock101(pos=16838, lin=374, lvl=0)
+		SolutionBlock100(pos=16933, lin=378, lvl=0)
+		SolutionBlock99(pos=17028, lin=382, lvl=0)
+		SolutionBlock98(pos=17121, lin=386, lvl=0)
+		SolutionBlock97(pos=17214, lin=390, lvl=0)
+		SolutionBlock96(pos=17307, lin=394, lvl=0)
+		SolutionBlock95(pos=17400, lin=398, lvl=0)
+		SolutionBlock94(pos=17493, lin=402, lvl=0)
+		SolutionBlock93(pos=17586, lin=406, lvl=0)
+		SolutionBlock92(pos=17679, lin=410, lvl=0)
+		SolutionBlock91(pos=17772, lin=414, lvl=0)
+		SolutionBlock90(pos=17865, lin=418, lvl=0)
+		SolutionBlock89(pos=17958, lin=422, lvl=0)
+		SolutionBlock88(pos=18051, lin=426, lvl=0)
+		SolutionBlock87(pos=18144, lin=430, lvl=0)
+		SolutionBlock86(pos=18237, lin=434, lvl=0)
+		SolutionBlock85(pos=18330, lin=438, lvl=0)
+		SolutionBlock84(pos=18423, lin=442, lvl=0)
+		SolutionBlock83(pos=18516, lin=446, lvl=0)
+		SolutionBlock82(pos=18609, lin=450, lvl=0)
+		SolutionBlock81(pos=18702, lin=454, lvl=0)
+		SolutionBlock80(pos=18795, lin=458, lvl=0)
+		SolutionBlock79(pos=18888, lin=462, lvl=0)
+		SolutionBlock78(pos=18981, lin=466, lvl=0)
+		SolutionBlock77(pos=19074, lin=470, lvl=0)
+		SolutionBlock76(pos=19167, lin=474, lvl=0)
+		SolutionBlock75(pos=19260, lin=478, lvl=0)
+		SolutionBlock74(pos=19353, lin=482, lvl=0)
+		SolutionBlock73(pos=19446, lin=486, lvl=0)
+		SolutionBlock72(pos=19539, lin=490, lvl=0)
+		SolutionBlock71(pos=19632, lin=494, lvl=0)
+		SolutionBlock68(pos=19725, lin=498, lvl=0)
+		SolutionBlock67(pos=19818, lin=502, lvl=0)
+		SolutionBlock66(pos=19911, lin=506, lvl=0)
+		SolutionBlock65(pos=20004, lin=510, lvl=0)
+		SolutionBlock64(pos=20097, lin=514, lvl=0)
+		SolutionBlock63(pos=20190, lin=518, lvl=0)
+		SolutionBlock62(pos=20283, lin=522, lvl=0)
+		SolutionBlock61(pos=20376, lin=526, lvl=0)
+		SolutionBlock60(pos=20469, lin=530, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=20655, lin=538, lvl=0)
+	$end '$index$'
+$end '$index$'

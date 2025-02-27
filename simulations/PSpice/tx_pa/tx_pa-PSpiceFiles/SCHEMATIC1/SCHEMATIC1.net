@@ -1,0 +1,8 @@
+* source TX_PA
+V_V1         N00269 0 DC 0Vdc AC 1Vac 
+L_L1         N00265 N00145  20nH  
+L_L2         N00145 OUT  20nH  
+C_C1         0 N00145  {c}  TC=0,0 
+R_R1         N00269 N00265  50 TC=0,0 
+R_R2         0 OUT  50 TC=0,0 
+.PARAM  c=7.3pf

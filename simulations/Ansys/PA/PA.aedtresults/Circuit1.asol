@@ -1,0 +1,64 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000027, hour=000000000019, min=000000000009, sec=000000000005)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001467, lin=000000000044, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=70
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=71
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=6)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=5, Instance=\'\', Solution=4, VersionID=70)'='SolutionBlock46'
+	'SolutionKey(SimSetup=5, Instance=\'SetupDefinition\', Solution=-1, VersionID=70)'='SolutionBlock45'
+	'SolutionKey(SimSetup=5, Instance=\'SolutionDefinition\', Solution=4, VersionID=70)'='SolutionBlock44'
+$end 'BlockMapName'
+$begin 'SolutionBlock44'
+	SolutionName='sim_434MHz'
+	SolutionID=4
+	V=70
+	$begin 'States'
+		F(VID=6, Ver=70)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock44'
+$begin 'SolutionBlock45'
+	SimSetupID=5
+	SimSetupName='sim_434MHz'
+	VersionID=70
+	DefaultSol=4
+$end 'SolutionBlock45'
+$begin 'SolutionBlock46'
+	VariationDataID=-1
+	File='DV6_S4_V70.cir'
+$end 'SolutionBlock46'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock46(pos=1376, lin=40, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=618, lin=13, lvl=0)
+		SolutionBlock44(pos=981, lin=19, lvl=0)
+		SolutionBlock45(pos=1259, lin=34, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1467, lin=44, lvl=0)
+	$end '$index$'
+$end '$index$'
