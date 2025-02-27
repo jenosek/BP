@@ -1437,10 +1437,22 @@
 		)
 	)
 	(junction
+		(at 30.48 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2074e910-2fcb-41f0-83eb-a879874c6025")
+	)
+	(junction
 		(at 33.02 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21615aac-9737-4f95-a284-794283c152c4")
+	)
+	(junction
+		(at 59.69 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d5b26e5-2ca0-4d5f-a87d-2593a96d9781")
 	)
 	(junction
 		(at 110.49 76.2)
@@ -1465,6 +1477,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9d1b7c4-0bbe-40aa-a73c-2a920891c2f7")
+	)
+	(junction
+		(at 30.48 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f072945b-80bb-401c-afe4-e0217b418873")
 	)
 	(no_connect
 		(at 242.57 31.75)
@@ -1502,6 +1520,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 142.24) (xy 59.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279d26ee-163b-470b-8505-57f8b9c4292a")
+	)
+	(wire
+		(pts
 			(xy 77.47 76.2) (xy 77.47 77.47)
 		)
 		(stroke
@@ -1529,6 +1557,16 @@
 			(type default)
 		)
 		(uuid "2ec13f70-0430-460f-a758-0c78eabe4736")
+	)
+	(wire
+		(pts
+			(xy 59.69 142.24) (xy 59.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bd1182-088a-4f27-8039-27106b495265")
 	)
 	(wire
 		(pts
@@ -1592,6 +1630,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 120.65) (xy 30.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1aa85e-f7b6-4185-9b00-d60259d54067")
+	)
+	(wire
+		(pts
 			(xy 33.02 39.37) (xy 76.2 39.37)
 		)
 		(stroke
@@ -1599,6 +1647,16 @@
 			(type default)
 		)
 		(uuid "579f406b-8e74-4ad1-b33d-db923da5cbad")
+	)
+	(wire
+		(pts
+			(xy 49.53 119.38) (xy 59.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6f1287-d367-4e84-a54f-0cd7b4db12a8")
 	)
 	(wire
 		(pts
@@ -1612,6 +1670,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 119.38) (xy 41.91 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac1c970-2b15-4c54-9154-051ce7b4253a")
+	)
+	(wire
+		(pts
 			(xy 33.02 35.56) (xy 33.02 39.37)
 		)
 		(stroke
@@ -1619,6 +1687,16 @@
 			(type default)
 		)
 		(uuid "5f88a758-07b9-4342-b5b6-04113c8f969c")
+	)
+	(wire
+		(pts
+			(xy 16.51 119.38) (xy 30.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72da606a-fa34-49ba-9f80-224fe93b1a67")
 	)
 	(wire
 		(pts
@@ -1692,6 +1770,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 119.38) (xy 69.85 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee5fe48-1aa3-4ae7-90a3-7157c6bebb5b")
+	)
+	(wire
+		(pts
 			(xy 76.2 24.13) (xy 78.74 24.13)
 		)
 		(stroke
@@ -1712,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 152.4) (xy 30.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd4edf2-00e3-477a-b2b3-a2e013f49af5")
+	)
+	(wire
+		(pts
 			(xy 20.32 67.31) (xy 20.32 76.2)
 		)
 		(stroke
@@ -1729,6 +1827,36 @@
 			(type default)
 		)
 		(uuid "d3ff5922-2c13-433a-a3c9-c9febbf0d335")
+	)
+	(wire
+		(pts
+			(xy 30.48 142.24) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c19100-89e2-4032-9673-0a763444c4fa")
+	)
+	(wire
+		(pts
+			(xy 30.48 142.24) (xy 30.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77e158e-d1ce-4bb0-a52c-1c45348d96d3")
+	)
+	(wire
+		(pts
+			(xy 16.51 142.24) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93ada99-347d-4bc0-af84-a61a93839a13")
 	)
 	(wire
 		(pts
@@ -1782,6 +1910,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 140.97) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47fe441-efaf-4153-a5ac-c5a14dd45246")
+	)
+	(wire
+		(pts
 			(xy 77.47 97.79) (xy 77.47 99.06)
 		)
 		(stroke
@@ -1799,6 +1937,18 @@
 			(type default)
 		)
 		(uuid "f9bb664d-24fd-4a89-ba26-9b402cb53533")
+	)
+	(rectangle
+		(start 12.7 114.3)
+		(end 73.66 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3696ad16-d7b8-48c8-bfed-edd6b58c8c14)
 	)
 	(rectangle
 		(start 12.7 44.45)
@@ -1871,6 +2021,16 @@
 			(type none)
 		)
 		(uuid f31994b5-65a0-46f0-94fe-241d92bc6689)
+	)
+	(text "Receiver"
+		(exclude_from_sim no)
+		(at 68.326 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a2946a4-465e-4061-bfa1-cde2045cab15")
 	)
 	(text "Chebyshev LP filter with peak at 434 MHz"
 		(exclude_from_sim no)
@@ -1963,6 +2123,16 @@
 		)
 		(uuid "27fc3170-4d8b-4bac-aa66-bc362089762d")
 	)
+	(label "Rx+"
+		(at 16.51 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36367d16-41fe-4820-a66b-9f91922fa2da")
+	)
 	(label "GNDX"
 		(at 251.46 26.67 180)
 		(effects
@@ -2013,6 +2183,16 @@
 		)
 		(uuid "dc03b549-6695-41e5-9573-c2d6156692cf")
 	)
+	(label "SW_Rx"
+		(at 69.85 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e542dc73-3d01-4a3c-86f4-34eddecf2ae8")
+	)
 	(label "Rx-"
 		(at 210.82 54.61 0)
 		(effects
@@ -2022,6 +2202,16 @@
 			(justify left bottom)
 		)
 		(uuid "f32efecb-d02a-48d4-9f65-18172fc95824")
+	)
+	(label "Rx-"
+		(at 16.51 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f94c685b-0e32-4d05-b5b1-9620269c5313")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -2070,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.58 75.2348 0)
 			(effects
 				(font
@@ -2558,7 +2748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.48 75.2348 0)
 			(effects
 				(font
@@ -2665,6 +2855,72 @@
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b192df9-4a72-4bfb-ab9f-46b2346059be")
+		(property "Reference" "#PWR063"
+			(at 30.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cc90f3b-76e4-4e85-bca9-15107ceed454")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2882,6 +3138,212 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 45.72 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "710e9915-ca75-4710-9946-f162989f4a00")
+		(property "Reference" "C38"
+			(at 45.72 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2p2"
+			(at 45.72 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 49.53 118.4148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082f82df-7eec-4614-abad-6f59a1c04af8")
+		)
+		(pin "2"
+			(uuid "25afa8a5-396c-47ba-a972-23bd45550a19")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LQW15AN20NG00D")
+		(at 30.48 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "730b432d-0e83-42a0-8ad2-5c7cac985d00")
+		(property "Reference" "L6"
+			(at 35.56 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "62n"
+			(at 35.56 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LQW15CNR20J00B"
+			(at -65.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf"
+			(at -165.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.02 uH +/-2% 370mA Idc Q:25"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at -365.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -465.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQW15AN20NG00D"
+			(at -565.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-LQW15AN20NG00D"
+			(at -665.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW15AN20NG00D"
+			(at -765.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LQW15AN20NG00D"
+			(at -865.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lqw15an20ng00d/murata-manufacturing?region=nac"
+			(at -965.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "565c383a-a7af-4856-a1a7-fe65a4d44c83")
+		)
+		(pin "2"
+			(uuid "8da2ab5a-211d-4659-92e3-56c33155c9ae")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 110.49 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3012,6 +3474,73 @@
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1713233-9bed-4fe7-91b8-348896c09de9")
+		(property "Reference" "C37"
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4p7"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 29.5148 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11cfa9f6-7174-417e-b8aa-1de0f89547fb")
+		)
+		(pin "2"
+			(uuid "8459e6dd-a724-4038-a9f1-2e701840e355")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3553,6 +4082,145 @@
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LQW15AN20NG00D")
+		(at 35.56 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2bcbb91-a5b9-433b-a7b1-d9b909b792f3")
+		(property "Reference" "L7"
+			(at 45.974 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56n"
+			(at 45.974 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LQW15CNR20J00B"
+			(at 52.07 238.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf"
+			(at 52.07 338.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.02 uH +/-2% 370mA Idc Q:25"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 52.07 538.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 52.07 638.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQW15AN20NG00D"
+			(at 52.07 738.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-LQW15AN20NG00D"
+			(at 52.07 838.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW15AN20NG00D"
+			(at 52.07 938.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LQW15AN20NG00D"
+			(at 52.07 1038.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lqw15an20ng00d/murata-manufacturing?region=nac"
+			(at 52.07 1138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf2f261-dba8-4e37-9049-ad9ba2c767d7")
+		)
+		(pin "2"
+			(uuid "fd0d4b7c-7d09-41a2-9290-8c15c986dd5e")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/21633f2b-133b-44f0-ac2e-c32a8c0675be"
+					(reference "L7")
 					(unit 1)
 				)
 			)
