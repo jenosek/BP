@@ -1,0 +1,8 @@
+* source LP_ANT
+V_V1         N00428 0 DC 0Vdc AC 1Vac 
+C_C1         N00121 0  {c}  TC=0,0 
+C_C2         OUT 0  {c}  TC=0,0 
+L_L1         N00121 OUT  18nH  
+R_R1         N00428 N00121  50 TC=0,0 
+R_R2         0 OUT  50 TC=0,0 
+.PARAM  c=8.8pf

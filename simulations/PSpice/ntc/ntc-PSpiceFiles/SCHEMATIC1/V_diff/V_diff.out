@@ -1,0 +1,62 @@
+
+**** 02/28/25 14:12:18 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-V_diff"  [ c:\users\honza\desktop\bakalarka\sim\ntc\ntc-pspicefiles\schematic1\v_diff.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "V_diff.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\honza\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM T 298.15 318.15 1 
+.STEP LIN PARAM R1 100 10k 100 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NTC
+V_V1         VCC 0 3.3Vdc
+R_R1         TEMP VCC  {R1} TC=0,0 
+R_NTC         TEMP VCC  {R_ref * exp(B * (1/T-1/T_ref))} TC=0,0 
+R_R2         0 TEMP  10k TC=0,0 
+.PARAM  r_ref=10k r2=1k r1=1k t=318.15 t_ref=298.15 b=3435
+
+**** RESUMING V_diff.cir ****
+.END
+
+
+          JOB CONCLUDED
+
+**** 02/28/25 14:12:18 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-V_diff"  [ c:\users\honza\desktop\bakalarka\sim\ntc\ntc-pspicefiles\schematic1\v_diff.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     PARAM R1 =   10.0000E+03
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .84
+

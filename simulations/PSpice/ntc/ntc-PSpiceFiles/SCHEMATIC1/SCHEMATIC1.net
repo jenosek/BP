@@ -1,0 +1,5 @@
+* source NTC
+V_V1         VCC 0 3.3Vdc
+R_NTC         TEMP VCC  {R_ref * exp(B * (1/T-1/T_ref))} TC=0,0 
+R_R1         0 TEMP  10k TC=0,0 
+.PARAM  r_ref=10k r2=1k r1=1k t=318.15 t_ref=298.15 b=3435

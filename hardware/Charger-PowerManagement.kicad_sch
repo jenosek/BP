@@ -431,202 +431,6 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:103AT-2"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RT"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "103AT-2"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "103AT2"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10kohm 1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "9.5"
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Semitec"
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "103AT-2"
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "954-103AT-2"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 13.97 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 13.97 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "103AT-2_1_1"
-				(polyline
-					(pts
-						(xy 5.588 -2.032) (xy 7.112 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.668 2.032) (xy 7.112 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SamacSys_Parts:BQ25302RTER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1977,7 +1781,11 @@
 	)
 	(no_connect
 		(at 93.98 106.68)
-		(uuid "6ed71699-c98f-430d-8e38-d3c3c74e0ffd")
+		(uuid "2f60c2ad-aa3a-46f6-8230-02e392a3da24")
+	)
+	(no_connect
+		(at 101.6 106.68)
+		(uuid "f2d32504-b474-406a-88bd-db6e202ee643")
 	)
 	(wire
 		(pts
@@ -2111,16 +1919,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 121.92 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55ccdcac-76ab-44c3-ab92-79e7ae798b7b")
-	)
-	(wire
-		(pts
 			(xy 139.7 58.42) (xy 149.86 58.42)
 		)
 		(stroke
@@ -2221,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 132.08) (xy 50.8 130.81)
+			(xy 50.8 134.62) (xy 50.8 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 50.8 123.19)
+			(xy 50.8 120.65) (xy 50.8 127)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 120.65) (xy 99.06 120.65)
+			(xy 99.06 120.65) (xy 189.23 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 139.7) (xy 99.06 134.62)
+			(xy 99.06 134.62) (xy 99.06 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2479,8 +2277,19 @@
 		)
 		(uuid "fed056f1-3734-4af3-9add-506a1210f2db")
 	)
+	(hierarchical_label "NTC_1"
+		(shape input)
+		(at 189.23 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f477ed7-0dd6-46c5-b12f-368b8743f09a")
+	)
 	(hierarchical_label "BAT+"
-		(shape bidirectional)
+		(shape passive)
 		(at 189.23 58.42 0)
 		(effects
 			(font
@@ -2500,6 +2309,17 @@
 			(justify left)
 		)
 		(uuid "5b0ba642-f55d-4d2c-a38d-e5c83d35497f")
+	)
+	(hierarchical_label "BAT-"
+		(shape passive)
+		(at 189.23 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86810ee4-1cdf-491d-9abb-a336795a3f2a")
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
@@ -2655,148 +2475,6 @@
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:103AT-2")
-		(at 121.92 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1811e95e-a251-4c91-9870-2e966e2d837b")
-		(property "Reference" "RT1"
-			(at 125.73 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "103AT-2"
-			(at 125.73 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "103AT2"
-			(at 218.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
-			(at 318.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10kohm 1%"
-			(at 121.92 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.5"
-			(at 518.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Semitec"
-			(at 618.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "103AT-2"
-			(at 718.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "954-103AT-2"
-			(at 818.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D"
-			(at 918.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 1018.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1118.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7e10a70-3299-4f82-aec4-7be02cbe93dc")
-		)
-		(pin "1"
-			(uuid "edf0a3f6-7d61-44fb-80a4-9a4326609807")
-		)
-		(instances
-			(project ""
-				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "RT1")
 					(unit 1)
 				)
 			)
@@ -3147,6 +2825,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c8ccf9c-142e-4aa9-9efa-87dea29a3a0e")
+		(property "Reference" "#PWR054"
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58eb2c84-d70b-4ede-8b9a-e6b729101262")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 58.42 90)
 		(unit 1)
@@ -3419,7 +3164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 132.08 0)
+		(at 50.8 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3428,7 +3173,7 @@
 		(fields_autoplaced yes)
 		(uuid "68022298-78bd-4717-9579-4249f96203f8")
 		(property "Reference" "#PWR03"
-			(at 50.8 138.43 0)
+			(at 50.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 137.16 0)
+			(at 50.8 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 132.08 0)
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 132.08 0)
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 132.08 0)
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,72 +3223,6 @@
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7649cb28-a087-41bc-b4f2-a8d42762f100")
-		(property "Reference" "#PWR054"
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78771401-8fd3-4b27-8fc6-6625445956a4")
-		)
-		(instances
-			(project "obvod"
-				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3828,7 +3507,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 127 0)
+		(at 50.8 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3837,7 +3516,7 @@
 		(fields_autoplaced yes)
 		(uuid "92487cfd-313a-45c5-848e-c9d5527684a5")
 		(property "Reference" "C4"
-			(at 54.61 125.7299 0)
+			(at 54.61 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3525,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 54.61 128.2699 0)
+			(at 54.61 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3534,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 51.7652 130.81 0)
+			(at 51.7652 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 127 0)
+			(at 50.8 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3552,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 127 0)
+			(at 50.8 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +3898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 139.7 0)
+		(at 99.06 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4228,7 +3907,7 @@
 		(fields_autoplaced yes)
 		(uuid "a94cd7a6-8c09-45ed-8801-f4d7e6dd0752")
 		(property "Reference" "#PWR09"
-			(at 99.06 146.05 0)
+			(at 99.06 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +3916,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 144.78 0)
+			(at 99.06 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +3924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 139.7 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +3933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 139.7 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +3942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 139.7 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

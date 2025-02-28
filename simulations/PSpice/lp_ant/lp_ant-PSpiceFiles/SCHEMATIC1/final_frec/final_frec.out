@@ -1,0 +1,89 @@
+
+**** 02/27/25 18:46:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-final_frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\final_frec.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "final_frec.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\honza\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 1400 1megHz 1GHz
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LP_ANT
+V_V1         N00428 0 DC 0Vdc AC 1Vac 
+C_C1         N00121 0  {c}  TC=0,0 
+C_C2         OUT 0  {c}  TC=0,0 
+L_L1         N00121 OUT  18nH  
+R_R1         N00428 N00121  50 TC=0,0 
+R_R2         0 OUT  50 TC=0,0 
+.PARAM  c=8.8pf
+
+**** RESUMING final_frec.cir ****
+.END
+
+**** 02/27/25 18:46:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-final_frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\final_frec.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)    0.0000  (N00121)    0.0000 (N00428)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/27/25 18:46:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-final_frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\final_frec.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

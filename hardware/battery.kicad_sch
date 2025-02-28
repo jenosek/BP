@@ -5,178 +5,6 @@
 	(uuid "459e996c-0e2b-47b6-81ec-770295d0b355")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -425,6 +253,493 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:103AT-2"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RT"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "103AT-2"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "103AT2"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10kohm 1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "9.5"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Semitec"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "103AT-2"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "954-103AT-2"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "103AT-2_1_1"
+				(polyline
+					(pts
+						(xy 5.588 -2.032) (xy 7.112 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.668 2.032) (xy 7.112 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:1043"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1043"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1043"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=919"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "KEYSTONE - 1043 - BATTERY HOLDER, 18650, TH"
+				(at 12.7 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "14.86"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1043"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "534-1043"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1043?qs=%2F7TOpeL5Mz6j%2FnxeOA1rsg%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "1043"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1043/keystone-electronics?utm_currency=USD&region=europe"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1043_0_1"
+				(polyline
+					(pts
+						(xy 12.7 -2.794) (xy 12.7 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -0.508) (xy 12.7 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1043_1_1"
+				(polyline
+					(pts
+						(xy 11.43 -2.286) (xy 13.97 -2.286)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.938 -2.794) (xy 13.462 -2.794)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "+"
+					(at 13.716 -1.27 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "18650"
+					(at 16.764 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -956,6 +1271,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1054,122 +1489,160 @@
 		)
 	)
 	(junction
-		(at 168.91 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05edb360-11da-404a-aef1-64dd3cb20bb9")
-	)
-	(junction
-		(at 168.91 88.9)
+		(at 110.49 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e971a0b-7c7a-444b-8ff9-0fee82e453d8")
 	)
 	(junction
-		(at 162.56 107.95)
+		(at 104.14 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e8f0f2-df99-4874-b3d2-e4a4d9adefcb")
 	)
 	(junction
-		(at 181.61 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d51e047-3eed-4194-82d4-e347b4855c78")
-	)
-	(junction
-		(at 194.31 123.19)
+		(at 135.89 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3568db3f-c30f-463e-8fec-e2974ee25f6b")
 	)
 	(junction
-		(at 194.31 110.49)
+		(at 135.89 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e178947-7728-4841-ad1d-8ddeab8598c7")
 	)
 	(junction
-		(at 194.31 125.73)
+		(at 135.89 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "531a4a87-f0fa-4e3b-bad1-3af02c7d45ea")
 	)
 	(junction
-		(at 181.61 88.9)
+		(at 142.24 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5756b728-f93b-4d0b-8086-c993fa339fd9")
+		(uuid "55fd38e6-6815-4ca1-be25-d0bff6607d88")
 	)
 	(junction
-		(at 168.91 74.93)
+		(at 110.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6429f8c0-7b93-438a-bd65-8a08ffb86e1f")
 	)
 	(junction
-		(at 162.56 123.19)
+		(at 104.14 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64660165-041e-4a21-b9c8-b9bde0be22a8")
 	)
 	(junction
-		(at 194.31 107.95)
+		(at 135.89 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "780b8080-7273-48f8-8041-9d7f6033e541")
 	)
 	(junction
-		(at 194.31 113.03)
+		(at 142.24 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80caf5f0-dc73-4431-8b03-3e5076428d2a")
+	)
+	(junction
+		(at 135.89 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d2aeb7b-c097-4bc0-8932-7f6990637a1f")
 	)
 	(junction
-		(at 162.56 88.9)
+		(at 104.14 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9746a82d-6cd1-464c-8713-fe846772d0d9")
 	)
 	(junction
-		(at 162.56 120.65)
+		(at 104.14 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a20f385f-9d3d-4bd3-be1c-ed8738aacf42")
 	)
 	(junction
-		(at 162.56 105.41)
+		(at 173.99 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afdd2ad1-cbaf-4a77-b53e-7d9d805d9c9c")
+	)
+	(junction
+		(at 104.14 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbcc81b0-d29f-4d28-86eb-d8309b454583")
 	)
 	(junction
-		(at 194.31 120.65)
+		(at 135.89 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5eb5b4e-10b3-490f-aa58-5f00f1adb263")
 	)
 	(junction
-		(at 124.46 120.65)
+		(at 66.04 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d14a72ef-3a16-4ef1-8fb5-3da6f17ca236")
 	)
 	(junction
-		(at 162.56 125.73)
+		(at 104.14 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0431aff-3d06-443b-9dca-247a63b0504f")
 	)
 	(junction
-		(at 128.27 105.41)
+		(at 69.85 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc4aae16-2e1d-415a-9cbf-31683191071d")
 	)
+	(no_connect
+		(at 176.53 74.93)
+		(uuid "0a6c5173-9944-4b48-b77e-cb3e6a9d5ec0")
+	)
+	(no_connect
+		(at 170.18 69.85)
+		(uuid "0a966611-0b76-460b-b060-2b09e2dba8b5")
+	)
+	(no_connect
+		(at 201.93 72.39)
+		(uuid "31024a31-8a6d-48da-ae81-3b1b1e093cd8")
+	)
+	(no_connect
+		(at 144.78 74.93)
+		(uuid "4519ebb9-35ca-40c9-8167-b57222829065")
+	)
+	(no_connect
+		(at 201.93 69.85)
+		(uuid "7bf386b8-0254-4903-93ef-5d01684f9c58")
+	)
+	(no_connect
+		(at 72.39 69.85)
+		(uuid "cf14ee7c-2615-4362-a7a2-f9a6b714250d")
+	)
+	(no_connect
+		(at 170.18 72.39)
+		(uuid "d66d4d7a-57b2-4ebd-bd33-4eefbda91c8d")
+	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 162.56 125.73)
+			(xy 110.49 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001db1e4-60d6-4c36-970e-21f30bebea90")
+	)
+	(wire
+		(pts
+			(xy 104.14 120.65) (xy 104.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 194.31 107.95)
+			(xy 135.89 102.87) (xy 135.89 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 166.37 120.65)
+			(xy 104.14 118.11) (xy 107.95 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 166.37 105.41)
+			(xy 104.14 102.87) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1209,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 71.12) (xy 168.91 74.93)
+			(xy 110.49 68.58) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1219,7 +1692,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 162.56 105.41)
+			(xy 176.53 72.39) (xy 173.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180c6ccd-d80d-4746-af27-164227f764b6")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 120.65) (xy 124.46 74.93)
+			(xy 66.04 118.11) (xy 66.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1722,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 168.91 77.47)
+			(xy 157.48 97.79) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da48f84-5478-4d90-be2f-1a51eaa6d605")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 110.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 128.27) (xy 124.46 128.27)
+			(xy 107.95 125.73) (xy 66.04 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1752,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 104.14 66.04)
+			(xy 142.24 57.15) (xy 173.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2222d5da-36e5-44b6-9557-09620d64733a")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 54.61 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1269,17 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 181.61 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2673f82a-b081-4cb4-a7c9-d144d54e711b")
-	)
-	(wire
-		(pts
-			(xy 128.27 105.41) (xy 128.27 77.47)
+			(xy 69.85 102.87) (xy 69.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1289,7 +1782,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 110.49) (xy 194.31 110.49)
+			(xy 133.35 107.95) (xy 135.89 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 194.31 113.03)
+			(xy 133.35 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1309,7 +1802,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 128.27) (xy 194.31 128.27)
+			(xy 110.49 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b1df6c-3a3e-4f73-bb9f-09c44e97e276")
+	)
+	(wire
+		(pts
+			(xy 133.35 125.73) (xy 135.89 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1319,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 128.27) (xy 194.31 125.73)
+			(xy 135.89 125.73) (xy 135.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1832,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 168.91 88.9)
+			(xy 189.23 95.25) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eda4026-5376-464e-ad4c-61cba81fba99")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 162.56 105.41)
+			(xy 104.14 105.41) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1349,17 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 88.9) (xy 181.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4984f22c-d0ec-477b-a8d5-7157968bf344")
-	)
-	(wire
-		(pts
-			(xy 191.77 120.65) (xy 194.31 120.65)
+			(xy 133.35 118.11) (xy 135.89 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 110.49) (xy 162.56 107.95)
+			(xy 104.14 107.95) (xy 104.14 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 162.56 66.04)
+			(xy 54.61 57.15) (xy 104.14 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 162.56 72.39)
+			(xy 100.33 69.85) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 125.73) (xy 194.31 125.73)
+			(xy 133.35 123.19) (xy 135.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 105.41) (xy 194.31 105.41)
+			(xy 133.35 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +1922,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 123.19) (xy 194.31 125.73)
+			(xy 142.24 72.39) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6351d234-2bf1-43a7-a52d-8aa54809fce3")
+	)
+	(wire
+		(pts
+			(xy 135.89 120.65) (xy 135.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 74.93) (xy 124.46 74.93)
+			(xy 72.39 72.39) (xy 66.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 162.56 123.19)
+			(xy 104.14 118.11) (xy 104.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 166.37 107.95)
+			(xy 104.14 105.41) (xy 107.95 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1972,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 120.65) (xy 124.46 120.65)
+			(xy 144.78 72.39) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d45295-287c-444f-bfb8-42b97a2dc3f1")
+	)
+	(wire
+		(pts
+			(xy 82.55 118.11) (xy 66.04 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1469,17 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 59.69) (xy 168.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "767b5486-d2d9-4611-a7b4-76ab8f69f9b3")
-	)
-	(wire
-		(pts
-			(xy 158.75 74.93) (xy 168.91 74.93)
+			(xy 100.33 72.39) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1489,17 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 181.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "875eae22-77e6-40e7-a60b-39c86ff840f9")
-	)
-	(wire
-		(pts
-			(xy 148.59 120.65) (xy 162.56 120.65)
+			(xy 90.17 118.11) (xy 104.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +2012,27 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 105.41) (xy 162.56 105.41)
+			(xy 144.78 69.85) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c65276c-fae3-44e9-aae3-d6f728c7aae2")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8a9028-7ac2-469c-a67f-851876a5bc57")
+	)
+	(wire
+		(pts
+			(xy 90.17 102.87) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1519,17 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 59.69) (xy 168.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "994e7838-6b84-46e9-bb9d-d0b910d3e421")
-	)
-	(wire
-		(pts
-			(xy 194.31 113.03) (xy 194.31 120.65)
+			(xy 135.89 110.49) (xy 135.89 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 77.47) (xy 130.81 77.47)
+			(xy 69.85 74.93) (xy 72.39 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 77.47) (xy 158.75 77.47)
+			(xy 104.14 74.93) (xy 100.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 128.27) (xy 124.46 120.65)
+			(xy 66.04 125.73) (xy 66.04 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1569,17 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 59.69) (xy 181.61 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a884b57c-dd84-4ab3-83b7-c3197ee1e47f")
-	)
-	(wire
-		(pts
-			(xy 162.56 77.47) (xy 162.56 88.9)
+			(xy 104.14 74.93) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 123.19) (xy 194.31 123.19)
+			(xy 133.35 120.65) (xy 135.89 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 162.56 110.49)
+			(xy 107.95 107.95) (xy 104.14 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +2112,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 120.65) (xy 194.31 123.19)
+			(xy 173.99 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee46d07-40c9-4869-91f0-ff97e26e58cb")
+	)
+	(wire
+		(pts
+			(xy 135.89 118.11) (xy 135.89 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +2132,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 140.97 105.41)
+			(xy 245.11 124.46) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fee5a7-665f-46c9-b7e8-4f2dc7ba2667")
+	)
+	(wire
+		(pts
+			(xy 69.85 102.87) (xy 82.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 123.19) (xy 162.56 123.19)
+			(xy 107.95 120.65) (xy 104.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 107.95) (xy 194.31 110.49)
+			(xy 135.89 105.41) (xy 135.89 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 194.31 107.95)
+			(xy 133.35 105.41) (xy 135.89 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1659,27 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 78.74) (xy 194.31 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da51ea37-76a8-47ab-ab54-a55c76166fe8")
-	)
-	(wire
-		(pts
-			(xy 194.31 71.12) (xy 194.31 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbac23d8-c52b-4222-8ba5-f030b765414f")
-	)
-	(wire
-		(pts
-			(xy 166.37 113.03) (xy 128.27 113.03)
+			(xy 107.95 110.49) (xy 69.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1689,17 +2192,57 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 181.61 88.9)
+			(xy 173.99 69.85) (xy 173.99 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4285494-60d7-404d-bd11-f5940c460063")
+		(uuid "dd335456-9828-4272-bf52-ee1b1eec8ccd")
 	)
 	(wire
 		(pts
-			(xy 168.91 85.09) (xy 168.91 88.9)
+			(xy 245.11 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ba6005-2e1d-4161-81d4-ad4bcb062700")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 173.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd0a556-8b04-40db-8c21-688259c2bf3c")
+	)
+	(wire
+		(pts
+			(xy 142.24 57.15) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24c215f-c924-4a9a-8d4f-18ba795ec15d")
+	)
+	(wire
+		(pts
+			(xy 173.99 72.39) (xy 173.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49e5bf6-abf5-4ffe-ab0a-1ff42d154512")
+	)
+	(wire
+		(pts
+			(xy 110.49 82.55) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 128.27 113.03)
+			(xy 69.85 102.87) (xy 69.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1719,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 125.73) (xy 162.56 133.35)
+			(xy 104.14 123.19) (xy 104.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +2272,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 59.69) (xy 168.91 63.5)
+			(xy 157.48 124.46) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa28def9-19f6-47a9-bbcb-ded5a28c6f1a")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1739,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 162.56 72.39)
+			(xy 104.14 57.15) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1749,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 194.31 113.03)
+			(xy 135.89 107.95) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 125.73) (xy 162.56 125.73)
+			(xy 107.95 123.19) (xy 104.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1767,20 +2320,99 @@
 		)
 		(uuid "ffa92bb9-3195-4c35-b701-dc5438a89bc7")
 	)
-	(hierarchical_label "BAT+"
-		(shape bidirectional)
-		(at 91.44 59.69 180)
+	(rectangle
+		(start 149.86 101.6)
+		(end 248.92 116.84)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b75351c0-bab7-478d-8412-25eff9c8a7d2)
+	)
+	(rectangle
+		(start 50.8 137.16)
+		(end 107.95 143.51)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid efee843c-8155-4dc6-871a-4ce25912a7f2)
+	)
+	(text "Ensure proper thermal \ncontact between NTC and battery.\n\nPlace contacts as close as \npossible to the batteries."
+		(exclude_from_sim no)
+		(at 208.534 109.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "1d77c4fe-b137-4b58-847d-897c5d686407")
+	)
+	(text "Area of BAT- connection"
+		(exclude_from_sim no)
+		(at 68.072 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e884877-fdd7-4245-a629-a1d301eaf241")
+	)
+	(hierarchical_label "NTC_2"
+		(shape output)
+		(at 245.11 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c019bed-36fb-436d-a0bf-173d3c59fe2b")
+	)
+	(hierarchical_label "BAT-"
+		(shape passive)
+		(at 245.11 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6804711d-a965-4296-87e8-85490f126b6c")
+	)
+	(hierarchical_label "BAT+"
+		(shape passive)
+		(at 245.11 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "7c90774b-71fb-4437-a389-894fdd016faa")
 	)
+	(hierarchical_label "NTC_1"
+		(shape output)
+		(at 245.11 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8400a6d-acac-469b-9586-9b26e00f72a5")
+	)
 	(symbol
 		(lib_id "SamacSys_Parts:BQ29732DSER")
-		(at 130.81 72.39 0)
+		(at 72.39 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1788,7 +2420,7 @@
 		(dnp no)
 		(uuid "04b67136-62f0-479a-91e5-1bbc0cae5b08")
 		(property "Reference" "IC1"
-			(at 144.78 83.058 0)
+			(at 86.36 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +2428,7 @@
 			)
 		)
 		(property "Value" "BQ29732DSER"
-			(at 144.78 85.598 0)
+			(at 86.36 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +2436,7 @@
 			)
 		)
 		(property "Footprint" "SON50P150X150X80-6N"
-			(at 154.94 167.31 0)
+			(at 96.52 164.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +2446,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/bq2973"
-			(at 154.94 267.31 0)
+			(at 96.52 264.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +2456,7 @@
 			)
 		)
 		(property "Description" "Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family"
-			(at 130.81 72.39 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +2465,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 154.94 467.31 0)
+			(at 96.52 464.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +2475,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 154.94 567.31 0)
+			(at 96.52 564.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +2485,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BQ29732DSER"
-			(at 154.94 667.31 0)
+			(at 96.52 664.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +2495,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-BQ29732DSER"
-			(at 154.94 767.31 0)
+			(at 96.52 764.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +2505,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29732DSER?qs=HjC056NR38EUdABiMgTGbg%3D%3D"
-			(at 154.94 867.31 0)
+			(at 96.52 864.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +2515,7 @@
 			)
 		)
 		(property "Arrow Part Number" "BQ29732DSER"
-			(at 154.94 967.31 0)
+			(at 96.52 964.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +2525,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bq29732dser/texas-instruments?region=nac"
-			(at 154.94 1067.31 0)
+			(at 96.52 1064.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +2563,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 133.35 0)
+		(at 104.14 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1940,7 +2572,7 @@
 		(fields_autoplaced yes)
 		(uuid "18c02983-777b-4470-ae02-87eb29ecb980")
 		(property "Reference" "#PWR012"
-			(at 162.56 139.7 0)
+			(at 104.14 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +2581,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 138.43 0)
+			(at 104.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +2589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 133.35 0)
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 133.35 0)
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 133.35 0)
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +2629,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 76.2 0)
+		(at 54.61 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2006,7 +2638,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b2aca16-d26f-4214-92d3-b22d6641d6cb")
 		(property "Reference" "R1"
-			(at 106.68 74.9299 0)
+			(at 57.15 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2647,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 106.68 77.4699 0)
+			(at 57.15 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +2656,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 102.362 76.2 90)
+			(at 52.832 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 76.2 0)
+			(at 54.61 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2674,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 76.2 0)
+			(at 54.61 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,8 +2698,514 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:103AT-2")
+		(at 157.48 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44d74d94-b5a9-49fd-a6d9-cb2843f81739")
+		(property "Reference" "RT2"
+			(at 161.29 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "103AT-2"
+			(at 161.29 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "103AT2"
+			(at 253.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
+			(at 353.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10kohm 1%"
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.5"
+			(at 553.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Semitec"
+			(at 653.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "103AT-2"
+			(at 753.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "954-103AT-2"
+			(at 853.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D"
+			(at 953.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1053.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1153.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d547fe12-ce20-441d-95b8-9de9b70612d8")
+		)
+		(pin "1"
+			(uuid "189a3313-e95f-43b0-b490-59d5f7d01cdf")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
+					(reference "RT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:1043")
+		(at 144.78 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55fb8ab6-90dd-42e6-b7e6-1f5f0dbdcd3a")
+		(property "Reference" "U4"
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1043"
+			(at 157.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1043"
+			(at 166.37 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=919"
+			(at 166.37 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEYSTONE - 1043 - BATTERY HOLDER, 18650, TH"
+			(at 157.48 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "14.86"
+			(at 166.37 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 166.37 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1043"
+			(at 166.37 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-1043"
+			(at 166.37 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1043?qs=%2F7TOpeL5Mz6j%2FnxeOA1rsg%3D%3D"
+			(at 166.37 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1043"
+			(at 166.37 964.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1043/keystone-electronics?utm_currency=USD&region=europe"
+			(at 166.37 1064.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "1590d2db-87da-47e4-80d5-6cf87dd6283f")
+		)
+		(pin "2"
+			(uuid "e13b20a8-ca65-45c6-bdb5-a8232ee5bc8e")
+		)
+		(pin "1"
+			(uuid "20e4780d-f903-4d53-86f4-569634c894c2")
+		)
+		(pin "MH3"
+			(uuid "8e8abdaf-c582-4f7a-9424-adda25266093")
+		)
+		(pin "MH2"
+			(uuid "677940b9-8303-4811-ae73-3c3d09bc92d3")
+		)
+		(instances
+			(project ""
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "633ebaad-4f0e-4268-ae5e-395c96ce014c")
+		(property "Reference" "#PWR073"
+			(at 189.23 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96512449-b645-4036-b3cb-64d36cf70a87")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:1043")
+		(at 176.53 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6822aad3-71dc-473a-82b5-5e6e24c95c59")
+		(property "Reference" "U5"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1043"
+			(at 189.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1043"
+			(at 198.12 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=919"
+			(at 198.12 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEYSTONE - 1043 - BATTERY HOLDER, 18650, TH"
+			(at 189.23 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "14.86"
+			(at 198.12 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 198.12 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1043"
+			(at 198.12 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-1043"
+			(at 198.12 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1043?qs=%2F7TOpeL5Mz6j%2FnxeOA1rsg%3D%3D"
+			(at 198.12 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1043"
+			(at 198.12 964.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1043/keystone-electronics?utm_currency=USD&region=europe"
+			(at 198.12 1064.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "8fe4cc2c-6ee1-429f-a2fa-27532bf97a38")
+		)
+		(pin "2"
+			(uuid "dc49458d-6389-4ea2-8097-231511fdc481")
+		)
+		(pin "1"
+			(uuid "7bdaf631-b302-4775-b7f7-e23df0ea4f69")
+		)
+		(pin "MH3"
+			(uuid "e40ada56-cf47-4618-98f8-4580faf9967e")
+		)
+		(pin "MH2"
+			(uuid "ee7d9011-3c52-44a1-a572-471e85515070")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 144.78 120.65 90)
+		(at 86.36 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2075,7 +3213,7 @@
 		(dnp no)
 		(uuid "6d73c702-ca00-41ad-ab47-e2aeb865dfb2")
 		(property "Reference" "R3"
-			(at 146.05 115.57 90)
+			(at 87.63 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +3222,7 @@
 			)
 		)
 		(property "Value" "4M99"
-			(at 147.574 117.856 90)
+			(at 89.154 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +3231,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 144.78 122.428 90)
+			(at 86.36 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +3240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 120.65 0)
+			(at 86.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +3249,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 120.65 0)
+			(at 86.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,35 +3273,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 194.31 76.2 0)
+		(lib_id "SamacSys_Parts:103AT-2")
+		(at 189.23 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83e612e0-54c6-40c4-ba77-6d7e91f7f030")
-		(property "Reference" "BAT2"
-			(at 198.12 73.0884 0)
+		(uuid "73b7acff-a8f4-41eb-a71f-85e80fd647a3")
+		(property "Reference" "RT1"
+			(at 193.04 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "18650"
-			(at 198.12 75.6284 0)
+		(property "Value" "103AT-2"
+			(at 193.04 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 74.676 90)
+		(property "Footprint" "103AT2"
+			(at 285.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
+			(at 385.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10kohm 1%"
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,34 +3329,86 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 194.31 74.676 90)
+		(property "Height" "9.5"
+			(at 585.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 194.31 76.2 0)
+		(property "Manufacturer_Name" "Semitec"
+			(at 685.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1de07490-cd83-4f54-8d77-2c11f97bc809")
+		(property "Manufacturer_Part_Number" "103AT-2"
+			(at 785.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "954-103AT-2"
+			(at 885.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D"
+			(at 985.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1085.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9074b1b1-81f1-4fb8-86f2-32ae638c4917")
+			(uuid "b6db5cce-8975-4308-8bda-7514e2c5b6ed")
+		)
+		(pin "1"
+			(uuid "c3b42a2f-eeb8-46cd-aa2e-0c16c5de3618")
 		)
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
-					(reference "BAT2")
+					(reference "RT1")
 					(unit 1)
 				)
 			)
@@ -2206,7 +3416,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 80.01 0)
+		(at 54.61 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2215,7 +3425,7 @@
 		(fields_autoplaced yes)
 		(uuid "85d3cb8e-3e22-4fdb-9b71-ea5807ef4048")
 		(property "Reference" "#PWR022"
-			(at 104.14 86.36 0)
+			(at 54.61 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +3434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 85.09 0)
+			(at 54.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +3442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 80.01 0)
+			(at 54.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 80.01 0)
+			(at 54.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +3460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 80.01 0)
+			(at 54.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +3482,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 81.28 0)
+		(at 110.49 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2281,7 +3491,7 @@
 		(fields_autoplaced yes)
 		(uuid "910d72f4-8eda-4fd4-bd1a-eee11a7303fd")
 		(property "Reference" "C1"
-			(at 172.72 80.0099 0)
+			(at 114.3 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +3500,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 172.72 82.5499 0)
+			(at 114.3 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +3509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.8752 85.09 0)
+			(at 111.4552 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +3518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 81.28 0)
+			(at 110.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +3527,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 81.28 0)
+			(at 110.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +3552,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CSD16406Q3")
-		(at 166.37 105.41 0)
+		(at 107.95 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2351,7 +3561,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5b2f50b-d780-419b-9dc6-c6c9c69c6f74")
 		(property "Reference" "Q1"
-			(at 179.07 97.79 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +3569,7 @@
 			)
 		)
 		(property "Value" "CSD16406Q3"
-			(at 179.07 100.33 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" "DQG_VSON-CLIP"
-			(at 187.96 200.33 0)
+			(at 129.54 197.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +3587,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
-			(at 187.96 300.33 0)
+			(at 129.54 297.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +3597,7 @@
 			)
 		)
 		(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
-			(at 166.37 105.41 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +3606,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 187.96 500.33 0)
+			(at 129.54 497.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +3616,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 187.96 600.33 0)
+			(at 129.54 597.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +3626,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CSD16406Q3"
-			(at 187.96 700.33 0)
+			(at 129.54 697.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +3636,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-CSD16406Q3"
-			(at 187.96 800.33 0)
+			(at 129.54 797.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +3646,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
-			(at 187.96 900.33 0)
+			(at 129.54 897.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +3656,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CSD16406Q3"
-			(at 187.96 1000.33 0)
+			(at 129.54 997.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +3666,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd16406q3/texas-instruments?region=nac"
-			(at 187.96 1100.33 0)
+			(at 129.54 1097.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +3710,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CSD16406Q3")
-		(at 166.37 120.65 0)
+		(at 107.95 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2508,7 +3718,7 @@
 		(dnp no)
 		(uuid "ba00a9dc-2d94-49ca-a43b-11a75b74ab24")
 		(property "Reference" "Q2"
-			(at 178.816 133.604 0)
+			(at 120.396 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +3726,7 @@
 			)
 		)
 		(property "Value" "CSD16406Q3"
-			(at 178.816 135.89 0)
+			(at 120.396 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +3734,7 @@
 			)
 		)
 		(property "Footprint" "DQG_VSON-CLIP"
-			(at 187.96 215.57 0)
+			(at 129.54 213.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +3744,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
-			(at 187.96 315.57 0)
+			(at 129.54 313.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +3754,7 @@
 			)
 		)
 		(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
-			(at 166.37 120.65 0)
+			(at 107.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +3763,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 187.96 515.57 0)
+			(at 129.54 513.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +3773,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 187.96 615.57 0)
+			(at 129.54 613.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +3783,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CSD16406Q3"
-			(at 187.96 715.57 0)
+			(at 129.54 713.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +3793,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-CSD16406Q3"
-			(at 187.96 815.57 0)
+			(at 129.54 813.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +3803,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
-			(at 187.96 915.57 0)
+			(at 129.54 913.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +3813,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CSD16406Q3"
-			(at 187.96 1015.57 0)
+			(at 129.54 1013.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +3823,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd16406q3/texas-instruments?region=nac"
-			(at 187.96 1115.57 0)
+			(at 129.54 1113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +3867,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 67.31 0)
+		(at 110.49 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2666,7 +3876,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7649145-d822-47bd-b4d9-ad12c05433d2")
 		(property "Reference" "R4"
-			(at 171.45 66.0399 0)
+			(at 113.03 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +3885,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 171.45 68.5799 0)
+			(at 113.03 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +3894,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 167.132 67.31 90)
+			(at 108.712 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +3903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 67.31 0)
+			(at 110.49 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +3912,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 168.91 67.31 0)
+			(at 110.49 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,8 +3936,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 245.11 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ced1367c-8948-4078-a6db-b503b9f555ed")
+		(property "Reference" "#PWR065"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23adc696-c50b-4d18-910f-af274c2b4c19")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 144.78 105.41 90)
+		(at 86.36 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2736,7 +4014,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0ae1b95-6540-4235-a260-afbfc1bc99d7")
 		(property "Reference" "R2"
-			(at 144.78 99.06 90)
+			(at 86.36 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +4022,7 @@
 			)
 		)
 		(property "Value" "4M99"
-			(at 144.78 101.6 90)
+			(at 86.36 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +4030,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 144.78 107.188 90)
+			(at 86.36 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +4039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 105.41 0)
+			(at 86.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +4048,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 105.41 0)
+			(at 86.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,35 +4072,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 181.61 76.2 0)
+		(lib_id "power:+3V3")
+		(at 157.48 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eae01810-52db-47e3-9831-4204b8d4787d")
-		(property "Reference" "BAT1"
-			(at 185.42 73.0884 0)
+		(uuid "e7272b91-9452-4fe0-842c-b9b0cce12e6c")
+		(property "Reference" "#PWR072"
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "18650"
-			(at 185.42 75.6284 0)
+		(property "Value" "+3V3"
+			(at 156.718 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 74.676 90)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,8 +4106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 181.61 74.676 90)
+		(property "Datasheet" ""
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,8 +4115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 181.61 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,15 +4125,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "74f56ceb-52db-4ee4-b5bb-04bea6f72823")
-		)
-		(pin "2"
-			(uuid "8cc8f37b-9bb0-4937-a8a4-8d1ee968ebdb")
+			(uuid "f589d86a-33c1-4ab1-937f-5c5616c4f80e")
 		)
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
-					(reference "BAT1")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
