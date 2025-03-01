@@ -5533,6 +5533,17 @@
 		)
 		(uuid "0b679d56-fdcb-4166-bc49-374e32eb61da")
 	)
+	(hierarchical_label "SDI"
+		(shape output)
+		(at 48.26 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15481850-b5f0-4028-afc5-568441121c55")
+	)
 	(hierarchical_label "FLT{slash}"
 		(shape input)
 		(at 93.98 81.28 0)
@@ -5610,6 +5621,28 @@
 		)
 		(uuid "250acfe3-6ac3-40d6-aade-10ce4d805ba7")
 	)
+	(hierarchical_label "nSEL"
+		(shape output)
+		(at 48.26 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25b7c44d-169b-4c2a-81cc-1c540c1c8934")
+	)
+	(hierarchical_label "nIRQ"
+		(shape input)
+		(at 48.26 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2651b32b-0cbc-4864-9a2b-8da85fda2539")
+	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
 		(at 93.98 68.58 0)
@@ -5686,6 +5719,17 @@
 			(justify right)
 		)
 		(uuid "52d627cb-d52a-4ea2-8f13-e3a6e8dcfe3f")
+	)
+	(hierarchical_label "SDO"
+		(shape input)
+		(at 48.26 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54f58d41-82b7-407f-8f8d-821ec941cb89")
 	)
 	(hierarchical_label "D4"
 		(shape input)
@@ -5775,6 +5819,17 @@
 		)
 		(uuid "837fb612-30d6-473c-b798-6247aa0a75f1")
 	)
+	(hierarchical_label "COMMAND_DONE"
+		(shape input)
+		(at 48.26 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "847daa56-4c49-4c0a-af78-2f48baf0b076")
+	)
 	(hierarchical_label "D3"
 		(shape input)
 		(at 48.26 60.96 180)
@@ -5796,6 +5851,17 @@
 			(justify left)
 		)
 		(uuid "8f5632bc-a3f1-4a2a-a0a7-a0bf441e6cdb")
+	)
+	(hierarchical_label "SCLK"
+		(shape output)
+		(at 48.26 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a06e5294-5a2e-46de-8044-65d7ec92da16")
 	)
 	(hierarchical_label "CAM_SCL"
 		(shape output)

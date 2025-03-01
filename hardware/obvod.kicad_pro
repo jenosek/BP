@@ -612,12 +612,12 @@
       "USB-B_micro"
     ],
     [
-      "fdd3d46b-c5ef-429c-ba04-a467d2c6100e",
-      "USB-C_Interface"
-    ],
-    [
       "21633f2b-133b-44f0-ac2e-c32a8c0675be",
       "RF"
+    ],
+    [
+      "fdd3d46b-c5ef-429c-ba04-a467d2c6100e",
+      "USB-C_Interface"
     ]
   ],
   "text_variables": {}
