@@ -3257,7 +3257,7 @@
 	)
 	(polyline
 		(pts
-			(xy 226.06 110.49) (xy 229.87 110.49)
+			(xy 232.918 110.236) (xy 236.728 110.236)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +3547,7 @@
 	)
 	(polyline
 		(pts
-			(xy 226.06 100.33) (xy 229.87 100.33)
+			(xy 232.918 100.076) (xy 236.728 100.076)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +3757,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.01 146.05) (xy 207.01 149.86)
+			(xy 207.01 149.86) (xy 207.01 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3858,8 +3858,8 @@
 		(uuid 09de8130-297e-498e-bf52-f9d98e167368)
 	)
 	(rectangle
-		(start 205.486 150.876)
-		(end 257.81 156.21)
+		(start 205.486 154.686)
+		(end 257.81 160.02)
 		(stroke
 			(width 0)
 			(type dot)
@@ -3870,8 +3870,8 @@
 		(uuid 2fe66bff-79ba-4266-a691-474daaac2b91)
 	)
 	(rectangle
-		(start 232.41 109.22)
-		(end 267.97 111.76)
+		(start 239.268 108.966)
+		(end 274.828 111.506)
 		(stroke
 			(width 0)
 			(type dot)
@@ -4014,8 +4014,8 @@
 		(uuid b7d1452e-9ca0-47bb-9ebd-b65d3efc0509)
 	)
 	(rectangle
-		(start 232.41 99.06)
-		(end 274.32 101.6)
+		(start 239.268 98.806)
+		(end 281.178 101.346)
 		(stroke
 			(width 0)
 			(type dot)
@@ -4138,7 +4138,7 @@
 	)
 	(text "Pulls up, when the last command was completed or\nis ready to receive SPI commands after boot"
 		(exclude_from_sim no)
-		(at 205.74 153.416 0)
+		(at 205.74 157.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4190,7 +4190,7 @@
 	)
 	(text "<"
 		(exclude_from_sim no)
-		(at 227.076 100.33 0)
+		(at 233.934 100.076 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4210,7 +4210,7 @@
 	)
 	(text "Pulls down when sending interrupt"
 		(exclude_from_sim no)
-		(at 232.918 110.744 0)
+		(at 239.776 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4231,7 +4231,7 @@
 	)
 	(text "^"
 		(exclude_from_sim no)
-		(at 206.248 147.574 0)
+		(at 206.248 151.384 0)
 		(effects
 			(font
 				(size 2.3 2.3)
@@ -4253,7 +4253,7 @@
 	)
 	(text "Pull down to initiate SPI communication"
 		(exclude_from_sim no)
-		(at 233.172 100.584 0)
+		(at 240.03 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4308,7 +4308,7 @@
 	)
 	(text "<"
 		(exclude_from_sim no)
-		(at 227.076 110.49 0)
+		(at 233.934 110.236 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4596,7 +4596,7 @@
 		)
 		(uuid "ff1a40e6-49fd-4fc2-8e17-b580e0f70f0f")
 	)
-	(hierarchical_label "SDO"
+	(hierarchical_label "SDO_RF"
 		(shape output)
 		(at 217.17 105.41 0)
 		(effects
@@ -4607,7 +4607,7 @@
 		)
 		(uuid "198e21f8-a6c8-48c6-b07b-2bfb7b97f9d3")
 	)
-	(hierarchical_label "COMMAND_DONE"
+	(hierarchical_label "COMMAND_DONE_RF"
 		(shape output)
 		(at 207.01 128.27 270)
 		(effects
@@ -4618,7 +4618,7 @@
 		)
 		(uuid "2f8d9a2a-ec9f-41f4-a05a-c170223c9802")
 	)
-	(hierarchical_label "SDI"
+	(hierarchical_label "SDI_RF"
 		(shape input)
 		(at 217.17 102.87 0)
 		(effects
@@ -4629,7 +4629,7 @@
 		)
 		(uuid "33edfae6-c299-467a-808a-e94c3578e33c")
 	)
-	(hierarchical_label "nIRQ"
+	(hierarchical_label "nIRQ_RF"
 		(shape output)
 		(at 217.17 110.49 0)
 		(effects
@@ -4640,7 +4640,7 @@
 		)
 		(uuid "499c754d-3ed7-4bf0-a097-bf59f1286ffd")
 	)
-	(hierarchical_label "nSEL"
+	(hierarchical_label "nSEL_RF"
 		(shape input)
 		(at 217.17 100.33 0)
 		(effects
@@ -4651,7 +4651,7 @@
 		)
 		(uuid "aeeb68ed-3407-4eec-aff8-c77b5bb9b7cd")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "SCLK_RF"
 		(shape input)
 		(at 217.17 107.95 0)
 		(effects

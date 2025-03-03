@@ -1403,7 +1403,7 @@
 		(uuid dd6da3da-ac98-4d54-8c0d-b8288b367172)
 	)
 	(rectangle
-		(start 48.26 82.55)
+		(start 41.91 82.55)
 		(end 78.74 85.09)
 		(stroke
 			(width 0)
@@ -1416,7 +1416,7 @@
 	)
 	(text "Open drain output "
 		(exclude_from_sim no)
-		(at 58.674 83.82 0)
+		(at 52.578 84.074 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1465,7 +1465,7 @@
 		)
 		(uuid "0b6e9446-0c3d-4dd4-9568-e7e10d6e82db")
 	)
-	(hierarchical_label "BYPASS_CC1"
+	(hierarchical_label "BYPASS_CC1_PS"
 		(shape bidirectional)
 		(at 220.98 115.57 0)
 		(effects
@@ -1476,7 +1476,7 @@
 		)
 		(uuid "1faa2781-6003-4436-ac5e-cb8fe79eb471")
 	)
-	(hierarchical_label "INT_N"
+	(hierarchical_label "INT_N_PS"
 		(shape output)
 		(at 77.47 83.82 180)
 		(effects
@@ -1487,7 +1487,7 @@
 		)
 		(uuid "2ae8ab22-578e-4651-b894-75f6a37c6513")
 	)
-	(hierarchical_label "USB_SCL"
+	(hierarchical_label "USB_SCL_PS"
 		(shape input)
 		(at 77.47 81.28 180)
 		(effects
@@ -1509,7 +1509,7 @@
 		)
 		(uuid "8836e620-6a23-409c-ab3f-e42a18d0af1f")
 	)
-	(hierarchical_label "USB_SDA"
+	(hierarchical_label "USB_SDA_PS"
 		(shape bidirectional)
 		(at 77.47 78.74 180)
 		(effects
@@ -1531,7 +1531,7 @@
 		)
 		(uuid "90fb2ce8-8b9b-49e4-9c0e-6d3c6548f9b4")
 	)
-	(hierarchical_label "BYPASS_CC2"
+	(hierarchical_label "BYPASS_CC2_PS"
 		(shape bidirectional)
 		(at 220.98 118.11 0)
 		(effects

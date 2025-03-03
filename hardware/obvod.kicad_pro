@@ -585,7 +585,7 @@
     ],
     [
       "eca20acd-1ab9-4713-a6f3-0ad5760dd36d",
-      "Charger-PowerManagement"
+      "Power_Management"
     ],
     [
       "c10e3bb1-4b24-45b1-b428-aefa65422361",
@@ -618,6 +618,10 @@
     [
       "fdd3d46b-c5ef-429c-ba04-a467d2c6100e",
       "USB-C_Interface"
+    ],
+    [
+      "d927d343-1b4e-4356-add7-d3a6e8c1ceb8",
+      "Board_Connector"
     ]
   ],
   "text_variables": {}

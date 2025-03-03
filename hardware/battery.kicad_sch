@@ -2366,7 +2366,7 @@
 		)
 		(uuid "5e884877-fdd7-4245-a629-a1d301eaf241")
 	)
-	(hierarchical_label "NTC_2"
+	(hierarchical_label "NTC_2_PS"
 		(shape output)
 		(at 245.11 124.46 0)
 		(effects
