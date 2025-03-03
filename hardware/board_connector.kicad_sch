@@ -5,6 +5,285 @@
 	(uuid "f610fd08-b7a0-4c8e-a6bc-3258a0bbabbc")
 	(paper "A5")
 	(lib_symbols
+		(symbol "PH1-08-UA_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J9"
+				(at 4.318 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PH1-08-UA"
+				(at 4.318 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "HDRV8W64P0X254_1X8_2032X250X888P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Conn Unshrouded Header HDR 8 POS 2.54mm Solder ST Thru-Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.881"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Adam Tech"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PH1-08-UA"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "737-PH1-08-UA"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-08-UA?qs=HoCaDK9Nz5fwefM2nMHXHA%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "PH1-08-UA"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ph1-08-ua/adam-tech?utm_currency=USD&region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PH1-08-UA_1_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 15.24 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:61301611821"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1203,6 +1482,48 @@
 			)
 		)
 	)
+	(no_connect
+		(at 91.44 64.77)
+		(uuid "00bb50a0-882d-4282-b9a7-ab7b17d2201b")
+	)
+	(no_connect
+		(at 91.44 69.85)
+		(uuid "0f64f5f1-8837-41e5-bbba-5599feb57d08")
+	)
+	(no_connect
+		(at 91.44 62.23)
+		(uuid "5e88da46-1d14-4b19-b9b9-f28b152dab70")
+	)
+	(no_connect
+		(at 91.44 59.69)
+		(uuid "77d1ba3e-06c8-4690-9c6d-bf66ba218162")
+	)
+	(no_connect
+		(at 91.44 74.93)
+		(uuid "9c826335-5e25-4f9e-8d38-56470528b111")
+	)
+	(no_connect
+		(at 91.44 77.47)
+		(uuid "a13781d9-6942-407e-9207-a4e67930af2b")
+	)
+	(no_connect
+		(at 91.44 67.31)
+		(uuid "cfe00fda-7979-4bcb-9f6a-ccdd501ca169")
+	)
+	(no_connect
+		(at 91.44 72.39)
+		(uuid "dc6737d0-d125-493b-95c0-fba6d2697d74")
+	)
+	(wire
+		(pts
+			(xy 34.29 77.47) (xy 55.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cb70a4-12bf-4270-a353-987942c5af09")
+	)
 	(wire
 		(pts
 			(xy 142.24 77.47) (xy 121.92 77.47)
@@ -1212,6 +1533,46 @@
 			(type default)
 		)
 		(uuid "15a89c7e-4693-4158-ab38-5753e79d6e60")
+	)
+	(polyline
+		(pts
+			(xy 72.39 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cf3436-7664-4ede-a8b5-82e245a4c2b3")
+	)
+	(polyline
+		(pts
+			(xy 72.39 74.93) (xy 90.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abc8d2f-a550-4526-a7be-be4710b19455")
+	)
+	(polyline
+		(pts
+			(xy 72.39 64.77) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7be1ca-c404-4af5-ac5d-f7a22a00d64c")
+	)
+	(wire
+		(pts
+			(xy 34.29 80.01) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731aa614-2433-4d48-9be6-5e0282908cfc")
 	)
 	(wire
 		(pts
@@ -1225,33 +1586,63 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 69.85 77.47)
+			(xy 34.29 59.69) (xy 55.88 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fad5990-532c-466f-a8e9-632aeac93527")
+		(uuid "7eb6f7e7-c07f-498c-a7eb-6fcca841db4a")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 69.85 59.69) (xy 91.44 59.69)
+			(xy 72.39 72.39) (xy 90.17 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf3905ab-9a70-43d5-aa8c-384c29a0b243")
+		(uuid "81c5db22-962f-48eb-9873-cb19dbec96da")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 69.85 77.47) (xy 91.44 77.47)
+			(xy 72.39 77.47) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0b20b48-ee13-4ed5-a95b-5861b5400d2f")
+		(uuid "874d55da-16ef-4270-aae9-69fa576fd02e")
+	)
+	(polyline
+		(pts
+			(xy 72.39 59.69) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78402b3-a260-4621-b89c-b1564ef26708")
+	)
+	(polyline
+		(pts
+			(xy 72.39 69.85) (xy 90.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6e574b-e38b-470e-bcf9-0c68bf97ecf4")
+	)
+	(polyline
+		(pts
+			(xy 72.39 67.31) (xy 90.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32495be-2091-4a54-a0e2-f1597e9b325f")
 	)
 	(wire
 		(pts
@@ -1263,6 +1654,30 @@
 		)
 		(uuid "f765e08a-2f66-4209-844e-e02d96b218c6")
 	)
+	(rectangle
+		(start 60.96 58.42)
+		(end 106.68 80.01)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 892d3ad9-e435-4040-b7b4-2678e36bf1ca)
+	)
+	(rectangle
+		(start 22.098 103.632)
+		(end 75.438 119.38)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid feecc4d6-f181-413d-8bb9-17091892a351)
+	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 110.49 58.674 0)
@@ -1272,6 +1687,26 @@
 			)
 		)
 		(uuid "108cdc7f-df4a-404e-85f7-ddb2246bf10b")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 73.406 62.23 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "18f71262-4186-4dde-935d-b8156a09a5e0")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 73.406 74.93 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "3b8844e2-4326-4a2c-ae24-73e4fea5dffe")
 	)
 	(text "Power \nSupply\n"
 		(exclude_from_sim no)
@@ -1283,9 +1718,39 @@
 		)
 		(uuid "42c58020-f2a1-4de7-8d2e-2ee6fed7e938")
 	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 73.406 69.85 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "4befb2b4-ffdb-4189-a636-5d11a7d7f5d0")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 73.406 67.31 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "5c385f98-cf9b-47df-9168-25395e020f46")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 73.406 72.39 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "6b873142-36ae-4d46-aac4-a60365475963")
+	)
 	(text "RF"
 		(exclude_from_sim no)
-		(at 101.854 68.834 0)
+		(at 66.04 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1293,9 +1758,39 @@
 		)
 		(uuid "b9255c67-4284-48c7-8e3c-6afdf7639563")
 	)
-	(text "Sockets/pins are connected in following fashion:\nMCU -> Power Supply + RF -> RF \nAll boards are connected by 3V3 and GND pins. "
+	(text "<"
 		(exclude_from_sim no)
-		(at 26.162 117.348 0)
+		(at 73.406 59.69 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "c810d179-8d04-477f-82f6-53aa3f7012b1")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 73.406 64.77 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "c9eb9d56-1fde-4864-8e3a-c00ec3c13646")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 73.406 77.47 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "efa61497-7f26-4f9e-bc6f-65c97620ba33")
+	)
+	(text "Sockets/pins are connected in following fashion:\nMCU -> Power Supply + RF -> RF \nAll boards are connected by 3V3 and GND pins. \n\nOn Power Supply board do not connect to any \npin(s) from RF connector aside from 3V3 and GND."
+		(exclude_from_sim no)
+		(at 23.876 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1337,6 +1832,17 @@
 		)
 		(uuid "1b2565b2-981c-4fe4-865e-5b6e7d1c3684")
 	)
+	(hierarchical_label "nSEL_RF"
+		(shape output)
+		(at 55.88 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2127f497-ae2f-4d82-82f2-cc34297e2150")
+	)
 	(hierarchical_label "BYPASS_CC1"
 		(shape bidirectional)
 		(at 121.92 52.07 0)
@@ -1359,6 +1865,17 @@
 		)
 		(uuid "2479c59b-5c4a-40b7-9f6e-1473ac0d4dce")
 	)
+	(hierarchical_label "SCLK_RF"
+		(shape output)
+		(at 55.88 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25b0bc54-a6be-4339-a7be-d1f77822f37a")
+	)
 	(hierarchical_label "USB_SCL_PS"
 		(shape output)
 		(at 91.44 46.99 180)
@@ -1380,6 +1897,17 @@
 			(justify right)
 		)
 		(uuid "2a070926-95e6-41af-9f76-6eccf0c467a7")
+	)
+	(hierarchical_label "SDI_RF"
+		(shape output)
+		(at 55.88 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "330f0a43-2870-4932-b00f-6c3adbdbed4b")
 	)
 	(hierarchical_label "INT_N_PS"
 		(shape output)
@@ -1447,39 +1975,6 @@
 		)
 		(uuid "5fbdcee1-ac49-4e81-9687-da85325c3663")
 	)
-	(hierarchical_label "nSEL_RF"
-		(shape output)
-		(at 91.44 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ffc6ffd-ea4f-4dee-a6a0-cb02afdcfb89")
-	)
-	(hierarchical_label "COMMAND_DONE_RF"
-		(shape input)
-		(at 91.44 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6124d328-3f7a-4b56-af04-3b58db0880ce")
-	)
-	(hierarchical_label "SCLK_RF"
-		(shape output)
-		(at 91.44 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71d9d54b-46d2-4e5a-a80c-2a4f2ba3a65a")
-	)
 	(hierarchical_label "SDO"
 		(shape output)
 		(at 121.92 67.31 0)
@@ -1491,16 +1986,16 @@
 		)
 		(uuid "765b2796-6dac-4735-b405-c4f46a3ab6ef")
 	)
-	(hierarchical_label "nIRQ_RF"
+	(hierarchical_label "COMMAND_DONE_RF"
 		(shape input)
-		(at 91.44 72.39 180)
+		(at 55.88 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8738eed0-9b7a-49de-8cde-2de3d91fc647")
+		(uuid "905381e5-4bf5-4208-9171-c4b403b711d1")
 	)
 	(hierarchical_label "nIRQ"
 		(shape output)
@@ -1523,17 +2018,6 @@
 			(justify left)
 		)
 		(uuid "9c22b321-28f9-44c2-8fb3-f4f1f1bb44bf")
-	)
-	(hierarchical_label "SDI_RF"
-		(shape output)
-		(at 91.44 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab611e89-0e50-42ed-a8a9-8f2e36642c50")
 	)
 	(hierarchical_label "ADC_VBUS_PS"
 		(shape input)
@@ -1568,17 +2052,6 @@
 		)
 		(uuid "e0822e08-74ac-42b7-8ce3-16a19250ab23")
 	)
-	(hierarchical_label "SDO_RF"
-		(shape input)
-		(at 91.44 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1351782-55ee-4c3b-85c4-6e2c47a0da5f")
-	)
 	(hierarchical_label "FLT{slash}"
 		(shape output)
 		(at 121.92 41.91 0)
@@ -1611,6 +2084,94 @@
 			(justify right)
 		)
 		(uuid "f467e411-3784-433b-bd15-ae2a1158f83d")
+	)
+	(hierarchical_label "SDO_RF"
+		(shape input)
+		(at 55.88 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9a415bd-1d9d-42f4-ad21-284c0ac3429e")
+	)
+	(hierarchical_label "nIRQ_RF"
+		(shape input)
+		(at 55.88 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffad2559-ec82-4a3c-91a2-71332ca4429e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "157af76b-8547-4ce8-b833-f92fe478a59f")
+		(property "Reference" "#PWR080"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d01b921-d5ea-4fdc-9e1d-b46a2aa678da")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d927d343-1b4e-4356-add7-d3a6e8c1ceb8"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1673,6 +2234,71 @@
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d927d343-1b4e-4356-add7-d3a6e8c1ceb8"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 34.29 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b75014fe-46ee-4276-9f93-fd0575fd0894")
+		(property "Reference" "#PWR079"
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 33.528 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7446012d-a10b-45d6-8a00-a67ea70bac74")
+		)
+		(instances
+			(project "obvod"
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d927d343-1b4e-4356-add7-d3a6e8c1ceb8"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1838,16 +2464,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 69.85 59.69 0)
+		(lib_name "PH1-08-UA_1")
+		(lib_id "SamacSys_Parts:PH1-08-UA")
+		(at 55.88 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6fcd2f0-2ffb-44eb-ba85-20a2639fb5a0")
-		(property "Reference" "#PWR096"
-			(at 69.85 63.5 0)
+		(uuid "d56f7efc-494e-4e86-940a-f056dae13e01")
+		(property "Reference" "J9"
+			(at 60.198 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH1-08-UA"
+			(at 60.198 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV8W64P0X254_1X8_2032X250X888P"
+			(at 72.39 154.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
+			(at 72.39 254.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Unshrouded Header HDR 8 POS 2.54mm Solder ST Thru-Hole"
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,48 +2520,104 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 69.088 55.626 0)
+		(property "Height" "8.881"
+			(at 72.39 454.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 69.85 59.69 0)
+		(property "Manufacturer_Name" "Adam Tech"
+			(at 72.39 554.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 59.69 0)
+		(property "Manufacturer_Part_Number" "PH1-08-UA"
+			(at 72.39 654.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Mouser Part Number" "737-PH1-08-UA"
+			(at 72.39 754.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-08-UA?qs=HoCaDK9Nz5fwefM2nMHXHA%3D%3D"
+			(at 72.39 854.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PH1-08-UA"
+			(at 72.39 954.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ph1-08-ua/adam-tech?utm_currency=USD&region=nac"
+			(at 72.39 1054.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5175c320-770a-40f1-bc77-1ffd037b7e43")
+		)
+		(pin "8"
+			(uuid "2594ce75-fbdc-41ca-84b2-07c8c95aa42a")
+		)
+		(pin "5"
+			(uuid "bdf19a31-b0e5-417f-abc7-e80af56c6736")
+		)
+		(pin "6"
+			(uuid "85b238c8-efe5-4c68-85dc-71d49b6e04c4")
 		)
 		(pin "1"
-			(uuid "f2b4d0c5-43d0-40bd-a66a-88f85f0178d7")
+			(uuid "33714315-91a8-4d6b-ae43-70d8d9601111")
+		)
+		(pin "2"
+			(uuid "c56359ed-04f8-48e7-bbc6-0082cc4a0b5a")
+		)
+		(pin "3"
+			(uuid "f5e69548-e11c-4df3-ba38-4a82b5508027")
+		)
+		(pin "7"
+			(uuid "f67b237f-b427-40ea-ae9c-1516c4b0d5ba")
 		)
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d927d343-1b4e-4356-add7-d3a6e8c1ceb8"
-					(reference "#PWR096")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2081,72 +2802,6 @@
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d927d343-1b4e-4356-add7-d3a6e8c1ceb8"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcd6b2fc-1128-4433-9d3f-9c91b7d778be")
-		(property "Reference" "#PWR097"
-			(at 69.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e865090-5a66-4b66-bb00-492ef9b8dc32")
-		)
-		(instances
-			(project ""
-				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d927d343-1b4e-4356-add7-d3a6e8c1ceb8"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
