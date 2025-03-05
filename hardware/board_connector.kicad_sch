@@ -1909,7 +1909,7 @@
 		)
 		(uuid "330f0a43-2870-4932-b00f-6c3adbdbed4b")
 	)
-	(hierarchical_label "INT_N_PS"
+	(hierarchical_label "INT_N"
 		(shape output)
 		(at 121.92 49.53 0)
 		(effects
@@ -1920,7 +1920,7 @@
 		)
 		(uuid "35b45a75-deb5-4b55-967a-9d33c761b96c")
 	)
-	(hierarchical_label "USB_SDA_PS"
+	(hierarchical_label "USB_SDA"
 		(shape bidirectional)
 		(at 121.92 44.45 0)
 		(effects
@@ -1942,7 +1942,7 @@
 		)
 		(uuid "3a81c93f-ebd0-435c-8be3-5bbdedd47d58")
 	)
-	(hierarchical_label "USB_SCL_PS"
+	(hierarchical_label "USB_SCL"
 		(shape input)
 		(at 121.92 46.99 0)
 		(effects

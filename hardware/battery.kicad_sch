@@ -2637,7 +2637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b2aca16-d26f-4214-92d3-b22d6641d6cb")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 57.15 132.0799 0)
 			(effects
 				(font
@@ -2655,7 +2655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.832 133.35 90)
 			(effects
 				(font
@@ -2691,7 +2691,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2849,7 +2849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55fb8ab6-90dd-42e6-b7e6-1f5f0dbdcd3a")
-		(property "Reference" "U4"
+		(property "Reference" "BAT1"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 		(instances
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
-					(reference "U4")
+					(reference "BAT1")
 					(unit 1)
 				)
 			)
@@ -3063,7 +3063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6822aad3-71dc-473a-82b5-5e6e24c95c59")
-		(property "Reference" "U5"
+		(property "Reference" "BAT2"
 			(at 189.23 62.23 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
-					(reference "U5")
+					(reference "BAT2")
 					(unit 1)
 				)
 			)
@@ -3507,7 +3507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.4552 82.55 0)
 			(effects
 				(font
@@ -3874,7 +3874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7649145-d822-47bd-b4d9-ad12c05433d2")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 113.03 63.4999 0)
 			(effects
 				(font
@@ -3892,7 +3892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.712 64.77 90)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f61c7da5-11ee-4b50-a688-248a75ac3e8f"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
