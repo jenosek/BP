@@ -1618,7 +1618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f555d32-117f-44f8-be6b-2bbb70efa17e")
-		(property "Reference" "C26"
+		(property "Reference" "C13"
 			(at 162.56 92.7099 0)
 			(effects
 				(font
@@ -1672,7 +1672,7 @@
 		(instances
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "C26")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1688,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b297a0e-c0ac-4de7-8d9d-20a7e632185b")
-		(property "Reference" "R24"
+		(property "Reference" "R18"
 			(at 88.9 64.7699 0)
 			(effects
 				(font
@@ -1742,7 +1742,7 @@
 		(instances
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "R24")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1890,7 +1890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e929ab5-313e-44a4-80b9-599ebaf898b9")
-		(property "Reference" "R28"
+		(property "Reference" "R22"
 			(at 205.74 92.7099 0)
 			(effects
 				(font
@@ -1944,7 +1944,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "R28")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1960,7 +1960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8294ba06-1a6e-42c0-a8f8-06f30ce6a94d")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 193.04 92.7099 0)
 			(effects
 				(font
@@ -2014,7 +2014,7 @@
 		(instances
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "R27")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2030,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98818bc1-07dc-4f7a-8700-9f341b0e517c")
-		(property "Reference" "U2"
+		(property "Reference" "IC5"
 			(at 139.3541 91.44 0)
 			(effects
 				(font
@@ -2123,7 +2123,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "U2")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e3bd00a-46be-41cc-beb2-411cae3eed50")
-		(property "Reference" "R25"
+		(property "Reference" "R19"
 			(at 101.6 64.7699 0)
 			(effects
 				(font
@@ -2193,7 +2193,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "R25")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2209,7 +2209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5e6512-a942-49a9-a8b5-66101d84ecf9")
-		(property "Reference" "C29"
+		(property "Reference" "C12"
 			(at 175.26 58.4199 0)
 			(effects
 				(font
@@ -2263,7 +2263,7 @@
 		(instances
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "C29")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2410,7 +2410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7eb46e9-360e-4025-ad13-a929e7495b2c")
-		(property "Reference" "C28"
+		(property "Reference" "C11"
 			(at 162.56 58.4199 0)
 			(effects
 				(font
@@ -2464,7 +2464,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "C28")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2480,7 +2480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b42a6502-b4ce-4e0b-b608-70f43ad8c683")
-		(property "Reference" "C27"
+		(property "Reference" "C14"
 			(at 175.26 92.7099 0)
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "C27")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2616,7 +2616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dab1c148-7722-40a6-b03a-5e80d6b8d6ed")
-		(property "Reference" "R26"
+		(property "Reference" "R20"
 			(at 114.3 64.7699 0)
 			(effects
 				(font
@@ -2670,7 +2670,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/fdd3d46b-c5ef-429c-ba04-a467d2c6100e"
-					(reference "R26")
+					(reference "R20")
 					(unit 1)
 				)
 			)

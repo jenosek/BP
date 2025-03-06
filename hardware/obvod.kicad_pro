@@ -592,32 +592,32 @@
       "DC-DC-Converter"
     ],
     [
-      "d3fe727f-e59c-4b25-a97d-baf79ecd8dec",
-      "SWD"
-    ],
-    [
-      "67c85143-d51e-4a89-ab5a-3edcba0d09a9",
-      "MCU"
-    ],
-    [
-      "a0c7114d-8344-4dfb-8086-bd9d063d8594",
-      "Camera"
-    ],
-    [
       "540adf6e-5b6f-4df1-af18-d763618ddc56",
       "USB-C"
+    ],
+    [
+      "fdd3d46b-c5ef-429c-ba04-a467d2c6100e",
+      "USB-C_Interface"
+    ],
+    [
+      "d3fe727f-e59c-4b25-a97d-baf79ecd8dec",
+      "SWD"
     ],
     [
       "f28d5476-62ad-47ee-95fb-15cfd356e27c",
       "USB-B_micro"
     ],
     [
+      "a0c7114d-8344-4dfb-8086-bd9d063d8594",
+      "Camera"
+    ],
+    [
       "21633f2b-133b-44f0-ac2e-c32a8c0675be",
       "RF"
     ],
     [
-      "fdd3d46b-c5ef-429c-ba04-a467d2c6100e",
-      "USB-C_Interface"
+      "67c85143-d51e-4a89-ab5a-3edcba0d09a9",
+      "MCU"
     ],
     [
       "d927d343-1b4e-4356-add7-d3a6e8c1ceb8",

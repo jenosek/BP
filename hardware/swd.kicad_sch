@@ -1359,7 +1359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "423f0bfb-2133-4525-bba0-e94178db512d")
-		(property "Reference" "IC4"
+		(property "Reference" "IC6"
 			(at 146.05 88.8999 90)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d3fe727f-e59c-4b25-a97d-baf79ecd8dec"
-					(reference "IC4")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -1728,7 +1728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a624e711-1b66-4eda-93cd-1d287d9822f8")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 143.51 42.6719 90)
 			(effects
 				(font
@@ -1854,7 +1854,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/d3fe727f-e59c-4b25-a97d-baf79ecd8dec"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)

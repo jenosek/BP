@@ -141,175 +141,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -415,6 +246,215 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:BAV19WS"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BAV19WS"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SODFL2512X90N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/en/Product/downloadPDF/BAV19WS"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Small Signal Switching Diodes (VRRM=50-350V) - BAV19WS , 120V, 44, 200mW, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "PANJIT"
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BAV19WS"
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 11.43 -897.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 11.43 -997.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BAV19WS_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1194,6 +1234,263 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:LO_Q976-PS-25"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LO_Q976-PS-25"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC1608X80N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.osram-os.com/Graphics/XPic6/00128771_0.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD Orange, 605nm 280mcd, 20mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ams OSRAM"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LO Q976-PS-25"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "720-LOQ976-PS-25"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LO-Q976-PS-25?qs=K5ta8V%252BWhtZ%2Fw4JJd%2F1Gew%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LO Q976-PS-25"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/loq976-ps-25/osram-opto-semiconductors?region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LO_Q976-PS-25_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:SRN8040-1R0Y"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1403,215 +1700,6 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:TS4148_RBG"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TS4148_RBG"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DIOC2012X85N"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/395/TS4148%20RZG%20E12-248814.pdf"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diodes - General Purpose, Power, Switching 75V, 0.15A, Switching Diode & Array"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.85"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Taiwan Semiconductor"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TS4148 RBG"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "821-TS4148RBG"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/TS4148-RBG?qs=5aG0NVq1C4zjFQ%2F0tPTeiA%3D%3D"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TS4148 RBG"
-				(at 11.43 -897.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ts4148-rbg/taiwan-semiconductor?region=nac"
-				(at 11.43 -997.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TS4148_RBG_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1734,16 +1822,16 @@
 		(uuid "64abf8fb-bf02-4ff2-a7d9-74f303a661f1")
 	)
 	(junction
+		(at 66.04 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6847a939-34a3-4418-885b-c49e4a2ce0a1")
+	)
+	(junction
 		(at 38.1 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6968868f-d2e6-4b91-9150-e3dd4a095914")
-	)
-	(junction
-		(at 66.04 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84db38b6-030d-4d0b-8e68-3d289e78b65c")
 	)
 	(junction
 		(at 149.86 58.42)
@@ -1899,6 +1987,36 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 100.33) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e82be3e-48e4-4b54-90ca-bda9d197d095")
+	)
+	(wire
+		(pts
+			(xy 66.04 120.65) (xy 82.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb924ed-b645-4ebf-a61d-a2514a197476")
+	)
+	(polyline
+		(pts
+			(xy 66.04 123.19) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fac186b-a647-4ae9-9baa-739a5ff2123a")
+	)
+	(wire
+		(pts
 			(xy 96.52 24.13) (xy 96.52 68.58)
 		)
 		(stroke
@@ -1926,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "6349be2a-f86e-4236-a98b-604686e42d7f")
+	)
+	(wire
+		(pts
+			(xy 66.04 100.33) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653b6859-b0d9-4273-8cdc-3f187b125974")
 	)
 	(wire
 		(pts
@@ -2049,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 82.55 120.65)
+			(xy 50.8 120.65) (xy 66.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2099,6 +2227,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 119.38) (xy 66.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f6246b-ab09-4625-aa0e-6858496c258c")
+	)
+	(wire
+		(pts
 			(xy 104.14 63.5) (xy 104.14 68.58)
 		)
 		(stroke
@@ -2106,16 +2244,6 @@
 			(type default)
 		)
 		(uuid "b603bd6c-a8f8-4c2b-a9f3-76aed978f811")
-	)
-	(wire
-		(pts
-			(xy 66.04 111.76) (xy 66.04 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b940ec51-3dcf-45d2-abe5-4fb519103934")
 	)
 	(wire
 		(pts
@@ -2139,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 81.28 91.44)
+			(xy 81.28 92.71) (xy 81.28 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2229,16 +2357,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 50.8 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e160aa9c-e0a3-47f9-bdc8-9621512a9519")
-	)
-	(wire
-		(pts
 			(xy 99.06 68.58) (xy 99.06 58.42)
 		)
 		(stroke
@@ -2246,16 +2364,6 @@
 			(type default)
 		)
 		(uuid "e54e5f0c-da83-4f60-8f4c-407bce8118ad")
-	)
-	(wire
-		(pts
-			(xy 66.04 100.33) (xy 66.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f985320e-84af-4fd9-b4e7-c7fc83aa9d91")
 	)
 	(wire
 		(pts
@@ -2276,6 +2384,39 @@
 			(type default)
 		)
 		(uuid "fed056f1-3734-4af3-9add-506a1210f2db")
+	)
+	(rectangle
+		(start 38.1 154.94)
+		(end 95.25 165.1)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b345f3b-c519-4465-b047-eaf2ab6da272)
+	)
+	(text "^"
+		(exclude_from_sim no)
+		(at 66.04 126.238 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "721f6fa5-d626-4657-8b61-3801ffbf3cfd")
+	)
+	(text "Maximum rating of STAT's output sink current is 6 mA\n\nR = (5-1.75)/(6e-3) = 542 Ω"
+		(exclude_from_sim no)
+		(at 39.37 159.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cd7b03f-5665-4a25-90eb-97776287d8d9")
 	)
 	(hierarchical_label "NTC_1"
 		(shape input)
@@ -2353,7 +2494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03aa8780-dc3d-4c00-9b6f-88480b04727b")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 41.91 95.2499 0)
 			(effects
 				(font
@@ -2407,7 +2548,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2541,6 +2682,148 @@
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LO_Q976-PS-25")
+		(at 66.04 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f4e22b4-4069-44ef-a427-a8213adbba65")
+		(property "Reference" "D2"
+			(at 72.39 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LO_Q976-PS-25"
+			(at 72.39 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEDC1608X80N"
+			(at -27.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic6/00128771_0.pdf"
+			(at -127.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Orange, 605nm 280mcd, 20mA"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at -327.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ams OSRAM"
+			(at -427.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LO Q976-PS-25"
+			(at -527.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-LOQ976-PS-25"
+			(at -627.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LO-Q976-PS-25?qs=K5ta8V%252BWhtZ%2Fw4JJd%2F1Gew%3D%3D"
+			(at -727.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LO Q976-PS-25"
+			(at -827.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/loq976-ps-25/osram-opto-semiconductors?region=nac"
+			(at -927.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40f5b86b-9519-4081-b2d0-2dbf7e4ac994")
+		)
+		(pin "1"
+			(uuid "e04ed853-af29-4b28-8475-047c57e7efeb")
+		)
+		(instances
+			(project ""
+				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2691,32 +2974,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 66.04 107.95 270)
+		(lib_id "SamacSys_Parts:BAV19WS")
+		(at 168.91 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ea93968-d671-42aa-9c80-704f0dbc136b")
+		(fields_autoplaced yes)
+		(uuid "40b18959-c855-4d7b-8acf-bb3ff45f5cd3")
 		(property "Reference" "D1"
-			(at 69.342 106.68 90)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 69.85 109.22 90)
+		(property "Value" "BAV19WS"
+			(at 176.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 66.04 107.95 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 180.34 134.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/en/Product/downloadPDF/BAV19WS"
+			(at 180.34 234.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal Switching Diodes (VRRM=50-350V) - BAV19WS , 120V, 44, 200mW, SOD-323"
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,32 +3028,84 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 66.04 107.95 0)
+		(property "Height" "0.9"
+			(at 180.34 434.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 66.04 107.95 0)
+		(property "Manufacturer_Name" "PANJIT"
+			(at 180.34 534.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1636cb69-b4b7-4088-9881-33a79a3b909a")
+		(property "Manufacturer_Part_Number" "BAV19WS"
+			(at 180.34 634.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 180.34 734.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 180.34 834.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 180.34 934.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 180.34 1034.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "f7a642f0-6ca5-4624-bd26-f2cfc551c4c3")
+			(uuid "b72cd722-9805-4688-8663-d9314bac0806")
+		)
+		(pin "1"
+			(uuid "d59aaa4f-d50f-4c1d-90be-b053de1d5382")
 		)
 		(instances
-			(project "obvod"
+			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
 					(reference "D1")
 					(unit 1)
@@ -2917,7 +3273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 57.4548 0)
 			(effects
 				(font
@@ -3035,7 +3391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d7c491-df47-4338-9924-85db3b0d95a1")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 143.51 66.0399 0)
 			(effects
 				(font
@@ -3089,7 +3445,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3112,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "542"
 			(at 70.358 97.79 0)
 			(effects
 				(font
@@ -3120,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 96.52 90)
 			(effects
 				(font
@@ -3229,149 +3585,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TS4148_RBG")
-		(at 168.91 36.83 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76fbf5d6-ad50-47a4-b7cf-9663bbfe99fa")
-		(property "Reference" "D2"
-			(at 176.53 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS4148_RBG"
-			(at 176.53 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIOC2012X85N"
-			(at 180.34 -60.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/395/TS4148%20RZG%20E12-248814.pdf"
-			(at 180.34 -160.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes - General Purpose, Power, Switching 75V, 0.15A, Switching Diode & Array"
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.85"
-			(at 180.34 -360.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Taiwan Semiconductor"
-			(at 180.34 -460.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TS4148 RBG"
-			(at 180.34 -560.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "821-TS4148RBG"
-			(at 180.34 -660.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/TS4148-RBG?qs=5aG0NVq1C4zjFQ%2F0tPTeiA%3D%3D"
-			(at 180.34 -760.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TS4148 RBG"
-			(at 180.34 -860.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ts4148-rbg/taiwan-semiconductor?region=nac"
-			(at 180.34 -960.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df11f262-e2c2-4b99-9061-276eadcebdcb")
-		)
-		(pin "1"
-			(uuid "0a2c5be3-a4eb-4a48-a4b9-919e571f95ae")
-		)
-		(instances
-			(project "obvod"
-				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 81.28 100.33 0)
+		(at 81.28 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3379,8 +3594,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7de42e13-80d4-416d-aa59-a0e158c5ecf2")
-		(property "Reference" "R5"
-			(at 83.82 99.0599 0)
+		(property "Reference" "R7"
+			(at 83.82 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3604,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 83.82 101.5999 0)
+			(at 83.82 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,8 +3612,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 79.502 100.33 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 79.502 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 100.33 0)
+			(at 81.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3631,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 100.33 0)
+			(at 81.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3648,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3515,7 +3730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92487cfd-313a-45c5-848e-c9d5527684a5")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 54.61 129.5399 0)
 			(effects
 				(font
@@ -3569,7 +3784,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3577,7 +3792,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 104.14 0)
+		(at 81.28 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3586,7 +3801,7 @@
 		(fields_autoplaced yes)
 		(uuid "97546c0b-873f-44f5-91a9-b2689370ffb9")
 		(property "Reference" "#PWR04"
-			(at 81.28 110.49 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3810,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 109.22 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 104.14 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 104.14 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 104.14 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +4187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0e6aa2f-8eb0-4aba-93ec-1cb207bfa82b")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 101.6 129.5399 0)
 			(effects
 				(font
@@ -4026,7 +4241,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4324,22 +4539,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eacc3343-63e9-4987-b8bb-3f9442f3ded6")
-		(property "Reference" "R9"
-			(at 161.29 43.1799 0)
+		(property "Reference" "R5"
+			(at 166.37 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 161.29 45.7199 0)
+			(at 166.37 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4378,7 +4593,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4459,7 +4674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f06d3165-b7c6-4319-bcb4-b134aa4f96de")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 86.36 123.952 90)
 			(effects
 				(font
@@ -4511,7 +4726,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/eca20acd-1ab9-4713-a6f3-0ad5760dd36d"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)

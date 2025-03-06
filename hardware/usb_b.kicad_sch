@@ -1230,8 +1230,8 @@
 		(uuid "ec4568ef-3cb3-48fc-a832-3e07307bcf49")
 	)
 	(rectangle
-		(start 69.85 72.39)
-		(end 90.17 76.2)
+		(start 68.58 72.39)
+		(end 91.44 76.2)
 		(stroke
 			(width 0)
 			(type dot)
@@ -1317,7 +1317,7 @@
 		)
 		(uuid "5977d814-c309-4d9b-93fe-1b361c44a02a")
 	)
-	(text "Configure as device"
+	(text "Configured as device"
 		(exclude_from_sim no)
 		(at 80.01 74.422 0)
 		(effects
@@ -1369,7 +1369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09b24549-7db4-471d-8587-2e1d7a2d2c7d")
-		(property "Reference" "U3"
+		(property "Reference" "IC7"
 			(at 106.68 52.07 0)
 			(effects
 				(font
@@ -1438,7 +1438,7 @@
 		(instances
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f28d5476-62ad-47ee-95fb-15cfd356e27c"
-					(reference "U3")
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -1519,7 +1519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "593db546-ed0b-4507-8e78-098f06ccc9f2")
-		(property "Reference" "C31"
+		(property "Reference" "C15"
 			(at 92.71 44.4499 0)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f28d5476-62ad-47ee-95fb-15cfd356e27c"
-					(reference "C31")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1721,7 +1721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ceb63a-890f-43dc-8de3-07aa6a4d21d4")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 60.96 49.53 0)
 			(effects
 				(font
@@ -1785,7 +1785,7 @@
 		(instances
 			(project ""
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f28d5476-62ad-47ee-95fb-15cfd356e27c"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
