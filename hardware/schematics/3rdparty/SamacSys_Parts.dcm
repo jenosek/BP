@@ -180,4 +180,59 @@ K
 F http://www.osram-os.com/Graphics/XPic6/00128771_0.pdf
 $ENDCMP
 #
+$CMP ECS-80-10-30B-CWN-TR
+D Crystals 8MHz 10ppm 10pF -40C +85C
+K
+F https://www.mouser.se/datasheet/2/122/ecx_53b-3074848.pdf
+$ENDCMP
+#
+$CMP SI4468-A2A-IMR
+D RF Transceiver TXRX SubG +20dBm
+K
+F https://www.silabs.com/documents/public/data-sheets/Si4468-7.pdf
+$ENDCMP
+#
+$CMP TG2520SMN_30.000M-MCGNNM0
+D TCXO Oscillators TCXO 30 MHz, 2.8V 3.3V 0.5PPM -40 85C NON O/E 1K TR
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG2520SMN&lang=en
+$ENDCMP
+#
+$CMP LQW15AN20NG00D
+D Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.02 uH +/-2% 370mA Idc Q:25
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf
+$ENDCMP
+#
+$CMP MMZ1608D241CTA00
+D Ferrite Beads Multi-Layer 240Ohm 25% 100MHz 300mA 600mOhm DCR 0603 T/R
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz1608_en.pdf
+$ENDCMP
+#
+$CMP LQW15AN62NG00D
+D Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.062 uH +/-2% 145mA Idc Q:20
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf
+$ENDCMP
+#
+$CMP 61301611821
+D WURTH ELEKTRONIK - 61301611821 - PCB Receptacle, Board-to-Board, 2.54 mm, 1 Rows, 16 Contacts, Through Hole Mount, WR-PHD Series
+K
+F https://www.we-online.com/catalog/datasheet/61301611821.pdf
+$ENDCMP
+#
+$CMP PH1-08-UA
+D Conn Unshrouded Header HDR 8 POS 2.54mm Solder ST Thru-Hole
+K
+F https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf
+$ENDCMP
+#
+$CMP PRT-09279
+D 2.54mm pitch Socket, single row, straight, 8 position
+K
+F https://cdn.sparkfun.com/datasheets/Prototyping/SP-140520-XX-001.pdf
+$ENDCMP
+#
 #End Doc Library
+

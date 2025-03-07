@@ -927,4 +927,257 @@ P 4 0 1 10 310 170 280 140 250 200 310 170 F
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model ECS-80-10-30B-CWN-TR
+#/1272915/1555842/2.50/4/4/Crystal or Oscillator
+DEF ECS-80-10-30B-CWN-TR Y 0 30 Y Y 1 F N
+F0 "Y" 1150 300 50 H V L CNN
+F1 "ECS-80-10-30B-CWN-TR" 1150 200 50 H V L CNN
+F2 "ECS801830BAGNTR" 1150 100 50 H I L CNN
+F3 "https://www.mouser.se/datasheet/2/122/ecx_53b-3074848.pdf" 1150 0 50 H I L CNN
+F4 "Crystals 8MHz 10ppm 10pF -40C +85C" 1150 -100 50 H I L CNN "Description"
+F5 "0.85" 1150 -200 50 H I L CNN "Height"
+F6 "ECS" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ECS-80-10-30B-CWN-TR" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "520-80-10-30B-CWNT" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-80-10-30B-CWN-TR?qs=wd5RIQLrsJjScbDQ1D8y3Q%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ECS-80-10-30B-CWN-TR" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ecs-80-10-30b-cwn-tr/ecs-international?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN/OUT 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1300 -100 200 L 50 50 0 0 P
+X OUT/IN 3 1300 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SI4468-A2A-IMR
+#/1151602/1555842/2.50/21/3/Integrated Circuit
+DEF SI4468-A2A-IMR IC 0 30 Y Y 1 F N
+F0 "IC" 950 700 50 H V L CNN
+F1 "SI4468-A2A-IMR" 950 600 50 H V L CNN
+F2 "QFN50P400X400X90-21N" 950 500 50 H I L CNN
+F3 "https://www.silabs.com/documents/public/data-sheets/Si4468-7.pdf" 950 400 50 H I L CNN
+F4 "RF Transceiver TXRX SubG +20dBm" 950 300 50 H I L CNN "Description"
+F5 "0.9" 950 200 50 H I L CNN "Height"
+F6 "Silicon Labs" 950 100 50 H I L CNN "Manufacturer_Name"
+F7 "SI4468-A2A-IMR" 950 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "634-SI4468-A2A-IMR" 950 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/SI4468-A2A-IMR?qs=j6MGy4L9yX2L37vAp3Cy6g%3D%3D" 950 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "SI4468-A2A-IMR" 950 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/si4468-a2a-imr/silicon-labs" 950 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SDN 1 0 0 200 R 50 50 0 0 P
+X RXP 2 0 -100 200 R 50 50 0 0 P
+X RXN 3 0 -200 200 R 50 50 0 0 P
+X TX 4 0 -300 200 R 50 50 0 0 P
+X NC 5 0 -400 200 R 50 50 0 0 N
+X VDD_1 6 300 -1100 200 U 50 50 0 0 P
+X TXRAMP 7 400 -1100 200 U 50 50 0 0 P
+X VDD_2 8 500 -1100 200 U 50 50 0 0 P
+X GPIO0 9 600 -1100 200 U 50 50 0 0 P
+X GPIO1 10 700 -1100 200 U 50 50 0 0 P
+X NSEL 15 1100 0 200 L 50 50 0 0 P
+X SDI 14 1100 -100 200 L 50 50 0 0 P
+X SDO 13 1100 -200 200 L 50 50 0 0 P
+X SCLK 12 1100 -300 200 L 50 50 0 0 P
+X NIRQ 11 1100 -400 200 L 50 50 0 0 P
+X GND_2 21 300 700 200 D 50 50 0 0 P
+X GPIO3 20 400 700 200 D 50 50 0 0 P
+X GPIO2 19 500 700 200 D 50 50 0 0 P
+X GND_1 18 600 700 200 D 50 50 0 0 P
+X XIN 17 700 700 200 D 50 50 0 0 P
+X XOUT 16 800 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 900 500 900 -900 200 -900 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TG2520SMN_30.000M-MCGNNM0
+#/16514886/1555842/2.50/4/3/Crystal or Oscillator
+DEF TG2520SMN_30.000M-MCGNNM0 Y 0 30 Y Y 1 F N
+F0 "Y" 950 300 50 H V L CNN
+F1 "TG2520SMN_30.000M-MCGNNM0" 950 200 50 H V L CNN
+F2 "TG2520SMN30000MMCGNNM0" 950 100 50 H I L CNN
+F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_TG2520SMN&lang=en" 950 0 50 H I L CNN
+F4 "TCXO Oscillators TCXO 30 MHz, 2.8V 3.3V 0.5PPM -40 85C NON O/E 1K TR" 950 -100 50 H I L CNN "Description"
+F5 "0.8" 950 -200 50 H I L CNN "Height"
+F6 "Epson Timing" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TG2520SMN 30.000M-MCGNNM0" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "732-2520SMN30MCGNNM0" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Epson-Timing/TG2520SMN-30.000M-MCGNNM0?qs=XAiT9M5g4x8WUmlIG9y14Q%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X N.C. 1 0 -100 200 R 50 50 0 0 N
+X GND 2 1100 -100 200 L 50 50 0 0 P
+X OUT 3 1100 0 200 L 50 50 0 0 P
+X VCC 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LQW15AN20NG00D
+#/409246/1555842/2.50/2/2/Inductor
+DEF LQW15AN20NG00D L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "LQW15AN20NG00D" 650 150 50 H V L CNN
+F2 "LQW15CNR20J00B" 650 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf" 650 -50 50 H I L CNN
+F4 "Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.02 uH +/-2% 370mA Idc Q:25" 650 -150 50 H I L CNN "Description"
+F5 "0.6" 650 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "LQW15AN20NG00D" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-LQW15AN20NG00D" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW15AN20NG00D" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "LQW15AN20NG00D" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lqw15an20ng00d/murata-manufacturing?region=nac" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MMZ1608D241CTA00
+#/1165045/1555842/2.50/2/2/Ferrite Bead
+DEF MMZ1608D241CTA00 FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "MMZ1608D241CTA00" 650 200 50 H V L CNN
+F2 "BEADC1608X95N" 650 100 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz1608_en.pdf" 650 0 50 H I L CNN
+F4 "Ferrite Beads Multi-Layer 240Ohm 25% 100MHz 300mA 600mOhm DCR 0603 T/R" 650 -100 50 H I L CNN "Description"
+F5 "0.95" 650 -200 50 H I L CNN "Height"
+F6 "TDK" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MMZ1608D241CTA00" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "810-MMZ1608D241CTA00" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK/MMZ1608D241CTA00?qs=8Kz9Wu9QwqU46EpELg5SlA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MMZ1608D241CTA00" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mmz1608d241cta00/tdk?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LQW15AN62NG00D
+#/409292/1555842/2.50/2/2/Inductor
+DEF LQW15AN62NG00D L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "LQW15AN62NG00D" 650 150 50 H V L CNN
+F2 "LQW15CNR20J00B" 650 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf" 650 -50 50 H I L CNN
+F4 "Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.062 uH +/-2% 145mA Idc Q:20" 650 -150 50 H I L CNN "Description"
+F5 "0.6" 650 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "LQW15AN62NG00D" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-LQW15AN62NG00D" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW15AN62NG00D?qs=K6aI6PsrKE2P9V9gA3z7bQ%3D%3D" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "LQW15AN62NG00D" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lqw15an62ng00d/murata-manufacturing?region=nac" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 61301611821
+#/1642102/1555842/2.50/16/4/Connector
+DEF 61301611821 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "61301611821" 650 200 50 H V L CNN
+F2 "RHDR16W82P0X254_1X16_4114X250X865P" 650 100 50 H I L CNN
+F3 "https://www.we-online.com/catalog/datasheet/61301611821.pdf" 650 0 50 H I L CNN
+F4 "WURTH ELEKTRONIK - 61301611821 - PCB Receptacle, Board-to-Board, 2.54 mm, 1 Rows, 16 Contacts, Through Hole Mount, WR-PHD Series" 650 -100 50 H I L CNN "Description"
+F5 "8.65" 650 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "61301611821" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-61301611821" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61301611821?qs=xZ%2FP%252Ba9zWqYIxo6RU%252B1Wuw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 0 -1000 200 R 50 50 0 0 P
+X 12 12 0 -1100 200 R 50 50 0 0 P
+X 13 13 0 -1200 200 R 50 50 0 0 P
+X 14 14 0 -1300 200 R 50 50 0 0 P
+X 15 15 0 -1400 200 R 50 50 0 0 P
+X 16 16 0 -1500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -1600 200 -1600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PH1-08-UA
+#/1814230/1555842/2.50/8/3/Connector
+DEF PH1-08-UA J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "PH1-08-UA" 650 200 50 H V L CNN
+F2 "HDRV8W64P0X254_1X8_2032X250X888P" 650 100 50 H I L CNN
+F3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" 650 0 50 H I L CNN
+F4 "Conn Unshrouded Header HDR 8 POS 2.54mm Solder ST Thru-Hole" 650 -100 50 H I L CNN "Description"
+F5 "8.881" 650 -200 50 H I L CNN "Height"
+F6 "Adam Tech" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PH1-08-UA" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "737-PH1-08-UA" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-08-UA?qs=HoCaDK9Nz5fwefM2nMHXHA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "PH1-08-UA" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ph1-08-ua/adam-tech?utm_currency=USD&region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PRT-09279
+#/1602313/1555842/2.50/8/3/Connector
+DEF PRT-09279 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "PRT-09279" 650 200 50 H V L CNN
+F2 "RHDR8W87P0X254_1X8_2087X250X865P" 650 100 50 H I L CNN
+F3 "https://cdn.sparkfun.com/datasheets/Prototyping/SP-140520-XX-001.pdf" 650 0 50 H I L CNN
+F4 "2.54mm pitch Socket, single row, straight, 8 position" 650 -100 50 H I L CNN "Description"
+F5 "8.65" 650 -200 50 H I L CNN "Height"
+F6 "SparkFun" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PRT-09279" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "474-PRT-09279" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/SparkFun/PRT-09279?qs=WyAARYrbSnZoWn%2FpXY8lrw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "PRT-09279" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/prt-09279/sparkfun-electronics?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
