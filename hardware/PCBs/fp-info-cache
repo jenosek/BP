@@ -1,4 +1,4 @@
-24720742300603800
+24718990255584077
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91180,7 +91180,7 @@ DQG_VSON-CLIP
 MOSFET (N-Channel)
 0
 9
-8
+9
 SamacSys_Parts
 ECS801830BAGNTR
 ECX-53B SMD CRYSTAL
@@ -91258,13 +91258,6 @@ Integrated Circuit
 0
 100
 100
-SamacSys_Parts
-RA12131100
-
-
-0
-4
-4
 SamacSys_Parts
 RFPCSMA28F
 RFPC-SMA28-F-1
@@ -91348,7 +91341,7 @@ PowerFLAT™ 3.3x3.3
 MOSFET (N-Channel)
 0
 7
-5
+7
 SamacSys_Parts
 TG2520SMN30000MMCGNNM0
 TG2520SMN 30.000M-MCGNNM0-1

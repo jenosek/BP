@@ -1519,7 +1519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "593db546-ed0b-4507-8e78-098f06ccc9f2")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 92.71 44.4499 0)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 		(instances
 			(project "obvod"
 				(path "/e8e834c4-1afb-42f7-b718-3cb720dae1d5/f28d5476-62ad-47ee-95fb-15cfd356e27c"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
