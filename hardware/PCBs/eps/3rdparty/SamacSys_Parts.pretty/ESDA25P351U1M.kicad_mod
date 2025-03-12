@@ -1,33 +1,224 @@
-(module "ESDA25P351U1M" (layer F.Cu)
-  (descr "1610_2023")
-  (tags "TVS Diode (Uni-directional)")
-  (attr smd)
-  (fp_text reference D** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "ESDA25P351U1M" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start 0.8 0.5) (end -0.8 0.5) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.5) (end -0.8 -0.5) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 -0.5) (end 0.8 -0.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.5) (end 0.8 0.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.9 -1.5) (end -1.9 -1.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -1.9 -1.5) (end -1.9 1.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -1.9 1.5) (end 1.9 1.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 1.9 1.5) (end 1.9 -1.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 1.4 -0) (end 1.4 -0) (layer F.SilkS) (width 0.1))
-  (fp_line (start 1.3 -0) (end 1.3 -0) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 1.35 -0) (end 1.400 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start 1.35 -0) (end 1.300 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at 0.625 -0 0) (size 0.550 0.800) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.625 -0 0) (size 0.550 0.800) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\honza\\Documents\\KiCad\\8.0\\3rdparty\\SamacSys_Parts.3dshapes\\ESDA25P35-1U1M.stp"
-    (at (xyz 0 0 0.022440944600293))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 -180 0))
-  )
+(footprint "ESDA25P351U1M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1610_2023")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "D**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "f1c464b8-d99f-4525-9711-02564b8d432d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ESDA25P351U1M"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8601a4df-8b8b-44d3-b50b-7e71b5302ad0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21a70c6c-5292-4f98-aa63-88eb32ccd4ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b464eb2-c08e-4e42-bea3-77026468fe61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdb0dfa5-386e-4210-af3b-bda8209f695c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.3 0)
+		(end 1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d010e827-a66b-4fad-9ccc-3212d0d04653")
+	)
+	(fp_line
+		(start 1.4 0)
+		(end 1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "123f1717-2186-4371-b0db-bc7378d140aa")
+	)
+	(fp_arc
+		(start 1.3 0)
+		(mid 1.35 -0.05)
+		(end 1.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ab84b1f-c992-4561-b0cf-7bc2a3dfe562")
+	)
+	(fp_arc
+		(start 1.4 0)
+		(mid 1.35 0.05)
+		(end 1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3adf21a6-4136-40b8-bfd4-6174ccf56383")
+	)
+	(fp_line
+		(start -1.5 -1)
+		(end -1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7c2e67a-8d3d-43ec-ba3e-b35377455993")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end 1.9 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d458a6ce-6b00-4cce-af31-24a3e24c12aa")
+	)
+	(fp_line
+		(start 1.9 -1)
+		(end -1.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c966a96b-7b1a-4008-bb7a-93fc4cdbf952")
+	)
+	(fp_line
+		(start 1.9 1)
+		(end 1.9 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1460cd8-97d9-445a-b72b-71baf666cf2f")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef716e02-cd24-40e8-b6d2-0a02c54708c1")
+	)
+	(fp_line
+		(start -0.8 0.5)
+		(end -0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e598fd32-34d0-49bc-95eb-c0dfb67c4309")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a93acbc4-0d6e-41bb-ac7e-881001908320")
+	)
+	(fp_line
+		(start 0.8 0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f936c90f-e70a-43a7-9f86-1bdb16be542a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(layer "F.Fab")
+		(uuid "91ad9b13-af3a-4b76-b853-721f245b8f37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c7187e7-0bf7-4923-afe0-1591c98136ed")
+	)
+	(pad "2" smd rect
+		(at -0.625 0)
+		(size 0.55 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "97224917-aaf8-4d28-a2d3-bb22a503071c")
+	)
+	(model "C:\\Users\\honza\\Documents\\KiCad\\8.0\\3rdparty\\SamacSys_Parts.3dshapes\\ESDA25P35-1U1M.stp"
+		(offset
+			(xyz 0 0 0.5699999843)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -180 0)
+		)
+	)
 )
