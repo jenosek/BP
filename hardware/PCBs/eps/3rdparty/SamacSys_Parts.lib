@@ -1180,4 +1180,39 @@ P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model FUSB302BMPX
+#/969805/1555842/2.50/15/2/Integrated Circuit
+DEF FUSB302BMPX IC 0 30 Y Y 1 F N
+F0 "IC" 1050 800 50 H V L CNN
+F1 "FUSB302BMPX" 1050 700 50 H V L CNN
+F2 "QFN50P250X250X80-15N" 1050 600 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF" 1050 500 50 H I L CNN
+F4 "Ability to connect as either a host or a device based on what has been attached. ; Automatic Hard Reset Ordered Set Sent ; Dual-Role Functionality with Autonomous DRP Toggle ; Dead Battery Support (SNK Mode Support when No Power Applied); Dedicated devices can operate both on a Type-C receptacle or a Type-C plug with a fixed CC and VCONN channel.; Automatic soft reset packet sent with retries if needed ; USB Power Delivery (PD) 2.0, Version 1.1 Support ; Low Power Operation: ICC = 25 A (Typical); Automatic" 1050 400 50 H I L CNN "Description"
+F5 "0.8" 1050 300 50 H I L CNN "Height"
+F6 "onsemi" 1050 200 50 H I L CNN "Manufacturer_Name"
+F7 "FUSB302BMPX" 1050 100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "512-FUSB302BMPX" 1050 0 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FUSB302BMPX?qs=8ziscO3x5y1SHqdwooDK6g%3D%3D" 1050 -100 50 H I L CNN "Mouser Price/Stock"
+F10 "FUSB302BMPX" 1050 -200 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/fusb302bmpx/on-semiconductor?utm_currency=USD&region=nac" 1050 -300 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CC2_1 1 0 0 200 R 50 50 0 0 P
+X VBUS 2 0 -100 200 R 50 50 0 0 P
+X VDD_1 3 0 -200 200 R 50 50 0 0 P
+X VDD_2 4 400 -900 200 U 50 50 0 0 P
+X INT_N 5 500 -900 200 U 50 50 0 0 P
+X SCL 6 600 -900 200 U 50 50 0 0 P
+X SDA 7 700 -900 200 U 50 50 0 0 P
+X CC1_1 10 1200 0 200 L 50 50 0 0 P
+X GND_2 9 1200 -100 200 L 50 50 0 0 P
+X GND_1 8 1200 -200 200 L 50 50 0 0 P
+X EP_GND 15 400 800 200 D 50 50 0 0 P
+X CC2_2 14 500 800 200 D 50 50 0 0 P
+X VCONN_2 13 600 800 200 D 50 50 0 0 P
+X VCONN_1 12 700 800 200 D 50 50 0 0 P
+X CC1_2 11 800 800 200 D 50 50 0 0 P
+P 5 0 1 6 200 600 1000 600 1000 -700 200 -700 200 600 N
+ENDDRAW
+ENDDEF
+#
 #End Library

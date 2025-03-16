@@ -1,7 +1,7 @@
 
-**** 02/27/25 20:51:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/15/25 23:19:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\Bakalarka\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
+ ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,7 +18,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Users\honza\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
 .lib "nomd.lib" 
 
 *Analysis directives: 
@@ -42,9 +42,9 @@ R_R2         0 OUT  50 TC=0,0
 **** RESUMING test_cap.cir ****
 .END
 
-**** 02/27/25 20:51:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/15/25 23:19:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\Bakalarka\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
+ ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -73,9 +73,9 @@ R_R2         0 OUT  50 TC=0,0
 
           JOB CONCLUDED
 
-**** 02/27/25 20:51:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/15/25 23:19:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\Bakalarka\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
+ ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -85,5 +85,5 @@ R_R2         0 OUT  50 TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .08
+  Total job time (using Solver 1)   =         .03
 

@@ -1,36 +1,251 @@
-(module "SOT96P240X115-3N" (layer F.Cu)
-  (descr "DMP2305U-7+")
-  (tags "MOSFET (P-Channel)")
-  (attr smd)
-  (fp_text reference Q** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT96P240X115-3N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.925 -1.75) (end 1.925 -1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.925 -1.75) (end 1.925 1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.925 1.75) (end -1.925 1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.925 1.75) (end -1.925 -1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.65 -1.45) (end 0.65 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 -1.45) (end 0.65 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 1.45) (end -0.65 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 1.45) (end -0.65 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 -0.49) (end 0.31 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.175 -1.45) (end 0.175 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.175 -1.45) (end 0.175 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.175 1.45) (end -0.175 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.175 1.45) (end -0.175 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.675 -1.51) (end -0.525 -1.51) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.1 -0.96 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.1 0.96 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.1 0 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\honza\\Documents\\KiCad\\8.0\\3rdparty\\SamacSys_Parts.3dshapes\\DMP2305U-7.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOT96P240X115-3N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DMP2305U-7+")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(uuid "4261da50-7d57-4f66-bf6c-ff743325e97b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT96P240X115-3N"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4222e79-87c9-40ae-8e53-33ea21b104f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a0a1567-6b24-4ecb-b119-bfcc9358cc43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5f602c5-eecd-48d9-adc1-4ae29b899a24")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bb1eb6c-7e65-4483-959a-99d4bf34b1c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.675 -1.51)
+		(end -0.525 -1.51)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40ea83f9-9456-46d1-a4ee-fa6173a2bff9")
+	)
+	(fp_line
+		(start -0.175 -1.45)
+		(end 0.175 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2960bd0-be94-44a8-b846-67565da32737")
+	)
+	(fp_line
+		(start -0.175 1.45)
+		(end -0.175 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e59bbfc-ec65-4900-b364-ab5ed2d4cf58")
+	)
+	(fp_line
+		(start 0.175 -1.45)
+		(end 0.175 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae52c5db-1b23-43f9-abde-aa50f19b6c9c")
+	)
+	(fp_line
+		(start 0.175 1.45)
+		(end -0.175 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18ca6c8c-0686-479e-9211-35a03dbc1ad5")
+	)
+	(fp_line
+		(start -1.925 -1.75)
+		(end 1.925 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae551398-fb09-4ba2-af1e-257df2752705")
+	)
+	(fp_line
+		(start -1.925 1.75)
+		(end -1.925 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4933cd0e-374c-4e04-882e-44f12a3dc48a")
+	)
+	(fp_line
+		(start 1.925 -1.75)
+		(end 1.925 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3ada01f-b7c8-4d60-972f-82cb34698855")
+	)
+	(fp_line
+		(start 1.925 1.75)
+		(end -1.925 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6083809e-596d-4193-b94b-fdd3abeded27")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43fab96d-2d1e-4541-abda-74f67e0eda21")
+	)
+	(fp_line
+		(start -0.65 -0.49)
+		(end 0.31 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a98ee1f4-3679-4fd3-849b-3cd851be8116")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3ce7c46-b387-458f-9570-c9b06c802f78")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23055862-ce02-4295-9a1c-709468d3a868")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a7c9127-fc2a-45f9-9791-e40ef9a8e60f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "8f69ca6f-7ac0-459b-9d4b-a29ee6ae8532")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 -0.96 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f2e62dd8-a6fc-4757-878e-45d668bb3ebb")
+	)
+	(pad "2" smd roundrect
+		(at -1.1 0.96 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9e53def6-ca96-49c8-9b59-0e9337e52643")
+	)
+	(pad "3" smd roundrect
+		(at 1.1 0 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "42069ce2-6895-4ef7-ae47-94ee417efe97")
+	)
+	(model "C:\\Users\\honza\\Documents\\KiCad\\8.0\\3rdparty\\SamacSys_Parts.3dshapes\\DMP2305U-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

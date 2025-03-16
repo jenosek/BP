@@ -234,4 +234,10 @@ K
 F https://cdn.sparkfun.com/datasheets/Prototyping/SP-140520-XX-001.pdf
 $ENDCMP
 #
+$CMP FUSB302BMPX
+D Ability to connect as either a host or a device based on what has been attached. ; Automatic Hard Reset Ordered Set Sent ; Dual-Role Functionality with Autonomous DRP Toggle ; Dead Battery Support (SNK Mode Support when No Power Applied); Dedicated devices can operate both on a Type-C receptacle or a Type-C plug with a fixed CC and VCONN channel.; Automatic soft reset packet sent with retries if needed ; USB Power Delivery (PD) 2.0, Version 1.1 Support ; Low Power Operation: ICC = 25 A (Typical); Automatic
+K
+F https://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
+$ENDCMP
+#
 #End Doc Library

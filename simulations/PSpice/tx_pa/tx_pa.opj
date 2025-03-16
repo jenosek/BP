@@ -30,7 +30,7 @@
     (Folder "Include Files"
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
-  (MPSSessionName "honzu")
+  (MPSSessionName "honza")
   (PartMRUSelector
     (PARAM
       (FullPartName "PARAM.Normal")
@@ -64,13 +64,14 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Skola\Bakalarka\BP\simulations\PSpice\tx_pa\tx_pa.dsn")
+         "C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa.dsn")
       (Path "Design Resources"
-         "C:\Skola\Bakalarka\BP\simulations\PSpice\tx_pa\tx_pa.dsn" "SCHEMATIC1")
+         "C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "C:\Skola\Bakalarka\BP\simulations\PSpice\tx_pa\tx_pa.dsn" "SCHEMATIC1"
-         "PAGE1"))
+         "C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -80,10 +81,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1382 52 365")
-        (Scroll "-229 0")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-421 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "C:\SKOLA\BAKALARKA\BP\SIMULATIONS\PSPICE\TX_PA\TX_PA.DSN")
+      (Path "C:\SKOLA\VUT\CUBESAT\BP\SIMULATIONS\PSPICE\TX_PA\TX_PA.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
