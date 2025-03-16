@@ -1,6 +1,4 @@
 IsBigEndian false
 $begin 'ManagedFiles'
-	OptimetricsResults[3: '18D515440174077287367.tmp', '63F914944174065835116.tmp', '76B9102521740659821124.tmp']
-	'reportsdata/desinst_1'[1: 'rtd55DA1544017407676229.tmp']
-	svcache[3: 'HDR3FAB1475217406555053.tmp', 'min475815440174077651971.tmp', 'min475815440174077651972.tmp']
+	svcache[3: 'HDR2FCC1828017420791403.tmp', 'min2FCC1828017420791404.tmp', 'min2FCC1828017420791405.tmp']
 $end 'ManagedFiles'
