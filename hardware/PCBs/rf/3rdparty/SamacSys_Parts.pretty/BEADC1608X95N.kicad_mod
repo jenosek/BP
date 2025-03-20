@@ -1,0 +1,194 @@
+(footprint "BEADC1608X95N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MMZ1608")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(uuid "92bc6cc2-d8ef-42d3-bc94-2da4a5950071")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BEADC1608X95N"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "db46b5ed-ad86-487f-8bf7-5647507abad4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b94370cf-facb-4a5d-95e7-4be486ee0966")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc8bc61e-c17b-4583-ab0a-41fedcb955e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "802b4b5e-0b2d-4d04-a507-e30029cbe992")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.3)
+		(end 0 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2b84a50-9c63-4a66-9850-420caf1df8fa")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49947912-a75b-4f45-8621-bf73e90a9a7e")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6eb13342-94a1-4e8e-af66-04b3d24add74")
+	)
+	(fp_line
+		(start 1.5 -0.75)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c34addb-b4aa-4a00-9bee-28284326b619")
+	)
+	(fp_line
+		(start 1.5 0.75)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "402baa7e-388b-4771-b173-71aab8907828")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab9fca3d-4ace-4e1c-afa3-1cec0930647c")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "298a67ce-93f7-43d1-a1f7-2309bdad099b")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a25b69c-c1a4-4e2c-81f8-96d24dda3308")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6be7e738-0c5c-4f17-a1a0-1c33581660b6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.25 0)
+		(layer "F.Fab")
+		(uuid "1cb24acd-6949-452a-b8bd-7788c019fe6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.8 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a3e8ddea-eb6a-482a-a30a-d8fb8b0288a4")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "95e3f495-6a1a-4acd-aebc-e71a0e66c2df")
+	)
+	(model "C:\\Users\\honzu\\OneDrive\\Dokumenty\\KiCad\\SamacSys_Parts.3dshapes\\MMZ1608D241CTA00.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

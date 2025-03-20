@@ -1,0 +1,240 @@
+(footprint "TG2520SMN30000MMCGNNM0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TG2520SMN 30.000M-MCGNNM0-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 4.75 0)
+		(layer "F.SilkS")
+		(uuid "519b8ca4-4562-4bf7-a7c9-f656b8ce664f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TG2520SMN30000MMCGNNM0"
+		(at 0 7.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "34b996fe-0c7e-4b01-b9d9-40290f435224")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3cfc8b7-fc02-4b19-8ce9-b50f05d697c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4173c0f-85a9-4aa8-af0c-1dd649aa4e5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b354083c-710c-4e1e-849e-6255c0503afa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 1.45)
+		(end -1.7 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c11f627-5f71-4053-8e21-385f346823fb")
+	)
+	(fp_line
+		(start -1.7 1.55)
+		(end -1.7 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4042849b-063b-43e1-a32a-84f983f32674")
+	)
+	(fp_arc
+		(start -1.7 1.45)
+		(mid -1.65 1.5)
+		(end -1.7 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bd648a2-870f-4a8a-8be1-dae83f7808b9")
+	)
+	(fp_arc
+		(start -1.7 1.55)
+		(mid -1.75 1.5)
+		(end -1.7 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f585de0-050f-4efd-bdfd-e3283cf7bf70")
+	)
+	(fp_line
+		(start -1.75 -1.5)
+		(end 1.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c56d235-dca5-400c-9a33-ebbb2908447f")
+	)
+	(fp_line
+		(start -1.75 1.5)
+		(end -1.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "277e2a21-4944-47b7-b156-fff2b63bc006")
+	)
+	(fp_line
+		(start 1.75 -1.5)
+		(end 1.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09f8fa9a-0b63-4ad0-b818-184bbf949667")
+	)
+	(fp_line
+		(start 1.75 1.5)
+		(end -1.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb78cbb6-e526-4a4b-bd38-bc9bdc47dcc5")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2fe40ba-03c7-4d45-94e4-718ceef7f356")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "065e8efb-a904-4e49-8405-4d937021eec6")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61ec8e5d-2e54-42d5-a8a0-be60d4264d5c")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2cdf688-7494-45cb-bf7c-3269e6c4ecfc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.5 0)
+		(layer "F.Fab")
+		(uuid "696f711b-e941-474b-8af3-e69009ac0363")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 0.7)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4bebdfa3-3764-424c-8381-819d01bd1b57")
+	)
+	(pad "2" smd roundrect
+		(at 1.05 0.7)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "962fda93-2ea2-4009-958d-cb3803347ec5")
+	)
+	(pad "3" smd roundrect
+		(at 1.05 -0.7)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e6299aac-debb-4458-8efd-d5739d699019")
+	)
+	(pad "4" smd roundrect
+		(at -1.05 -0.7)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b64f52b5-2cf4-46b8-945e-f49bba0f828d")
+	)
+	(model "C:\\Users\\honzu\\OneDrive\\Dokumenty\\KiCad\\SamacSys_Parts.3dshapes\\TG2520SMN_30.000M-MCGNNM0.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
