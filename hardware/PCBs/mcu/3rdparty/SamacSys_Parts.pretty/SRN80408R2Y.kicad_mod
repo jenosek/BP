@@ -1,0 +1,246 @@
+(footprint "SRN80408R2Y"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SRN8040_2")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -0.4 0 0)
+		(layer "F.SilkS")
+		(uuid "ffad7e2f-84f0-46b0-b0eb-49ef206c85f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRN80408R2Y"
+		(at -0.4 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e3c1ce2e-512a-4a91-b3df-12116166f8c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70cc1d5f-e82a-466b-b0d1-7e017486d9c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49e930f9-f79a-4e5d-b431-62a1c27a705d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64b7cd3d-71c2-4637-babe-72537b64a775")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.8 -0.1)
+		(end -4.8 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a98d1b9c-3b96-4de4-9f1d-05cfad2d0736")
+	)
+	(fp_line
+		(start -4.8 0.1)
+		(end -4.8 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2a7f2c4-0ab3-42ed-8a0c-94911d3b5cea")
+	)
+	(fp_line
+		(start -1 -4)
+		(end 1 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6ee3d2d-62b5-4330-a333-c5a409174eb7")
+	)
+	(fp_line
+		(start -1 4)
+		(end 1 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "086338bf-f98e-476f-b898-4ccd108de816")
+	)
+	(fp_arc
+		(start -4.8 -0.1)
+		(mid -4.7 0)
+		(end -4.8 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1da26c5-a940-4875-806a-617c48359776")
+	)
+	(fp_arc
+		(start -4.8 0.1)
+		(mid -4.9 0)
+		(end -4.8 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2629df3c-24bf-496e-ac01-ee8773fa6992")
+	)
+	(fp_line
+		(start -5.9 -5.1)
+		(end 5.1 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36769cc5-6cb9-4c30-9f42-15d48f7a7267")
+	)
+	(fp_line
+		(start -5.9 5.1)
+		(end -5.9 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "377b459e-252c-4290-ada0-0bd760a5dd9f")
+	)
+	(fp_line
+		(start 5.1 -5.1)
+		(end 5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d75f1b09-76e6-4d79-9a6e-a59680956cf2")
+	)
+	(fp_line
+		(start 5.1 5.1)
+		(end -5.9 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11cd940c-91a6-4a30-9f56-229a83668622")
+	)
+	(fp_line
+		(start -4 -4)
+		(end 4 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92b828a8-e245-452b-8992-3d9f33ee2774")
+	)
+	(fp_line
+		(start -4 4)
+		(end -4 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17baf541-2481-4fa5-8b5f-648117b1103f")
+	)
+	(fp_line
+		(start 4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4adfe6d2-edc1-495f-8233-fb67c38be8b0")
+	)
+	(fp_line
+		(start 4 4)
+		(end -4 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd7f677a-039d-49a9-9c40-552fbbf2f988")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.4 0 0)
+		(layer "F.Fab")
+		(uuid "549dd959-08cd-43af-9fed-2bff28aed74b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.8 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09615384615)
+		(uuid "301fb98d-8eb1-4d18-a75b-34659e7735f1")
+	)
+	(pad "2" smd roundrect
+		(at 2.8 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09615384615)
+		(uuid "50553bcb-bc11-4191-a18c-345768973180")
+	)
+	(model "C:\\Users\\honza\\Documents\\KiCad\\8.0\\3rdparty\\SamacSys_Parts.3dshapes\\SRN8040-1R0Y.stp"
+		(offset
+			(xyz 0 0 3.949999988)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

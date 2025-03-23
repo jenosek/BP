@@ -1,0 +1,236 @@
+(footprint "AbraconASDDV"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AbraconASDDV")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(uuid "7530085c-7b3f-4a46-abc7-5a8e824c6d57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AbraconASDDV"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bdd85a0d-8a36-41ba-a053-4e6c84ad11ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7874d9c7-9ebe-457c-b44f-1e6704eb3e82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a97b8d3f-ccb5-4f34-9f65-6bde249d58ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98cd0ce3-4d1d-4c9e-8986-9a015807518c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4505 0.9495)
+		(end -1.4505 0.9495)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c7db8af-27de-4803-8246-b3e952deecac")
+	)
+	(fp_line
+		(start -1.4505 1.0495)
+		(end -1.4505 1.0495)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f30579e4-e62d-4acc-8cec-88079b706267")
+	)
+	(fp_arc
+		(start -1.4495 0.9495)
+		(mid -1.4 1)
+		(end -1.4505 1.0495)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b175a581-80b9-45e7-adce-ce6c6693a0db")
+	)
+	(fp_arc
+		(start -1.4495 1.0495)
+		(mid -1.5 1)
+		(end -1.4505 0.9495)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5277737b-7549-4217-9d86-6968dd019c97")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e294f55a-662e-4939-9be8-43629f9c267f")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b13068cc-884d-4f82-9eca-7b33a910e11e")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62e1671b-756c-4725-8843-16f70ed28372")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed98d900-ea91-4719-b7c7-cf4a04250ec2")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01e968dc-5fe7-469a-b811-45e812cda3f1")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "293d0256-937f-4f73-84ac-fe7d0f067a02")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ea9b8e9-f626-4309-ace9-c54531aefbf0")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0fed091f-a9de-4450-9458-e4dad49fc895")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "683049bb-131b-4c78-ac08-a844ec754de1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.813 0.612 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "849da275-45a0-4964-af73-e5818b468e70")
+	)
+	(pad "2" smd rect
+		(at 0.813 0.612 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36cee453-6f16-4a52-a2e3-11af344c4fe3")
+	)
+	(pad "3" smd rect
+		(at 0.813 -0.612 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86b897ad-74e4-4631-ba6e-1f2a908baed6")
+	)
+	(pad "4" smd rect
+		(at -0.813 -0.612 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "301cbb4c-2240-46f5-838b-73b4f91b38a7")
+	)
+	(model "C:\\Users\\honza\\Documents\\KiCad\\8.0\\3rdparty\\SamacSys_Parts.3dshapes\\ASDDV-8.000MHZ-LR-T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

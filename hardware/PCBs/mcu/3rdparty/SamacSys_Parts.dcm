@@ -1,0 +1,243 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP CSD16406Q3
+D 25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm
+K
+F http://www.ti.com/lit/gpn/csd16406q3
+$ENDCMP
+#
+$CMP BQ29732DSER
+D Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family
+K
+F http://www.ti.com/lit/gpn/bq2973
+$ENDCMP
+#
+$CMP BQ25302RTER
+D Battery Management Standalone single cell 2.0-A buck battery charger 16-WQFN -40 to 85
+K
+F https://www.ti.com/lit/gpn/bq25302?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes
+$ENDCMP
+#
+$CMP SRN8040-1R0Y
+D Bourns SRN8040 Series Type 8040 Shielded Wire-wound SMD Inductor with a Ferrite Core, 1 uH +/-30% Wire-Wound 7.8A Idc
+K
+F https://www.bourns.com/pdfs/SRN8040.pdf
+$ENDCMP
+#
+$CMP DMP2305U-7
+D MOSFET P-Channel 20V 4.2A SOT23 Diodes Inc DMP2305U-7 P-channel MOSFET Transistor, 4.2 A, -20 V, 3-Pin SOT-23
+K
+F https://www.diodes.com//assets/Datasheets/DMP2305U.pdf
+$ENDCMP
+#
+$CMP TS4148_RBG
+D Diodes - General Purpose, Power, Switching 75V, 0.15A, Switching Diode & Array
+K
+F https://www.mouser.com/datasheet/2/395/TS4148%20RZG%20E12-248814.pdf
+$ENDCMP
+#
+$CMP XCL240B333FR-G
+D HiSAT-COT  Control 1A Inductor Built-in Step-Down micro DC/DC Converters
+K
+F https://product.torexsemi.com/system/files/series/xcl240.pdf
+$ENDCMP
+#
+$CMP STM32H7A3VIT6
+D STM32H7A3VIT6
+K
+F https://componentsearchengine.com/Datasheets/1/STM32H7A3VIT6.pdf
+$ENDCMP
+#
+$CMP SMLVT3V3
+D STMICROELECTRONICS - SMLVT3V3 - TVS Diode, Transil SMLV Series, Unidirectional, 3.3 V, 10.3 V, DO-214AA (SMB), 2 Pins
+K
+F https://www.st.com/resource/en/datasheet/smlvt3v3.pdf
+$ENDCMP
+#
+$CMP ESDALC6V1W5
+D TVS Diode Array Uni-Directional ESDALC6V1W5 Quad, 25W, SOT-323 5-Pin
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00002946.pdf
+$ENDCMP
+#
+$CMP M20-7810945
+D 2.54mm (0.1") Pitch DIL SMT Dual Entry Socket Assembly, with locating pegs, selective gold + tin, 9+9 contacts
+K
+F https://cdn.harwin.com/pdfs/M20-781.pdf
+$ENDCMP
+#
+$CMP 2N7002W
+D N-Channel 60 V 115mA (Ta) 200mW (Ta) Surface Mount SOT-323
+K
+F https://www.onsemi.com/pdf/datasheet/2n7002w-fcs-d.pdf
+$ENDCMP
+#
+$CMP 22-15-2066
+D Headers & Wire Housings
+K
+F https://www.molex.com/pdm_docs/sd/022152066_sd.pdf
+$ENDCMP
+#
+$CMP 22-16-2060
+D CONNECTOR, RCPT, 6POS, 2.54MM
+K
+F https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/445/4455/022162060_sd.pdf?inline
+$ENDCMP
+#
+$CMP UJC-H-G-SMT-2-P6-TR
+D Type C, Power Only, 30 Vac, 3 A, Horizontal, Gold plated 1u, Surface Mount,6 pin, USB Receptacle
+K
+F https://www.sameskydevices.com/product/resource/ujc-h-g-smt-2-p6-tr.pdf
+$ENDCMP
+#
+$CMP TCPP01-M12
+D USB type-C port protection
+K
+F https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf
+$ENDCMP
+#
+$CMP ESDA25P35-1U1M
+D STMicroelectronics ESDA25P35-1U1M, Uni-Directional TVS Diode, 1400W, 2-Pin QFN
+K
+F https://www.st.com/resource/en/datasheet/esda25p35-1u1m.pdf
+$ENDCMP
+#
+$CMP BAT54KFILM
+D BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001322.pdf
+$ENDCMP
+#
+$CMP STL11N3LLH6
+D MOSFET N-Ch 30V 0.006 Ohm 11A STripFET VI Deep
+K
+F https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf
+$ENDCMP
+#
+$CMP DMN1008UFDF-7
+D N-Channel 12 V 12.2A (Ta) 700mW (Ta) Surface Mount U-DFN2020-6 (Type F)
+K
+F https://www.diodes.com//assets/Datasheets/DMN1008UFDF.pdf
+$ENDCMP
+#
+$CMP 103AT-2
+D NTC (Negative Temperature Coefficient) Thermistors 10kohm 1%
+K
+F https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf
+$ENDCMP
+#
+$CMP RS2-18-G
+D Headers & Wire Housings RECEPTACLE STRIP 18P 2.54MM PITC
+K
+F https://app.adam-tech.com/products/download/data_sheet/202893/rs2-xx-g-data-sheet.pdf
+$ENDCMP
+#
+$CMP ASDDV-8.000MHZ-LR-T
+D 8 MHz XO (Standard) HCMOS, LVCMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead
+K
+F https://abracon.com/datasheets/ASDDV.pdf
+$ENDCMP
+#
+$CMP 1044
+D Cylindrical Battery Contacts, Clips, Holders & Springs 18650 SOLDER TAIL BATTERY HOLDER
+K
+F http://www.keyelco.com/product-pdf.cfm?p=14060
+$ENDCMP
+#
+$CMP 1043
+D KEYSTONE - 1043 - BATTERY HOLDER, 18650, TH
+K
+F http://www.keyelco.com/product-pdf.cfm?p=919
+$ENDCMP
+#
+$CMP BAR63-02L-E6327
+D RF Diode PIN - Single 50V 100 mA 250 mW PG-TSLP-2-1
+K
+F https://rocelec.widen.net/view/pdf/wkwnaj16jm/INFNS15694-1.pdf?t.download=true&u=5oefqw
+$ENDCMP
+#
+$CMP RFPC-SMA28-F
+D SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder
+K
+F https://www.gradconn.com/Products/RFConnector/PCBConnector/RFPC-SMA28-F?fbclid=IwZXh0bgNhZW0CMTEAAR09Qew3iKAi8gaSNFNSrnLXO8O0tsXvAWH8PB3TmdE2p-pfH-dhvwfyNcU_aem_Czrii3CnLYG8NfbgDU-ugg
+$ENDCMP
+#
+$CMP BAV19WS
+D Small Signal Switching Diodes (VRRM=50-350V) - BAV19WS , 120V, 44, 200mW, SOD-323
+K
+F https://www.panjit.com.tw/en/Product/downloadPDF/BAV19WS
+$ENDCMP
+#
+$CMP LO_Q976-PS-25
+D Standard LEDs - SMD Orange, 605nm 280mcd, 20mA
+K
+F http://www.osram-os.com/Graphics/XPic6/00128771_0.pdf
+$ENDCMP
+#
+$CMP ECS-80-10-30B-CWN-TR
+D Crystals 8MHz 10ppm 10pF -40C +85C
+K
+F https://www.mouser.se/datasheet/2/122/ecx_53b-3074848.pdf
+$ENDCMP
+#
+$CMP SI4468-A2A-IMR
+D RF Transceiver TXRX SubG +20dBm
+K
+F https://www.silabs.com/documents/public/data-sheets/Si4468-7.pdf
+$ENDCMP
+#
+$CMP TG2520SMN_30.000M-MCGNNM0
+D TCXO Oscillators TCXO 30 MHz, 2.8V 3.3V 0.5PPM -40 85C NON O/E 1K TR
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG2520SMN&lang=en
+$ENDCMP
+#
+$CMP LQW15AN20NG00D
+D Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.02 uH +/-2% 370mA Idc Q:25
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf
+$ENDCMP
+#
+$CMP MMZ1608D241CTA00
+D Ferrite Beads Multi-Layer 240Ohm 25% 100MHz 300mA 600mOhm DCR 0603 T/R
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz1608_en.pdf
+$ENDCMP
+#
+$CMP LQW15AN62NG00D
+D Murata LQW15A Series Wire-wound SMD Inductor with a Ferrite Core, 0.062 uH +/-2% 145mA Idc Q:20
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf
+$ENDCMP
+#
+$CMP 61301611821
+D WURTH ELEKTRONIK - 61301611821 - PCB Receptacle, Board-to-Board, 2.54 mm, 1 Rows, 16 Contacts, Through Hole Mount, WR-PHD Series
+K
+F https://www.we-online.com/catalog/datasheet/61301611821.pdf
+$ENDCMP
+#
+$CMP PH1-08-UA
+D Conn Unshrouded Header HDR 8 POS 2.54mm Solder ST Thru-Hole
+K
+F https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf
+$ENDCMP
+#
+$CMP PRT-09279
+D 2.54mm pitch Socket, single row, straight, 8 position
+K
+F https://cdn.sparkfun.com/datasheets/Prototyping/SP-140520-XX-001.pdf
+$ENDCMP
+#
+$CMP FUSB302BMPX
+D Ability to connect as either a host or a device based on what has been attached. ; Automatic Hard Reset Ordered Set Sent ; Dual-Role Functionality with Autonomous DRP Toggle ; Dead Battery Support (SNK Mode Support when No Power Applied); Dedicated devices can operate both on a Type-C receptacle or a Type-C plug with a fixed CC and VCONN channel.; Automatic soft reset packet sent with retries if needed ; USB Power Delivery (PD) 2.0, Version 1.1 Support ; Low Power Operation: ICC = 25 A (Typical); Automatic
+K
+F https://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
+$ENDCMP
+#
+#End Doc Library
