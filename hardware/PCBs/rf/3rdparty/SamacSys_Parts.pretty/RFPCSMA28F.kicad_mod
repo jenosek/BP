@@ -6,7 +6,7 @@
 	(descr "RFPC-SMA28-F-1")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 0 0)
+		(at 0 -6.5 0)
 		(layer "F.SilkS")
 		(uuid "8795f9d6-174f-4884-91e1-d93ec2b0cd7b")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RFPCSMA28F"
-		(at 0 0 0)
+		(at 0 6 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "b22c9d8d-4d62-4fd6-beb2-59591a5a2453")
@@ -228,7 +228,7 @@
 		(uuid "897dbb64-526f-489e-a60d-10482bbf053e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 8 0)
 		(layer "F.Fab")
 		(uuid "ebb51f1c-92d6-42fd-a492-481e4541293c")
 		(effects
@@ -238,12 +238,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 2.25 2.25)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
 		(uuid "77235f70-848f-4762-a13b-7540d3adffce")
 	)
 	(pad "2" thru_hole circle
