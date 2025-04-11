@@ -1,0 +1,45 @@
+### Footprint positions - created on 2025-03-27T22:43:08+0100 ###
+### Printed by KiCad version 8.0.8
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                        Package                                  PosX       PosY       Rot  Side
+J4        RS2-18-G                   RHDR18W60P254_2X9_2337X500X889P       58.0000    35.0400    0.0000  bottom
+C16       100n                       C_0402_1005Metric                     25.9800    61.2600  180.0000  top
+C38       4u7                        C_0805_2012Metric                     38.2500    70.2000   90.0000  top
+C39       100n                       C_0402_1005Metric                     57.2500    58.2500   90.0000  top
+C40       100n                       C_0402_1005Metric                     56.2700    59.2500  -90.0000  top
+C41       100n                       C_0402_1005Metric                     53.0000    70.7500    0.0000  top
+C42       100n                       C_0402_1005Metric                     39.7500    69.7500   90.0000  top
+C43       100n                       C_0402_1005Metric                     38.5000    54.5000  180.0000  top
+C44       100n                       C_0402_1005Metric                     53.7500    53.0200  -90.0000  top
+C45       2u2                        C_0805_2012Metric                     40.3000    73.0000  180.0000  top
+C46       2u2                        C_0805_2012Metric                     36.5000    54.7500  -90.0000  top
+C47       1u                         C_0603_1608Metric                     58.2500    68.0250   90.0000  top
+C48       100n                       C_0402_1005Metric                     57.0000    66.7300   90.0000  top
+C49       1u                         C_0603_1608Metric                     59.0000    65.0000    0.0000  top
+C50       100n                       C_0402_1005Metric                     56.0000    64.2500  -90.0000  top
+C51       100n                       C_0402_1005Metric                     56.0000    62.2500   90.0000  top
+C52       10n                        C_0402_1005Metric                     60.6240    61.5260   90.0000  top
+D5        SMLVT3V3                   DIOM5436X265N                         11.2500    39.0000   90.0000  top
+FID1      Fiducial                   Fiducial_1mm_Mask2mm                   5.5000    78.0000    0.0000  top
+FID2      Fiducial                   Fiducial_1mm_Mask2mm                  90.5000    78.0000    0.0000  top
+FID3      Fiducial                   Fiducial_1mm_Mask2mm                   5.5000    15.0000    0.0000  top
+IC6       ESDALC6V1W5                SOT65P210X110-5N                      13.9500    31.6000  180.0000  top
+IC7       USBLC6-2SC6                SOT-23-6                              12.1375    66.9500    0.0000  top
+IC9       STM32H7A3VIT6              LQFP-100_14x14mm_P0.5mm               46.7500    61.5000  180.0000  top
+J1        61301611821                RHDR16W82P0X254_1X16_4114X250X865P    90.5000    25.9500   90.0000  top
+J2        22-16-2060                 22162060                               7.0000    36.7000  -90.0000  top
+J3        MCR-B-S-RA-SMT-CS5A-NF-TR  MCR-B-S-RA-SMT-CS5A-NF-TR              4.9000    66.6500   90.0000  top
+Q5        DMN1008UFDF-7              DMN1008UFDF7                          58.0000    38.7500   90.0000  top
+R2        10k                        R_0402_1005Metric                     49.2500    47.2500   90.0000  top
+R21       100k                       R_0402_1005Metric                     57.5000    43.2500  -90.0000  top
+R22       169                        R_0603_1608Metric                     59.0000    42.9250  -90.0000  top
+R32       0R                         R_0603_1608Metric                     63.7500    68.5000  180.0000  top
+R33       47R                        R_0603_1608Metric                     60.7500    67.7500   90.0000  top
+R35       0R                         C_0603_1608Metric                     68.0000    73.2750   90.0000  top
+R36       0R                         R_0603_1608Metric                     63.5000    75.0000  -90.0000  top
+R37       1k69                       R_0402_1005Metric                     25.5000    59.5100  -90.0000  top
+R38       3k3                        R_0402_1005Metric                     27.5000    59.5100   90.0000  top
+R39       10k                        R_0402_1005Metric                     56.2500    71.7500    0.0000  top
+XTAL1     ASDDV-8.000MHZ-LR-T        AbraconASDDV                          58.4370    61.3880  180.0000  top
+## End

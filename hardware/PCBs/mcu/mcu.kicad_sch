@@ -10426,7 +10426,7 @@
 		(at 323.85 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10546,6 +10546,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN1008UFDF-7?qs=chTDxNqvsyn%2FQmgNwqXGFQ%3D%3D"
+			(at 323.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 323.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28e16c5d-a81e-469c-9af2-9adcade1d146")
 		)
@@ -10591,7 +10609,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "049c9b37-1f23-4cae-a314-a8030b235976")
@@ -10712,6 +10730,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Same-Sky/UJC-H-G-SMT-2-P6-TR?qs=IKkN%2F947nfApFV8T6rOqww%3D%3D"
+			(at 35.56 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 35.56 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "c8596d91-4521-46d9-be05-a4e83ece02bd")
 		)
@@ -10806,7 +10842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 354.33 60.96 0)
 			(effects
 				(font
@@ -10816,6 +10852,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 354.33 60.96 0)
 			(effects
 				(font
@@ -10894,6 +10975,51 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USBLC6-2SC6 "
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-USBLC6-2SC6 "
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C7519"
 			(at 83.82 156.21 0)
 			(effects
 				(font
@@ -10982,6 +11108,24 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 67.31 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 67.31 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
 			(at 67.31 254 0)
 			(effects
 				(font
@@ -11108,7 +11252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
 			(at 289.56 60.96 0)
 			(effects
 				(font
@@ -11118,6 +11262,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 289.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN "
+			(at 289.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MLAST168SB7105KTNA01"
+			(at 289.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/TAIYO-YUDEN/MLAST168SB7105KTNA01?qs=sGAEpiMZZMvsSlwiRhF8qrQG6leidpLjq%2FcFzmHJ6hlfBeH4wFHVxw%3D%3D"
+			(at 289.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MLAST168SB7105KT"
+			(at 289.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C5768807"
 			(at 289.56 60.96 0)
 			(effects
 				(font
@@ -11322,7 +11511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf"
 			(at 292.1 172.72 0)
 			(effects
 				(font
@@ -11332,6 +11521,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Susumu/RR0510P-104-D?qs=nCAm%252BcMdy9xVjE11x2eUOA%3D%3D"
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Susumu "
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0402DRD07100KL"
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "754-RR0510P-104D"
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C705666"
 			(at 292.1 172.72 0)
 			(effects
 				(font
@@ -11470,7 +11704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 351.79 127 0)
 			(effects
 				(font
@@ -11480,6 +11714,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 351.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/RT0402BRD0710KL?qs=BXCcY9r%252B08CHcR6Z4tEoVQ%3D%3D"
+			(at 351.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 351.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0402BRD0710KL"
+			(at 351.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0402BRD0710KL"
+			(at 351.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C190095"
 			(at 351.79 127 0)
 			(effects
 				(font
@@ -11546,7 +11825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 389.89 58.42 0)
 			(effects
 				(font
@@ -11556,6 +11835,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 389.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 389.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 389.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 389.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 389.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 389.89 58.42 0)
 			(effects
 				(font
@@ -11641,6 +11965,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 67.31 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 67.31 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50349948-9609-4519-8376-b95787b0aaec")
 		)
@@ -11709,6 +12051,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 76.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 76.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16d70cbf-b4e8-438f-8fde-679244e45e29")
 		)
@@ -11755,7 +12115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 280.67 55.88 0)
 			(effects
 				(font
@@ -11765,6 +12125,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 280.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EE?qs=sGAEpiMZZMtlubZbdhIBINSnPd898yDPKLwcZeDyUvk%3D"
+			(at 280.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay / Dale"
+			(at 280.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EE"
+			(at 280.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06030000Z0EE"
+			(at 280.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C100044"
 			(at 280.67 55.88 0)
 			(effects
 				(font
@@ -11903,7 +12308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 303.53 60.96 0)
 			(effects
 				(font
@@ -11913,6 +12318,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 303.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 303.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 303.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 303.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 303.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 303.53 60.96 0)
 			(effects
 				(font
@@ -11979,7 +12429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM21BR71C475KE51_01A-1986969.pdf"
 			(at 276.86 31.75 0)
 			(effects
 				(font
@@ -11989,6 +12439,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR71C475KE51K"
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Murata-Electronics/GRM21BR71C475KE51K?qs=sGAEpiMZZMvsSlwiRhF8qhIafi1n%252B%252B3zR6MCm7346UeBGGW5r01aKw%3D%3D"
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" " 81-GRM21BR71C475KE1K "
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C2203601"
 			(at 276.86 31.75 0)
 			(effects
 				(font
@@ -12145,6 +12640,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 80.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 80.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "mcu"
 				(path "/f4c5d84c-b5a9-4097-87ac-5d2cb897827b"
@@ -12278,6 +12791,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/STMicroelectronics/ESDALC6V1W5?qs=C%2FEejvvdwQ4xcyFnfrFaDw%3D%3D"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C703691"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12564,7 +13095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
 			(at 340.36 60.96 0)
 			(effects
 				(font
@@ -12574,6 +13105,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 340.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN "
+			(at 340.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MLAST168SB7105KTNA01"
+			(at 340.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/TAIYO-YUDEN/MLAST168SB7105KTNA01?qs=sGAEpiMZZMvsSlwiRhF8qrQG6leidpLjq%2FcFzmHJ6hlfBeH4wFHVxw%3D%3D"
+			(at 340.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MLAST168SB7105KT"
+			(at 340.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C5768807"
 			(at 340.36 60.96 0)
 			(effects
 				(font
@@ -12640,7 +13216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 275.59 134.62 0)
 			(effects
 				(font
@@ -12650,6 +13226,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO "
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402JRX7R9BB103"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402JRX7R9BB103?qs=sGAEpiMZZMvsSlwiRhF8qgCkMy4IWwoB9XT8MtgrLWI%3D"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402JRX7R9BB103 "
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C272878"
 			(at 275.59 134.62 0)
 			(effects
 				(font
@@ -12716,7 +13337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 328.93 31.75 0)
 			(effects
 				(font
@@ -12726,6 +13347,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 328.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 328.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 328.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 328.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 328.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 328.93 31.75 0)
 			(effects
 				(font
@@ -12844,7 +13510,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "0R"
 			(at 332.74 61.976 90)
 			(effects
 				(font
@@ -12861,7 +13527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/392/n_catalog_partition01_en-1140338.pdf"
 			(at 332.74 55.88 0)
 			(effects
 				(font
@@ -12871,6 +13537,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 332.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Susumu/RG1608P-470-D-T5?qs=sGAEpiMZZMtG0KNrPCHnjU6e%252BYAn0aoU004HBIMZv7w%3D"
+			(at 332.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Susumu "
+			(at 332.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RG1608P-470-D-T5"
+			(at 332.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "754-RG1608P-470DT5"
+			(at 332.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C100044"
 			(at 332.74 55.88 0)
 			(effects
 				(font
@@ -12936,7 +13647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 64.77 139.7 0)
 			(effects
 				(font
@@ -12946,6 +13657,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 64.77 139.7 0)
 			(effects
 				(font
@@ -13023,6 +13779,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 96.52 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 96.52 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
 			(at 96.52 262.89 0)
 			(effects
 				(font
@@ -13146,7 +13920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 354.33 31.75 0)
 			(effects
 				(font
@@ -13156,6 +13930,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 354.33 31.75 0)
 			(effects
 				(font
@@ -13333,7 +14152,7 @@
 		(at 393.7 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13365,7 +14184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf"
 			(at 393.7 88.9 0)
 			(effects
 				(font
@@ -13375,6 +14194,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 393.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Susumu/RR0510P-1691-D?qs=nCAm%252BcMdy9x%2FdnNoyRI%252BoA%3D%3D"
+			(at 393.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Susumu"
+			(at 393.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RR0510P-1691-D "
+			(at 393.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "754-RR0510P-1691D"
+			(at 393.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
 			(at 393.7 88.9 0)
 			(effects
 				(font
@@ -13514,7 +14378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -13524,6 +14388,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 341.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 341.63 31.75 0)
 			(effects
 				(font
@@ -13659,7 +14568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 307.34 165.1 0)
 			(effects
 				(font
@@ -13669,6 +14578,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 307.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Panasonic/ERA-3AEB1690V?qs=nuXzIS8loXEjBOtRMV9JKQ%3D%3D"
+			(at 307.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic "
+			(at 307.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB1690V"
+			(at 307.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB1690V"
+			(at 307.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C2902856"
 			(at 307.34 165.1 0)
 			(effects
 				(font
@@ -13754,6 +14708,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 86.36 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 86.36 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97f2c2ca-6783-4bff-ad31-26d1e675efe0")
 		)
@@ -13803,7 +14775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 316.23 31.75 0)
 			(effects
 				(font
@@ -13813,6 +14785,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 316.23 31.75 0)
 			(effects
 				(font
@@ -13848,7 +14865,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "89a6b4cf-2cae-48b6-8962-82c72cf1975c")
@@ -13967,6 +14984,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Molex/22-16-2060?qs=rYI5rzEL5ob2oHstFO6%252B7Q%3D%3D"
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d66065a6-f1fd-4d87-aaac-3e816cbdb424")
 		)
@@ -14010,7 +15045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94d6f61a-3e63-42a7-82c9-14175af50595")
-		(property "Reference" "R2"
+		(property "Reference" "R34"
 			(at 278.13 97.7899 0)
 			(effects
 				(font
@@ -14037,7 +15072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 275.59 99.06 0)
 			(effects
 				(font
@@ -14055,6 +15090,51 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/RT0402BRD0710KL?qs=BXCcY9r%252B08CHcR6Z4tEoVQ%3D%3D"
+			(at 275.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 275.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0402BRD0710KL"
+			(at 275.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0402BRD0710KL"
+			(at 275.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C190095"
+			(at 275.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d40426d4-9e58-448c-9e2a-47fb6eb525e6")
 		)
@@ -14064,7 +15144,7 @@
 		(instances
 			(project "mcu"
 				(path "/f4c5d84c-b5a9-4097-87ac-5d2cb897827b"
-					(reference "R2")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -14172,7 +15252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 303.53 31.75 0)
 			(effects
 				(font
@@ -14182,6 +15262,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 303.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 303.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 303.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 303.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 303.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 303.53 31.75 0)
 			(effects
 				(font
@@ -14335,6 +15460,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/STMicroelectronics/SMLVT3V3?qs=sepekKm5O7kuWZ9%252BIWQuxQ%3D%3D"
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C283619"
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14604,7 +15747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 320.802 93.98 90)
 			(effects
 				(font
@@ -14613,7 +15756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 322.58 93.98 0)
 			(effects
 				(font
@@ -14623,6 +15766,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EE?qs=sGAEpiMZZMtlubZbdhIBINSnPd898yDPKLwcZeDyUvk%3D"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay / Dale"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EE"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06030000Z0EE"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C100044"
 			(at 322.58 93.98 0)
 			(effects
 				(font
@@ -14689,7 +15877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 389.89 29.21 0)
 			(effects
 				(font
@@ -14699,6 +15887,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 389.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics "
+			(at 389.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B225KAFNNNE"
+			(at 389.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B225KAFNNNE?qs=sGAEpiMZZMvsSlwiRhF8ql8j10gqqHLVDWBRrt%252BuLDM%3D"
+			(at 389.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B225KAFNNNE "
+			(at 389.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C19110"
 			(at 389.89 29.21 0)
 			(effects
 				(font
@@ -14783,6 +16016,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 92.71 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 92.71 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "mcu"
 				(path "/f4c5d84c-b5a9-4097-87ac-5d2cb897827b"
@@ -14829,7 +16080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 290.83 31.75 0)
 			(effects
 				(font
@@ -14839,6 +16090,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 290.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 290.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB104"
+			(at 290.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/YAGEO/CC0402KRX7R9BB104?qs=vRUrOTOuwyGrQb4GbTIVjw%3D%3D"
+			(at 290.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC402KRX7R9BB104 "
+			(at 290.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C131394"
 			(at 290.83 31.75 0)
 			(effects
 				(font
@@ -14946,7 +16242,7 @@
 		(at 36.83 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14976,7 +16272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/4/mcr_b_s_ra_smt_cs5a_nf_t_r_data_sheet-3396608.pdf"
 			(at 40.64 157.48 0)
 			(effects
 				(font
@@ -14986,6 +16282,51 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Adam-Tech/MCR-B-S-RA-SMT-CS5A-NF-T-R?qs=HoCaDK9Nz5fdX6n%2FEV3zpg%3D%3D"
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Adam Tech "
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCR-B-S-RA-SMT-CS5A-NF-T/R"
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "737-RBSRASMTCS5ANFTR "
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
 			(at 36.83 156.21 0)
 			(effects
 				(font
@@ -15064,7 +16405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 335.28 93.98 0)
 			(effects
 				(font
@@ -15074,6 +16415,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EE?qs=sGAEpiMZZMtlubZbdhIBINSnPd898yDPKLwcZeDyUvk%3D"
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay / Dale"
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06030000Z0EE"
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06030000Z0EE"
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C100044"
 			(at 335.28 93.98 0)
 			(effects
 				(font
@@ -15288,6 +16674,51 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1184KB RAM, 280 MHz, 1.62-3.6V, 82 GPIO, LQFP100"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/STMicroelectronics/STM32H7A3VIT6?qs=xZ%2FP%252Ba9zWqbEXpTWZm7ewQ%3D%3D"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STM32H7A3VIT6 "
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STM32H7A3VIT6 "
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C730222"
 			(at 201.93 106.68 0)
 			(effects
 				(font
@@ -15975,7 +17406,7 @@
 		(at 142.24 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16055,7 +17486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "737-RS2-18-G"
 			(at 161.29 917.17 0)
 			(effects
 				(font
@@ -16092,6 +17523,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Adam-Tech/RS2-18-G?qs=HoCaDK9Nz5d07CYsw8O7WQ%3D%3D"
+			(at 142.24 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 142.24 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16273,7 +17722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf"
 			(at 393.7 101.6 0)
 			(effects
 				(font
@@ -16283,6 +17732,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 393.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Susumu/RR0510P-332-D?qs=nCAm%252BcMdy9wQrUaMCMpRAw%3D%3D"
+			(at 393.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Susumu"
+			(at 393.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RR0510P-332-D"
+			(at 393.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "754-RR0510P-332D"
+			(at 393.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C2689454"
 			(at 393.7 101.6 0)
 			(effects
 				(font
@@ -16461,7 +17955,7 @@
 		(at 299.72 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f6792849-2086-4f9c-87ca-4993e9a8cf41")
@@ -16580,6 +18074,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/ABRACON/ASDDV-8.000MHZ-LR-T?qs=sGAEpiMZZMtldj7qu1ydrbV2KlGvrVWIfIBNRgsRVO90IQyGrSAC%2Fg%3D%3D"
+			(at 299.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
+			(at 299.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f68c8583-b24b-4f33-b957-2a874ea156e6")
 		)
@@ -16644,7 +18156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 375.92 29.21 0)
 			(effects
 				(font
@@ -16654,6 +18166,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 375.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics "
+			(at 375.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B225KAFNNNE"
+			(at 375.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://cz.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B225KAFNNNE?qs=sGAEpiMZZMvsSlwiRhF8ql8j10gqqHLVDWBRrt%252BuLDM%3D"
+			(at 375.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B225KAFNNNE "
+			(at 375.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C19110"
 			(at 375.92 29.21 0)
 			(effects
 				(font

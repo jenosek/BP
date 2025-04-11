@@ -1424,9 +1424,9 @@
 		)
 		(uuid "0afa761b-3f3b-40cd-8a8c-bca1c65362a4")
 	)
-	(text "Do not solder, if FUSB302B is used."
+	(text "Solder, if FUSB302B is used."
 		(exclude_from_sim no)
-		(at 61.722 66.04 0)
+		(at 58.674 66.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)

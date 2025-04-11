@@ -4496,7 +4496,7 @@
 		)
 		(uuid "7e180f48-a15e-4185-bcfa-b3aa03f56d88")
 	)
-	(text "Or connect jumper to \nMOSFET's bypass"
+	(text "or connect jumper to \nMOSFET's bypass."
 		(exclude_from_sim no)
 		(at 58.674 152.654 0)
 		(effects
@@ -4527,13 +4527,14 @@
 		)
 		(uuid "809ce583-062b-4149-bd5e-a037071574e3")
 	)
-	(text "Limit current to 5mA max."
+	(text "Limit current to 5mA max.\nSolder only one of them."
 		(exclude_from_sim no)
-		(at 147.574 159.004 0)
+		(at 134.112 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "87ae94f4-9e7f-49e6-9426-c9a32651ec1a")
 	)
