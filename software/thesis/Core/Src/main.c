@@ -22,7 +22,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "comms.h"
+#include "setup.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,6 +55,8 @@ SPI_HandleTypeDef hspi4;
 WWDG_HandleTypeDef hwwdg1;
 
 /* USER CODE BEGIN PV */
+HAL_StatusTypeDef* status = 0;
+uint8_t error_index = 0;
 
 /* USER CODE END PV */
 
@@ -123,12 +126,31 @@ int main(void)
   MX_SPI4_Init();
   /* USER CODE BEGIN 2 */
 
+  /* Initialize satellite's subsystems*/
+
+  setup(&status, &error_index);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  if (status != 0) {
+		  switch(error_index) {
+		  	case 1:
+		  		//print "ERROR: EPS - PowerInit";
+
+		  	case 2:
+		  		//print "ERROR: EPS - PowerIncreaseCurrent";
+
+
+		  	case 3:
+
+		  	}
+	  }
+
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -532,8 +554,8 @@ static void MX_DMA_Init(void)
 static void MX_GPIO_Init(void)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
-/* USER CODE BEGIN MX_GPIO_Init_1 */
-/* USER CODE END MX_GPIO_Init_1 */
+  /* USER CODE BEGIN MX_GPIO_Init_1 */
+  /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOH_CLK_ENABLE();
@@ -589,8 +611,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Alternate = GPIO_AF0_MCO;
   HAL_GPIO_Init(DCMI_MCLK_GPIO_Port, &GPIO_InitStruct);
 
-/* USER CODE BEGIN MX_GPIO_Init_2 */
-/* USER CODE END MX_GPIO_Init_2 */
+  /* USER CODE BEGIN MX_GPIO_Init_2 */
+  /* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */

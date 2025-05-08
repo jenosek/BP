@@ -10,8 +10,8 @@ typedef enum
 
 static I2C_HandleTypeDef* p_I2C;
 
-HAL_StatusTypeDef comms_init(I2C_HandleTypeDef* I2C_handle);
-HAL_StatusTypeDef write(DeviceAdress dev_adress, uint8_t reg_adress, uint8_t data);
-HAL_StatusTypeDef read(DeviceAdress dev_adress, uint8_t reg_adress, uint8_t* data);
+void comms_init(I2C_HandleTypeDef* I2C_handle);
+void I2C_write(HAL_StatusTypeDef* status, DeviceAdress dev_adress, uint8_t reg_adress, uint8_t* data);
+void I2C_read(HAL_StatusTypeDef* status, DeviceAdress dev_adress, uint8_t reg_adress, uint8_t* data);
 
 #endif

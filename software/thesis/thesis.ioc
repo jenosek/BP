@@ -417,4 +417,4 @@ VP_USB_DEVICE_VS_USB_DEVICE_CDC_HS.Signal=USB_DEVICE_VS_USB_DEVICE_CDC_HS
 VP_WWDG1_VS_WWDG.Mode=WWDG_Activate
 VP_WWDG1_VS_WWDG.Signal=WWDG1_VS_WWDG
 board=custom
-isbadioc=true
+isbadioc=false
