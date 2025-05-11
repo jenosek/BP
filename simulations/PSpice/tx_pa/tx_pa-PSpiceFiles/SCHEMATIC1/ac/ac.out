@@ -1,5 +1,5 @@
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -43,7 +43,7 @@ R_R2         0 OUT  50 TC=0,0
 **** RESUMING ac.cir ****
 .END
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -73,7 +73,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -103,7 +103,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -133,7 +133,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -163,7 +163,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -193,7 +193,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -223,7 +223,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -253,7 +253,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -283,7 +283,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -313,7 +313,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -343,7 +343,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -373,7 +373,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -403,7 +403,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -433,7 +433,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -463,7 +463,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -493,7 +493,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -523,7 +523,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -553,7 +553,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -583,7 +583,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -613,7 +613,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -643,7 +643,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -673,7 +673,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -703,7 +703,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -733,7 +733,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -763,7 +763,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -793,7 +793,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -823,7 +823,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -853,7 +853,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -883,7 +883,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -913,7 +913,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -943,7 +943,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -973,7 +973,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1003,7 +1003,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1033,7 +1033,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1063,7 +1063,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1093,7 +1093,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1123,7 +1123,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1153,7 +1153,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1183,7 +1183,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1213,7 +1213,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1243,7 +1243,7 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1276,7 +1276,7 @@ R_R2         0 OUT  50 TC=0,0
 
           JOB CONCLUDED
 
-**** 03/15/25 23:19:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:34:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-ac"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\ac.sim ] 
 
@@ -1290,5 +1290,5 @@ R_R2         0 OUT  50 TC=0,0
 
 
 
-  Total job time (using Solver 1)   =        1.14
+  Total job time (using Solver 1)   =        1.09
 

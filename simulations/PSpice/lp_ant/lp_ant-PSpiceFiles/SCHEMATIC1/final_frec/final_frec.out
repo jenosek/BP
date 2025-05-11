@@ -1,7 +1,7 @@
 
-**** 02/27/25 18:46:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:31:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-final_frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\final_frec.sim ] 
+ ** Profile: "SCHEMATIC1-final_frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\final_frec.si
 
 
  ****     CIRCUIT DESCRIPTION
@@ -42,9 +42,9 @@ R_R2         0 OUT  50 TC=0,0
 **** RESUMING final_frec.cir ****
 .END
 
-**** 02/27/25 18:46:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:31:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-final_frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\final_frec.sim ] 
+ ** Profile: "SCHEMATIC1-final_frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\final_frec.si
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -73,9 +73,9 @@ R_R2         0 OUT  50 TC=0,0
 
           JOB CONCLUDED
 
-**** 02/27/25 18:46:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:31:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-final_frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\final_frec.sim ] 
+ ** Profile: "SCHEMATIC1-final_frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\final_frec.si
 
 
  ****     JOB STATISTICS SUMMARY
@@ -85,5 +85,5 @@ R_R2         0 OUT  50 TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .03
+  Total job time (using Solver 1)   =         .05
 

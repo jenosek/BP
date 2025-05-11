@@ -1,7 +1,7 @@
-
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -38,14 +38,14 @@ C_C2         OUT 0  {c}  TC=0,0
 L_L1         N00121 OUT  18nH  
 R_R1         N00428 N00121  50 TC=0,0 
 R_R2         0 OUT  50 TC=0,0 
-.PARAM  c=9pf
+.PARAM  c=8.8pf
 
 **** RESUMING frec.cir ****
 .END
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -73,9 +73,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -103,9 +103,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -133,9 +133,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -163,9 +163,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -193,9 +193,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -223,9 +223,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -253,9 +253,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -283,9 +283,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -313,9 +313,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -343,9 +343,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -373,9 +373,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -403,9 +403,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -433,9 +433,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -463,9 +463,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -493,9 +493,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -523,9 +523,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -553,9 +553,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -583,9 +583,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -613,9 +613,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -643,9 +643,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -673,9 +673,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -703,9 +703,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -733,9 +733,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -763,9 +763,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -793,9 +793,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -823,9 +823,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -853,9 +853,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -883,9 +883,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -913,9 +913,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -943,9 +943,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -973,9 +973,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1003,9 +1003,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1033,9 +1033,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1063,9 +1063,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1093,9 +1093,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1123,9 +1123,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1153,9 +1153,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1183,9 +1183,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1213,9 +1213,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1243,9 +1243,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1273,9 +1273,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1303,9 +1303,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1333,9 +1333,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1363,9 +1363,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1393,9 +1393,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1423,9 +1423,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1453,9 +1453,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1483,9 +1483,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1513,9 +1513,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1543,9 +1543,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1573,9 +1573,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1603,9 +1603,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1633,9 +1633,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1663,9 +1663,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1693,9 +1693,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1723,9 +1723,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1753,9 +1753,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1783,9 +1783,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1813,9 +1813,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1843,9 +1843,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1873,9 +1873,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1903,9 +1903,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1933,9 +1933,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1963,9 +1963,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -1993,9 +1993,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -2023,9 +2023,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -2053,9 +2053,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -2083,9 +2083,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -2113,9 +2113,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -2143,9 +2143,9 @@ R_R2         0 OUT  50 TC=0,0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -2176,9 +2176,9 @@ R_R2         0 OUT  50 TC=0,0
 
           JOB CONCLUDED
 
-**** 02/27/25 18:44:15 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 04/20/25 23:33:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-frec"  [ C:\Users\honza\Desktop\bakalarka\sim\lp_ant\lp_ant-PSpiceFiles\SCHEMATIC1\frec.sim ] 
+ ** Profile: "SCHEMATIC1-frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\frec.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -2190,5 +2190,5 @@ R_R2         0 OUT  50 TC=0,0
 
 
 
-  Total job time (using Solver 1)   =        1.94
+  Total job time (using Solver 1)   =        2.02
 

@@ -18,11 +18,11 @@
          ".\lp_ant-pspicefiles\schematic1\frec.sim"
         (DisplayName "SCHEMATIC1-frec")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\lp_ant-pspicefiles\schematic1\final_frec.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\lp_ant-pspicefiles\schematic1\final_frec.sim"
         (DisplayName "SCHEMATIC1-final_frec")
-        (Type "PSpice Profile")))
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lp_ant-pspicefiles\schematic1\frec.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -63,7 +63,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant.dsn")
+      (Path "Design Resources"
+         "C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -73,10 +84,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "84 296")
-        (Zoom "174")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 503")
+        (Scroll "-421 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "C:\USERS\HONZA\DESKTOP\BAKALARKA\SIM\LP_ANT\LP_ANT.DSN")
+      (Path "C:\SKOLA\VUT\CUBESAT\BP\SIMULATIONS\PSPICE\LP_ANT\LP_ANT.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
