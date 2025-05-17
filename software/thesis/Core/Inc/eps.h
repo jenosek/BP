@@ -3,6 +3,10 @@
 
 #include "comms.h"
 
+#include "stm32h7xx_hal.h"
+#include "stm32h7xx_hal_def.h"
+#include <stdio.h>
+
 /* FUSB302BMPX */
 #define DEV_ID 0x01
 #define CONTROL0 0x6
@@ -18,7 +22,7 @@
 
 
 char* GetDevID(HAL_StatusTypeDef* status);
-HAL_StatusTypeDef PowerReset();
+void PowerReset(HAL_StatusTypeDef* status);
 void PowerInit(HAL_StatusTypeDef* status);
 void PowerIncreaseCurrent(HAL_StatusTypeDef* status);
 

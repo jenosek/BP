@@ -22,13 +22,12 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "comms.h"
-#include "setup.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+#include "custom_typedefs.h"
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -55,9 +54,11 @@ DMA_HandleTypeDef hdma_spi4_tx;
 DMA_HandleTypeDef hdma_spi4_rx;
 
 /* USER CODE BEGIN PV */
-HAL_StatusTypeDef* status = 0;
-uint8_t error_index = 0;
-
+/* USER CODE BEGIN PV */
+// Include of setup.h has to happen here, to support extern loading of globally defined variable
+#include "setup.h"
+HAL_StatusTypeDef status = 0;
+fault_flag error_index = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -124,30 +125,14 @@ int main(void)
   MX_SPI4_Init();
   /* USER CODE BEGIN 2 */
 
-  /* Initialize satellite's subsystems*/
-
-  setup(&status, &error_index);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  setup(&status, &error_index);
   while (1)
   {
-	  if (status != 0) {
-		  switch(error_index) {
-		  	case 1:
-		  		//print "ERROR: EPS - PowerInit";
-
-		  	case 2:
-		  		//print "ERROR: EPS - PowerIncreaseCurrent";
-
-
-		  	case 3:
-
-		  	}
-	  }
-
-
 
     /* USER CODE END WHILE */
 
@@ -529,6 +514,7 @@ static void MX_GPIO_Init(void)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* USER CODE BEGIN MX_GPIO_Init_1 */
+
   /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
@@ -586,6 +572,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_Init(DCMI_MCLK_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
+
   /* USER CODE END MX_GPIO_Init_2 */
 }
 

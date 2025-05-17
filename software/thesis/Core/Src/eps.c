@@ -1,53 +1,52 @@
 #include "eps.h"
 
 char* GetDevID(HAL_StatusTypeDef* status) {
-	char* IDs[3];
+	char IDs[3][13];
 	uint8_t reg;
 	uint8_t version;
 	uint8_t product_ID;
 	uint8_t revision_ID;
+	char temp;
 
 	// Read register
-	*status |= I2C_read(USB_C_CONTROLLER, DEV_ID, &reg);
+	I2C_read(status, USB_C_CONTROLLER, DEV_ID, &reg);
 
 	// Filter data with use of mask
-	version = reg & 0b11110000;
+	version = (reg & 0b11110000) + 57;
 	product_ID = reg & ((1 << 3) | (1 << 2));
-	revision_ID = reg & ((1 << 1) | 1);
+	revision_ID = (reg & ((1 << 1) | 1)) + 65;
 
 
 	// Translate binary to char array
 	//// Save letter of revision from ASCII
-	IDs[0] = version + 57;
-	IDs[3] = revision_ID + 65;
+	temp = (char)version;
+	strcpy(IDs[0], temp);
+	strcpy(IDs[3], revision_ID);
 
 	//// Find case of product
 	switch (product_ID) {
 	case 0:
-		IDs[1] = "FUSB302BMPX";
+		temp = "FUSB302BMPX";
 	case 1:
-		IDs[1] = "FUSB302B01MPX";
+		temp = "FUSB302B01MPX";
 	case 2:
-		IDs[1] = "FUSB302B10MPX";
+		temp = "FUSB302B10MPX";
 	case 3:
-		IDs[1] = "FUSB302B11MPX";
-	}
+		temp = "FUSB302B11MPX";
 	default:
-		IDs[1] = "Error";
-
+		temp = "Error";
+	}
+	strcpy(IDs[1], temp);
 	return;
 }
 
-HAL_StatusTypeDef PowerReset() {
-	HAL_StatusTypeDef status;
+void PowerReset(HAL_StatusTypeDef* status) {
 	uint8_t reg_val;
 
 	// Reset all registers to default state
-	status = I2C_read(USB_C_CONTROLLER, RESET, &reg_val);
-	reg_val |= ((1<<1) | 1);
-	status |= I2C_write(USB_C_CONTROLLER, RESET, reg_val);
-
-	return status;
+	I2C_read(status, USB_C_CONTROLLER, RESET, &reg_val);
+	reg_val++;
+	I2C_write(status, USB_C_CONTROLLER, RESET, &reg_val);
 }
 
 
@@ -55,46 +54,46 @@ void PowerInit(HAL_StatusTypeDef* status) {
 	uint8_t reg_val;
 
 	// Reset all registers
-	*status |= PowerReset();
+	PowerReset(status);
 
 	// Set device as SINK (Disable SRC/SNK toggle and poll CC lines only)
 	// CONTROL2:(MODE, TOGGLE)
-	*status |= I2C_read(USB_C_CONTROLLER, CONTROL2, &reg_val);
+	I2C_read(status, USB_C_CONTROLLER, CONTROL2, &reg_val);
 	reg_val |= ((1<<2) | 1);
-	reg_val &= (0<<1);
-	*status |= I2C_write(USB_C_CONTROLLER, CONTROL2, reg_val);
+	reg_val &= ~(1<<1);
+	I2C_write(status, USB_C_CONTROLLER, CONTROL2, &reg_val);
 
 
 	// Initially, set current to USB default  (recommended by doc.)
-	*status |= I2C_read(USB_C_CONTROLLER, CONTROL0, &reg_val);
-	reg_val &= (0<<3);
+	I2C_read(status, USB_C_CONTROLLER, CONTROL0, &reg_val);
+	reg_val &= ~(1<<3);
 	reg_val |= (1 << 2);
-	*status = I2C_write(USB_C_CONTROLLER, CONTROL0, reg_val);
+	I2C_write(status, USB_C_CONTROLLER, CONTROL0, &reg_val);
 
 	// Disable current source(s) at CC lines
-	*status |= I2C_read(USB_C_CONTROLLER, SWITCHES0, &reg_val);
-	reg_val &= ((0 << 5) | (0 << 4));
-	*status |= I2C_write(USB_C_CONTROLLER, SWITCHES0, reg_val);
+	I2C_read(status, USB_C_CONTROLLER, SWITCHES0, &reg_val);
+	reg_val &= ~((1 << 5) | (1 << 4));
+	I2C_write(status, USB_C_CONTROLLER, SWITCHES0, &reg_val);
 
 	// Mask interrupt for current level request
-	*status |= I2C_write(USB_C_CONTROLLER, MASK, 0xFE);
+	reg_val = 0xFE;
+	I2C_write(status, USB_C_CONTROLLER, MASK, &reg_val);
 
 	// Mask interrupt for toggle status
-	*status |= I2C_write(USB_C_CONTROLLER, MASKA, 0xBF);
+	reg_val = 0xBF;
+	I2C_write(status, USB_C_CONTROLLER, MASKA, &reg_val);
 
 	// Mask interrupt for GoodCRC acknowledge (BMC is not used)
-	*status |= I2C_write(USB_C_CONTROLLER, MASKB, 0x01);
-
-	return;
+	reg_val = 0x01;
+	I2C_write(status, USB_C_CONTROLLER, MASKB, &reg_val);
 }
 
 void PowerIncreaseCurrent(HAL_StatusTypeDef* status) {
 	uint8_t reg_val;
-	HAL_StatusTypeDef status;
 
-	*status |= I2C_read(USB_C_CONTROLLER, CONTROL0, &reg_val);
+	I2C_read(status, USB_C_CONTROLLER, CONTROL0, &reg_val);
 	reg_val |= ((1<<3) | (1<<2));
-	*status |= I2C_write(USB_C_CONTROLLER, CONTROL0, reg_val);
+	I2C_write(status, USB_C_CONTROLLER, CONTROL0, &reg_val);
 
 	return;
 }

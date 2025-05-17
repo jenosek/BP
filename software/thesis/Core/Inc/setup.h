@@ -2,9 +2,14 @@
 #define SETUP_H
 
 #include "eps.h"
-#include "bsp.h"
+#include "radio_config_Si4468.h"
+//#include "stm32h7xx_hal.h"
 
-void setup(HAL_StatusTypeDef* status, uint8_t* error_index);
+#include <stdio.h>
+
+//extern fault_flag error_index;
+
+void setup(HAL_StatusTypeDef* status, fault_flag* error_index);
 
 
 #endif

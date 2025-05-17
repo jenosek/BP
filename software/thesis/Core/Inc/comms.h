@@ -1,24 +1,42 @@
 #ifndef COMMS_H
 #define COMMS_H
 
+#include "stm32h7xx_hal.h"
+#include <stdio.h>
+#include "custom_typedefs.h"
 
-typedef enum
-{
-  CAMERA = 0x42,
-  USB_C_CONTROLLER = 0b10000100,
-} DeviceAdress;
 
-static I2C_HandleTypeDef* p_I2C;
-static SPI_HandleTypeDef* p_SPI;
-static DMA_HandleTypeDef* p_SPI_DMA_Tx;
-static DMA_HandleTypeDef* p_SPI_DMA_Rx;
 
-void comms_init(I2C_HandleTypeDef* I2C_handle, SPI_HandleTypeDef* SPI_handle, DMA_HandleTypeDef* SPI_DMA_Tx, DMA_HandleTypeDef* SPI_DMA_Rx);
+// Definitions
+#define CTS_PIN_NUM GPIO_PIN_0
+#define CTS_PIN_GROUP  GPIOA
+
+// Static variables & enums
+typedef enum {
+	DMA_COMPLETED = 0,
+	DMA_INPROGRESS = 1
+} DMA_status_flag;
+
+
+static DMA_status_flag dma_flag;
+static uint8_t data_buffer[61] = {0};
+
+extern I2C_HandleTypeDef hi2c2;
+extern SPI_HandleTypeDef hspi4;
+
+
+
+// I2C comms.
+
 void I2C_write(HAL_StatusTypeDef* status, DeviceAdress dev_adress, uint8_t reg_adress, uint8_t* data);
 void I2C_read(HAL_StatusTypeDef* status, DeviceAdress dev_adress, uint8_t reg_adress, uint8_t* data);
 
+// SPI utilities
+void SPI_check_CTS(HAL_StatusTypeDef* status);
+
+
 // SPI interrupt-based comms. (settings etc.)
-void SPI_read(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* length);
+void SPI_read(HAL_StatusTypeDef* status, uint8_t* data);
 void SPI_write(HAL_StatusTypeDef* status, uint8_t* data);
 
 

@@ -1,0 +1,4 @@
+../Core/Src/eps.c:3:7:GetDevID	5
+../Core/Src/eps.c:43:6:PowerReset	1
+../Core/Src/eps.c:53:6:PowerInit	1
+../Core/Src/eps.c:91:6:PowerIncreaseCurrent	1
