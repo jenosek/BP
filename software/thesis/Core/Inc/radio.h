@@ -2,7 +2,15 @@
 #define INC_RADIO_H_
 
 #include "radio_config_Si4468.h"
+#include "comms.h"
+#include "stm32h7xx_hal_def.h"
+#include "stm32h7xx_hal.h"
+#include "stm32h7xx_hal_spi.h"
 
+
+// Optimized SPI transfer of 0x00 byte for proper boot up
+void radio_send_NOP();
+// Setup
 void radio_power_up(HAL_StatusTypeDef* status);
 void radio_pins(HAL_StatusTypeDef* status);
 void radio_TCXO(HAL_StatusTypeDef* status);
@@ -11,7 +19,7 @@ void radio_interrupts(HAL_StatusTypeDef* status);
 void radio_fast_registers(HAL_StatusTypeDef* status);
 void radio_Tx(HAL_StatusTypeDef* status);
 void radio_sync(HAL_StatusTypeDef* status);
-void radio_Tx_CRC(HAL_StatusTypeDef* status);
+void radio_packet_CRC(HAL_StatusTypeDef* status);
 void radio_Rx_thr(HAL_StatusTypeDef* status);
 void radio_Rx_CRC_1(HAL_StatusTypeDef* status);
 void radio_Rx_CRC_2(HAL_StatusTypeDef* status);
@@ -31,11 +39,15 @@ void radio_RSSI_thr(HAL_StatusTypeDef* status);
 void radio_RSSI_att(HAL_StatusTypeDef* status);
 void radio_Rx_filter_1(HAL_StatusTypeDef* status);
 void radio_Rx_filter_2(HAL_StatusTypeDef* status);
+void radio_Rx_filter_3(HAL_StatusTypeDef* status);
 void radio_PA_1(HAL_StatusTypeDef* status);
 void radio_PA_2(HAL_StatusTypeDef* status);
 void radio_masks(HAL_StatusTypeDef* status);
 void radio_PLL(HAL_StatusTypeDef* status);
 
+// Modes
+void radio_mode_Rx(HAL_StatusTypeDef* status);
+void radio_mode_Tx(HAL_StatusTypeDef* status);
 
 
 

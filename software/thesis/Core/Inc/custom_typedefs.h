@@ -8,7 +8,10 @@ typedef enum {
 	POWER_INIT,
 	POWER_INC,
 	RADIO_CTS,
-	RADIO_PWUP
+	RADIO_PWUP,
+	RADIO_SETUP,
+	RADIO_SET_RX,
+	RADIO_HW_INFO
 }fault_flag;
 
 // Setup - device adresses

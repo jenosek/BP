@@ -420,7 +420,7 @@
 // Default values:           0x00, 0x00, 
 // Descriptions:
 //   MODEM_SPIKE_DET - Configures the threshold for (G)FSK Spike Detection.
-//   MODEM_ONE_SHOT_AFC - Configures parameters for th e One Shot AFC function and for BCR timing/acquisition.
+//   MODEM_ONE_SHOT_AFC - Configures parameters for the One Shot AFC function and for BCR timing/acquisition.
 */
 #define RF_MODEM_SPIKE_DET_2 0x11, 0x20, 0x02, 0x54, 0x03, 0x07
 

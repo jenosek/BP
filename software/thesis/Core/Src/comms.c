@@ -31,33 +31,33 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef * hspi)
 void SPI_check_CTS(HAL_StatusTypeDef* status) {
 	uint8_t attempt = 0;
 	// Wait until Clear To Send (CTS) signal appears
-	while (!(HAL_GPIO_ReadPin(CTS_PIN_GROUP, CTS_PIN_NUM)) && (attempt < 10)) {
+	while (!(HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_9))) {
 		attempt++;
+		if (attempt > 10) {
+			*status = 0x3; // Timeout
+			return;
+		}
 		HAL_Delay(100);
 	}
 
-	if (attempt == 10) {
-		*status = 0x3; // Timeout
-		return;
-	}
 
 	// Clear CTS once found, so it can function properly - use GET_INT_STATUS command with three zero bytes
 	uint8_t data[] = {0x20, 0, 0, 0};
-	*status |= HAL_SPI_Transmit(&hspi4, data, 4, 50);
+	*status |= HAL_SPI_TransmitReceive(&hspi4, data, data_buffer, 8, 100);
 
 	// SI is now ready to receive data
 	// NOTE: response should be read, however, I have not found any description on interrupt mapping in received structure
 }
 
-void SPI_write(HAL_StatusTypeDef* status, uint8_t* data) {
+void SPI_write(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
 	// Transmit data array
 	SPI_check_CTS(status);
-	*status |= HAL_SPI_Transmit(&hspi4, data, sizeof(data)/8, 50);
+	*status |= HAL_SPI_Transmit(&hspi4, data, *size, 100);
 	return;
 }
 
 // SPI functions
-void SPI_read(HAL_StatusTypeDef* status, uint8_t* data) {
+void SPI_read(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
 	// Receive data array of given size defined by provided array
 	// Maximum data length provided by SI chip is 16 bytes (-> max. 16 messages)
 	// Repetitive reading (from 1st byte) is possible, but it has not been implemented yet
@@ -68,8 +68,9 @@ void SPI_read(HAL_StatusTypeDef* status, uint8_t* data) {
 	// Duplicate data array with command and zeros (use static buffer)
 	data_buffer[0] = data[0];
 
+
 	// When reading data, don't forget to ignore the first byte
-	*status |= HAL_SPI_TransmitReceive(&hspi4, data_buffer, data, sizeof(data)/8, 70);
+	*status |= HAL_SPI_TransmitReceive(&hspi4, data_buffer, data, *size, 70);
 }
 
 
@@ -104,6 +105,8 @@ void receive_image(HAL_StatusTypeDef* status, uint8_t* data) {
 	// Load register address to temporary buffer
 	data_buffer[0] = data[0];
 	*status = HAL_SPI_TransmitReceive_DMA(&hspi4, data_buffer, data, 61);
+
+	// DON'T FORGET TO IGNORE THE FIRST BYTE
 	return;
 }
 

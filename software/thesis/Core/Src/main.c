@@ -56,7 +56,7 @@ DMA_HandleTypeDef hdma_spi4_rx;
 /* USER CODE BEGIN PV */
 /* USER CODE BEGIN PV */
 // Include of setup.h has to happen here, to support extern loading of globally defined variable
-#include "setup.h"
+#include <routines.h>
 HAL_StatusTypeDef status = 0;
 fault_flag error_index = 0;
 /* USER CODE END PV */
@@ -131,6 +131,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
   setup(&status, &error_index);
+  get_radio_hw_info(&status, &error_index);
   while (1)
   {
 
@@ -529,6 +530,9 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(DCMI_3V3_GPIO_Port, DCMI_3V3_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(SDN_GPIO_Port, SDN_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOD, DCMI_RST_Pin|DCMI_PWDN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : INT_N_Pin */
@@ -555,6 +559,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(DCMI_3V3_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : SDN_Pin */
+  GPIO_InitStruct.Pin = SDN_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(SDN_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : DCMI_RST_Pin DCMI_PWDN_Pin */
   GPIO_InitStruct.Pin = DCMI_RST_Pin|DCMI_PWDN_Pin;

@@ -79,6 +79,8 @@ void Error_Handler(void);
 #define SPI4_nSEL_GPIO_Port GPIOE
 #define DCMI_3V3_Pin GPIO_PIN_15
 #define DCMI_3V3_GPIO_Port GPIOE
+#define SDN_Pin GPIO_PIN_12
+#define SDN_GPIO_Port GPIOB
 #define DCMI_RST_Pin GPIO_PIN_9
 #define DCMI_RST_GPIO_Port GPIOD
 #define DCMI_PWDN_Pin GPIO_PIN_10

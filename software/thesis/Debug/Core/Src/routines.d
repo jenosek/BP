@@ -1,4 +1,4 @@
-Core/Src/setup.o: ../Core/Src/setup.c ../Core/Inc/setup.h \
+Core/Src/routines.o: ../Core/Src/routines.c ../Core/Inc/routines.h \
  ../Core/Inc/eps.h ../Core/Inc/comms.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
@@ -39,8 +39,8 @@ Core/Src/setup.o: ../Core/Src/setup.c ../Core/Inc/setup.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../Core/Inc/custom_typedefs.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
- ../Core/Inc/radio_config_Si4468.h
-../Core/Inc/setup.h:
+ ../Core/Inc/radio_config_Si4468.h ../Core/Inc/radio.h
+../Core/Inc/routines.h:
 ../Core/Inc/eps.h:
 ../Core/Inc/comms.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
@@ -83,3 +83,4 @@ Core/Src/setup.o: ../Core/Src/setup.c ../Core/Inc/setup.h \
 ../Core/Inc/custom_typedefs.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:
 ../Core/Inc/radio_config_Si4468.h:
+../Core/Inc/radio.h:
