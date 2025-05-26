@@ -51,7 +51,7 @@
 // Command:                  RF_GPIO_PIN_CFG
 // Description:              Configures the GPIO pins.
 */
-#define RF_GPIO_PIN_CFG 0x13, 0x00, 0x08, 0x00, 0x16, 0x27, 0x0B, 0x00
+#define RF_GPIO_PIN_CFG 0x13, 0x00, 0x08, 0x00, 0x16, 0x27, 0x4B, 0x00
 
 /*
 // Set properties:           RF_GLOBAL_XO_TUNE_2
@@ -77,15 +77,18 @@
 #define RF_GLOBAL_CONFIG_1 0x11, 0x00, 0x01, 0x03, 0x20
 
 /*
-// Set properties:           RF_INT_CTL_ENABLE_1
-// Number of properties:     1
+// Set properties:           RF_INT_CTL_ENABLE_4
+// Number of properties:     4
 // Group ID:                 0x01
 // Start ID:                 0x00
-// Default values:           0x04, 
+// Default values:           0x04, 0x00, 0x00, 0x04, 
 // Descriptions:
 //   INT_CTL_ENABLE - This property provides for global enabling of the three interrupt groups (Chip, Modem and Packet Handler) in order to generate HW interrupts at the NIRQ pin.
+//   INT_CTL_PH_ENABLE - Enable individual interrupt sources within the Packet Handler Interrupt Group to generate a HW interrupt on the NIRQ output pin.
+//   INT_CTL_MODEM_ENABLE - Enable individual interrupt sources within the Modem Interrupt Group to generate a HW interrupt on the NIRQ output pin.
+//   INT_CTL_CHIP_ENABLE - Enable individual interrupt sources within the Chip Interrupt Group to generate a HW interrupt on the NIRQ output pin.
 */
-#define RF_INT_CTL_ENABLE_1 0x11, 0x01, 0x01, 0x00, 0x00
+#define RF_INT_CTL_ENABLE_4 0x11, 0x01, 0x04, 0x00, 0x07, 0x00, 0x00, 0x00
 
 /*
 // Set properties:           RF_FRR_CTL_A_MODE_4
@@ -420,7 +423,7 @@
 // Default values:           0x00, 0x00, 
 // Descriptions:
 //   MODEM_SPIKE_DET - Configures the threshold for (G)FSK Spike Detection.
-//   MODEM_ONE_SHOT_AFC - Configures parameters for the One Shot AFC function and for BCR timing/acquisition.
+//   MODEM_ONE_SHOT_AFC - Configures parameters for th e One Shot AFC function and for BCR timing/acquisition.
 */
 #define RF_MODEM_SPIKE_DET_2 0x11, 0x20, 0x02, 0x54, 0x03, 0x07
 
@@ -598,7 +601,7 @@
         0x08, RF_GPIO_PIN_CFG, \
         0x06, RF_GLOBAL_XO_TUNE_2, \
         0x05, RF_GLOBAL_CONFIG_1, \
-        0x05, RF_INT_CTL_ENABLE_1, \
+        0x08, RF_INT_CTL_ENABLE_4, \
         0x08, RF_FRR_CTL_A_MODE_4, \
         0x0D, RF_PREAMBLE_TX_LENGTH_9, \
         0x0E, RF_SYNC_CONFIG_10, \

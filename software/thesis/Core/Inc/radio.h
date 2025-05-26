@@ -1,15 +1,14 @@
 #ifndef INC_RADIO_H_
 #define INC_RADIO_H_
 
+#include "stm32h7xx_hal.h"
 #include "radio_config_Si4468.h"
 #include "comms.h"
 #include "stm32h7xx_hal_def.h"
-#include "stm32h7xx_hal.h"
-#include "stm32h7xx_hal_spi.h"
 
 
-// Optimized SPI transfer of 0x00 byte for proper boot up
-void radio_send_NOP();
+
+
 // Setup
 void radio_power_up(HAL_StatusTypeDef* status);
 void radio_pins(HAL_StatusTypeDef* status);

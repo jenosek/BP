@@ -1,5 +1,4 @@
 Core/Src/radio.o: ../Core/Src/radio.c ../Core/Inc/radio.h \
- ../Core/Inc/radio_config_Si4468.h ../Core/Inc/comms.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -37,11 +36,10 @@ Core/Src/radio.o: ../Core/Src/radio.c ../Core/Inc/radio.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
+ ../Core/Inc/radio_config_Si4468.h ../Core/Inc/comms.h \
  ../Core/Inc/custom_typedefs.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 ../Core/Inc/radio.h:
-../Core/Inc/radio_config_Si4468.h:
-../Core/Inc/comms.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -79,5 +77,7 @@ Core/Src/radio.o: ../Core/Src/radio.c ../Core/Inc/radio.h \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
+../Core/Inc/radio_config_Si4468.h:
+../Core/Inc/comms.h:
 ../Core/Inc/custom_typedefs.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:

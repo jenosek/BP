@@ -11,6 +11,6 @@
 //extern fault_flag error_index;
 
 void setup(HAL_StatusTypeDef* status, fault_flag* error_index);
-void get_radio_hw_info(HAL_StatusTypeDef* status, fault_flag* error_index);
+char** get_radio_hw_info(HAL_StatusTypeDef* status, fault_flag* error_index);
 
 #endif

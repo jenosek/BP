@@ -1,2 +1,2 @@
 ../Core/Src/routines.c:3:6:setup	16	static
-../Core/Src/routines.c:89:6:get_radio_hw_info	32	static
+../Core/Src/routines.c:89:8:get_radio_hw_info	48	static

@@ -1,9 +1,10 @@
 ../Core/Src/comms.c:5:6:I2C_write	1
 ../Core/Src/comms.c:9:6:I2C_read	1
-../Core/Src/comms.c:21:6:HAL_SPI_TxCpltCallback	1
-../Core/Src/comms.c:26:6:HAL_SPI_TxRxCpltCallback	1
-../Core/Src/comms.c:31:6:SPI_check_CTS	3
-../Core/Src/comms.c:52:6:SPI_write	1
-../Core/Src/comms.c:60:6:SPI_read	1
-../Core/Src/comms.c:80:6:send_image	3
-../Core/Src/comms.c:96:6:receive_image	2
+../Core/Src/comms.c:19:6:close_SPI	7
+../Core/Src/comms.c:86:6:HAL_SPI_TxCpltCallback	1
+../Core/Src/comms.c:91:6:HAL_SPI_TxRxCpltCallback	1
+../Core/Src/comms.c:96:6:SPI_check_CTS	3
+../Core/Src/comms.c:115:6:SPI_write	2
+../Core/Src/comms.c:123:6:SPI_read	4
+../Core/Src/comms.c:170:6:send_image	3
+../Core/Src/comms.c:186:6:receive_image	2

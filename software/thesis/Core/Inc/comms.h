@@ -36,8 +36,9 @@ void SPI_check_CTS(HAL_StatusTypeDef* status);
 
 
 // SPI interrupt-based comms. (settings etc.)
-void SPI_read(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size);
+void SPI_read(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* TxSize, uint8_t* RxSize);
 void SPI_write(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size);
+void close_SPI(SPI_HandleTypeDef* hspi);
 
 
 // SPI DMA-based comms. (image data transfer)

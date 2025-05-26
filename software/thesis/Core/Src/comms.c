@@ -16,6 +16,71 @@ void I2C_read(HAL_StatusTypeDef* status, DeviceAdress dev_adress, uint8_t reg_ad
 
 
 // SPI
+void close_SPI(SPI_HandleTypeDef* hspi) {
+	uint32_t itflag = hspi->Instance->SR;
+
+	  __HAL_SPI_CLEAR_EOTFLAG(hspi);
+	  __HAL_SPI_CLEAR_TXTFFLAG(hspi);
+
+	  /* Disable SPI peripheral */
+	  __HAL_SPI_DISABLE(hspi);
+
+	  /* Disable ITs */
+	  __HAL_SPI_DISABLE_IT(hspi, (SPI_IT_EOT | SPI_IT_TXP | SPI_IT_RXP | SPI_IT_DXP | SPI_IT_UDR | SPI_IT_OVR | \
+	                              SPI_IT_FRE | SPI_IT_MODF));
+
+	  /* Disable Tx DMA Request */
+	  CLEAR_BIT(hspi->Instance->CFG1, SPI_CFG1_TXDMAEN | SPI_CFG1_RXDMAEN);
+
+	  /* Report UnderRun error for non RX Only communication */
+	  if (hspi->State != HAL_SPI_STATE_BUSY_RX)
+	  {
+	    if ((itflag & SPI_FLAG_UDR) != 0UL)
+	    {
+	      SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_UDR);
+	      __HAL_SPI_CLEAR_UDRFLAG(hspi);
+	    }
+	  }
+
+	  /* Report OverRun error for non TX Only communication */
+	  if (hspi->State != HAL_SPI_STATE_BUSY_TX)
+	  {
+	    if ((itflag & SPI_FLAG_OVR) != 0UL)
+	    {
+	      SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_OVR);
+	      __HAL_SPI_CLEAR_OVRFLAG(hspi);
+	    }
+
+	#if (USE_SPI_CRC != 0UL)
+	    /* Check if CRC error occurred */
+	    if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
+	    {
+	      if ((itflag & SPI_FLAG_CRCERR) != 0UL)
+	      {
+	        SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_CRC);
+	        __HAL_SPI_CLEAR_CRCERRFLAG(hspi);
+	      }
+	    }
+	#endif /* USE_SPI_CRC */
+	  }
+
+	  /* SPI Mode Fault error interrupt occurred -------------------------------*/
+	  if ((itflag & SPI_FLAG_MODF) != 0UL)
+	  {
+	    SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_MODF);
+	    __HAL_SPI_CLEAR_MODFFLAG(hspi);
+	  }
+
+	  /* SPI Frame error interrupt occurred ------------------------------------*/
+	  if ((itflag & SPI_FLAG_FRE) != 0UL)
+	  {
+	    SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FRE);
+	    __HAL_SPI_CLEAR_FREFLAG(hspi);
+	  }
+
+	  hspi->TxXferCount = (uint16_t)0UL;
+	  hspi->RxXferCount = (uint16_t)0UL;
+}
 
 // DMA callbacks, when SPI finishes
 void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef * hspi)
@@ -30,47 +95,72 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef * hspi)
 
 void SPI_check_CTS(HAL_StatusTypeDef* status) {
 	uint8_t attempt = 0;
+	//uint8_t data[] = {0x20, 0, 0, 0}; //GET_INT_STATUS to clear CTS
 	// Wait until Clear To Send (CTS) signal appears
 	while (!(HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_9))) {
 		attempt++;
-		if (attempt > 10) {
+		if (attempt > 100) {
 			*status = 0x3; // Timeout
 			return;
 		}
 		HAL_Delay(100);
 	}
 
-
-	// Clear CTS once found, so it can function properly - use GET_INT_STATUS command with three zero bytes
-	uint8_t data[] = {0x20, 0, 0, 0};
-	*status |= HAL_SPI_TransmitReceive(&hspi4, data, data_buffer, 8, 100);
+	//*status |= HAL_SPI_Transmit(&hspi4, data, 4, 100);
 
 	// SI is now ready to receive data
-	// NOTE: response should be read, however, I have not found any description on interrupt mapping in received structure
+
 }
 
 void SPI_write(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
 	// Transmit data array
 	SPI_check_CTS(status);
+	if (*status != 0) {return;}
 	*status |= HAL_SPI_Transmit(&hspi4, data, *size, 100);
-	return;
 }
 
 // SPI functions
-void SPI_read(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
-	// Receive data array of given size defined by provided array
+void SPI_read(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* TxSize, uint8_t* RxSize) {
+	// Receive data array of given RxSize (useful data only, padding is being added here)
 	// Maximum data length provided by SI chip is 16 bytes (-> max. 16 messages)
-	// Repetitive reading (from 1st byte) is possible, but it has not been implemented yet
-
+	// Repetitive reading is possible, but it has not been implemented yet
+	/*
+	for (uint8_t i = 0; i < *TxSize; i++) {
+		data_buffer[i] = data[i];
+	}
+	*/
 
 	SPI_check_CTS(status);
-
+	if (*status != 0) {return;}
+	/*
 	// Duplicate data array with command and zeros (use static buffer)
 	data_buffer[0] = data[0];
+	*/
+
+	// Address of requested register
+	*status |= HAL_SPI_Transmit(&hspi4, data, *TxSize, 70);
+
+	// Wait for CTS
+	SPI_check_CTS(status);
+	if (*status != 0) {return;}
 
 
-	// When reading data, don't forget to ignore the first byte
-	*status |= HAL_SPI_TransmitReceive(&hspi4, data_buffer, data, *size, 70);
+	// Once approved, prepare for reading (READ_CMD_BUFF)
+	data[0] = 0x44;
+	data[1] = 0xFF;
+
+	// Insert padding (Tx delay + CTS byte)
+	*RxSize += 2;
+
+	// Issue reading command
+	*status |= HAL_SPI_TransmitReceive(&hspi4, data, data_buffer, *RxSize, 100);
+
+
+	// Load read data into data array and remove padding at the beginning
+	for (uint8_t i = 2; i < *RxSize; i++) {
+		data[i-2] = data_buffer[i];
+	}
+
 }
 
 
