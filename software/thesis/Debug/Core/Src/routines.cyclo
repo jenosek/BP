@@ -1,2 +1,4 @@
 ../Core/Src/routines.c:3:6:setup	6
-../Core/Src/routines.c:89:8:get_radio_hw_info	2
+../Core/Src/routines.c:89:6:cmd_main_win	1
+../Core/Src/routines.c:101:6:cmd_img_options	1
+../Core/Src/routines.c:119:6:capture_img	9

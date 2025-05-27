@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -32,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define GROUND_STATION
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -59,6 +59,8 @@ DMA_HandleTypeDef hdma_spi4_rx;
 #include <routines.h>
 HAL_StatusTypeDef status = 0;
 fault_flag error_index = 0;
+char cmd_index = '0';
+uint8_t cam_mode_select = 0xFF;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -74,11 +76,44 @@ static void MX_ADC2_Init(void);
 static void MX_SPI4_Init(void);
 /* USER CODE BEGIN PFP */
 
+
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+#ifdef GROUND_STATION
+void USB_CDC_RxHandler(uint8_t *buffer, uint32_t size) {
+	char cmd_temp = buffer[0];
+	if (cmd_temp == '\r') {
+		return;
+	}
+	else if (size == 1) {
+		cmd_index = (char) buffer[0];
+	}
+	else {
+		uint8_t first = (uint8_t) buffer[0] - '1';
+		uint8_t second = (uint8_t) buffer[1] - '1';
 
+		cam_mode_select = first * 16 + second;
+		/*
+		char mode_temp[2] = {buffer[0], buffer[1]};
+		switch(mode_temp) {
+			case "11": {cam_mode_select = 0x00;}
+			case "12": {cam_mode_select = 0x01;}
+			case "21": {cam_mode_select = 0x10;}
+			case "22": {cam_mode_select = 0x11;}
+			case "31": {cam_mode_select = 0x20;}
+			case "32": {cam_mode_select = 0x21;}
+			case "41": {cam_mode_select = 0x30;}
+			case "42": {cam_mode_select = 0x31;}
+			default: {
+				cam_mode_select = 0xAA; //ERROR
+			}
+		}*/
+	}
+}
+#endif
 /* USER CODE END 0 */
 
 /**
@@ -130,11 +165,56 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-  setup(&status, &error_index);
-  get_radio_hw_info(&status, &error_index);
-  while (1)
-  {
+  //setup(&status, &error_index);                       - <<<<<<--------------------------------------------------------------------------------------------
+  HAL_Delay(1000);
+  cmd_main_win();
+  while (1) {
 
+	  switch (cmd_index) {
+
+	  		  // Idle
+	  		  case '0':
+	  			HAL_Delay(100);
+	  			break;
+
+	  		  // Telemetry
+	  		  case '1':
+	  			  cmd_index = '0';
+	  			break;
+
+	  		  // IMG
+	  		  case '2':
+	  			  cmd_img_options();
+	  			  while (cam_mode_select == 0xFF) {
+	  				  if (cam_mode_select == 0xAA) {
+	  					  uint8_t buffer[] = "Unrecognized command \r\n";
+	  					  uint16_t buffer_size = sizeof(buffer);
+	  					  CDC_Transmit_HS(buffer, buffer_size);
+	  					  cmd_index = '0';
+	  					  break;
+	  				  }
+	  			  }
+	  			  capture_img(&status, &error_index, &cam_mode_select);
+	  			  cmd_index = '0';
+	  			  cam_mode_select = 0xFF; //return to default state
+	  			break;
+
+	  		  case '3': {
+	  			uint8_t buffer[] = "\e[1;1H\e[2J";
+	  			uint16_t buffer_size = sizeof(buffer);
+	  			CDC_Transmit_HS(buffer, buffer_size);
+	  			cmd_index = '0';
+	  			HAL_Delay(100);
+	  			cmd_main_win();
+	  			break;
+	  		  }
+	  		  default: {
+	  			uint8_t buffer[] = "Unrecognized command \r\n";
+	  			uint16_t buffer_size = sizeof(buffer);
+	  			CDC_Transmit_HS(buffer, buffer_size);
+	  			cmd_index = '0';
+	  		  }
+	  	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -167,17 +247,15 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_BYPASS;
-  RCC_OscInitStruct.HSIState = RCC_HSI_DIV1;
-  RCC_OscInitStruct.HSICalibrationValue = 64;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 1;
   RCC_OscInitStruct.PLL.PLLN = 70;
   RCC_OscInitStruct.PLL.PLLP = 2;
-  RCC_OscInitStruct.PLL.PLLQ = 3;
-  RCC_OscInitStruct.PLL.PLLR = 2;
+  RCC_OscInitStruct.PLL.PLLQ = 25;
+  RCC_OscInitStruct.PLL.PLLR = 4;
   RCC_OscInitStruct.PLL.PLLRGE = RCC_PLL1VCIRANGE_3;
   RCC_OscInitStruct.PLL.PLLVCOSEL = RCC_PLL1VCOWIDE;
   RCC_OscInitStruct.PLL.PLLFRACN = 0;
@@ -203,7 +281,8 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-  HAL_RCC_MCOConfig(RCC_MCO1, RCC_MCO1SOURCE_HSI, RCC_MCODIV_1);
+  __HAL_RCC_PLLCLKOUT_ENABLE(RCC_PLL1_DIVQ);
+  HAL_RCC_MCOConfig(RCC_MCO1, RCC_MCO1SOURCE_PLL1QCLK, RCC_MCODIV_1);
 }
 
 /**
@@ -368,8 +447,8 @@ static void MX_DCMI_Init(void)
   /* USER CODE END DCMI_Init 1 */
   hdcmi.Instance = DCMI;
   hdcmi.Init.SynchroMode = DCMI_SYNCHRO_HARDWARE;
-  hdcmi.Init.PCKPolarity = DCMI_PCKPOLARITY_FALLING;
-  hdcmi.Init.VSPolarity = DCMI_VSPOLARITY_LOW;
+  hdcmi.Init.PCKPolarity = DCMI_PCKPOLARITY_RISING;
+  hdcmi.Init.VSPolarity = DCMI_VSPOLARITY_HIGH;
   hdcmi.Init.HSPolarity = DCMI_HSPOLARITY_LOW;
   hdcmi.Init.CaptureRate = DCMI_CR_ALL_FRAME;
   hdcmi.Init.ExtendedDataMode = DCMI_EXTEND_DATA_8B;
@@ -533,7 +612,10 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(SDN_GPIO_Port, SDN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, DCMI_RST_Pin|DCMI_PWDN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(DCMI_RST_GPIO_Port, DCMI_RST_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(DCMI_PWDN_GPIO_Port, DCMI_PWDN_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin : INT_N_Pin */
   GPIO_InitStruct.Pin = INT_N_Pin;
@@ -571,14 +653,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = DCMI_RST_Pin|DCMI_PWDN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
   /*Configure GPIO pin : DCMI_MCLK_Pin */
   GPIO_InitStruct.Pin = DCMI_MCLK_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   GPIO_InitStruct.Alternate = GPIO_AF0_MCO;
   HAL_GPIO_Init(DCMI_MCLK_GPIO_Port, &GPIO_InitStruct);
 

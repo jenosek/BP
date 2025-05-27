@@ -86,12 +86,87 @@ void setup(HAL_StatusTypeDef* status, fault_flag* error_index) {
 
 }
 
+void cmd_main_win() {
+	uint8_t TxBuffer[] = "==================================================\r\n"
+						 "Available ground station commands (type number):\r\n"
+						 "--------------------------------------------------\r\n"
+						 "1) Get satellite's telemetry \r\n "
+						 "2) Get image \r\n "
+						 "3) Clear terminal \r\n"
+						 "==================================================\r\n";
+	uint16_t TxBufferLen = sizeof(TxBuffer);
+	CDC_Transmit_HS(TxBuffer, TxBufferLen);
+}
+
+void cmd_img_options() {
+	uint8_t TxBuffer[] = "==================================================\r\n"
+					  	 "Select desired camera mode XY: \r\n"
+						 "--------------------------------------------------\r\n"
+						 "X - Resolution: \r\n"
+						 "1) VGA (640x480)"
+						 "2) CIF (352x288)"
+						 "3) QVGA (320x240)"
+						 "4) QCIF (176x144)"
+						 "--------------------------------------------------\r\n"
+						 "Y - Colour mode: \r\n"
+						 "1) Black & White \r\n"
+						 "2) Colourful \r\n"
+						 "==================================================\r\n";
+	uint16_t TxBufferLen = sizeof(TxBuffer);
+	CDC_Transmit_HS(TxBuffer, TxBufferLen);
+}
+
+void capture_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_mode) {
+	/*#define IMG_SIZE 614400 // VGA = 640 * 480 * 2
+//#define IMG_SIZE 202752 // CIF = 352 * 288 * 2
+//#define IMG_SIZE 153600 // QVGA = 320 * 240 * 2
+//#define IMG_SIZE 50688 // QCIF = 176 * 144 * 2*/
+
+	uint8_t res = (*img_mode & 0b11110000);
+	uint32_t size;
+	switch (res) {
+		case (0x00): {
+			size = 614400;
+			break;
+		}
+		case (0x10): {
+			size = 202752;
+			break;
+		}
+		case (0x20): {
+			size = 153600;
+			break;
+		}
+		case (0x30): {
+			size = 50688;
+			break;
+		}
+		default: {
+			*status = HAL_ERROR;
+			*error_index = IMG_DEF;
+			return;
+		}
+	}
+
+	uint8_t buff[size];
+	camera_init(status, img_mode);
+	if (*status != 0) {
+		*error_index = CAM_INIT;
+	}
+	camera_capture_photo(status, buff, &size);
+
+	if (*status != 0) {
+		*error_index = CAM_CAPTURE;
+	}
+}
+
+/*
 char** get_radio_hw_info(HAL_StatusTypeDef* status, fault_flag* error_index) {
-	/* Returns char array with info about used transceiver
-	 * [0] = part number
-	 * [1] = chip revision
-	 * [2] = ROM ID
-	*/
+	// Returns char array with info about used transceiver
+	// [0] = part number
+	// [1] = chip revision
+	// [2] = ROM ID
+
 
 	uint8_t array[8] = {0};
 	uint8_t tsize = 1;
@@ -99,8 +174,6 @@ char** get_radio_hw_info(HAL_StatusTypeDef* status, fault_flag* error_index) {
 	char info[3][4];
 
 	uint16_t num = 0xFFFF;
-	//unsigned char* temp;
-	//temp = malloc(4);
 	array[0] = 0x01;
 	SPI_read(status, array, &tsize, &rsize);
 	if (*status != 0) {
@@ -117,19 +190,6 @@ char** get_radio_hw_info(HAL_StatusTypeDef* status, fault_flag* error_index) {
 	num += array[7];
 	sprintf(info[2], "%04X", num);
 
-	/*
-	temp_size = strlen(&array[1])+strlen(&array[2]);
-	temp = malloc(temp_size);
-	strcpy(temp, (unsigned char*) &array[1]);
-	strcat(temp, (unsigned char*) &array[2]);
-
-
-
-	strcpy(&info[1], (unsigned char*) &array[0]);
-
-	strcpy(&info[2], (unsigned char*) &array[7]);
-	*/
-	//free(temp);
 	return info;
 }
-
+*/

@@ -15,6 +15,7 @@ void I2C_read(HAL_StatusTypeDef* status, DeviceAdress dev_adress, uint8_t reg_ad
 
 
 
+
 // SPI
 void close_SPI(SPI_HandleTypeDef* hspi) {
 	uint32_t itflag = hspi->Instance->SR;
