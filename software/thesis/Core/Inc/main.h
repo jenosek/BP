@@ -75,6 +75,7 @@ void USB_CDC_RxHandler(uint8_t*, uint32_t);
 #define COMMAND_DONE_GPIO_Port GPIOE
 #define nIRQ_Pin GPIO_PIN_10
 #define nIRQ_GPIO_Port GPIOE
+#define nIRQ_EXTI_IRQn EXTI15_10_IRQn
 #define SPI4_nSEL_Pin GPIO_PIN_11
 #define SPI4_nSEL_GPIO_Port GPIOE
 #define DCMI_3V3_Pin GPIO_PIN_15

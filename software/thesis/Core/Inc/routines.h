@@ -14,7 +14,9 @@
 void setup(HAL_StatusTypeDef* status, fault_flag* error_index);
 void cmd_main_win();
 void cmd_img_options();
+void radio_ping(HAL_StatusTypeDef* status);
 void send_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_mode);
+void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* ping);
 
 //char** get_radio_hw_info(HAL_StatusTypeDef* status, fault_flag* error_index);
 

@@ -19,7 +19,7 @@
 
 // INPUT DATA
 /*
-// Crys_freq(Hz): 30000000    Crys_tol(ppm): 1.5    IF_mode: 2    High_perf_Ch_Fil: 1    OSRtune: 0    Ch_Fil_Bw_AFC: 0    ANT_DIV: 0    PM_pattern: 0    
+// Crys_freq(Hz): 30000000    Crys_tol(ppm): 1.5    IF_mode: 2    High_perf_Ch_Fil: 1    OSRtune: 0    Ch_Fil_Bw_AFC: 0    ANT_DIV: 1    PM_pattern: 0    
 // MOD_type: 5    Rsymb(sps): 5000    Fdev(Hz): 20000    RXBW(Hz): 250000    Manchester: 0    AFC_en: 0    Rsymb_error: 0.0    Chip-Version: 2    
 // RF Freq.(MHz): 434    API_TC: 29    fhst: 250000    inputBW: 1    BERT: 0    RAW_dout: 0    D_source: 0    Hi_pfm_div: 1    
 // API_ARR_Det_en: 0    Fdev_error: 0    API_ETSI: 0    
@@ -51,7 +51,7 @@
 // Command:                  RF_GPIO_PIN_CFG
 // Description:              Configures the GPIO pins.
 */
-#define RF_GPIO_PIN_CFG 0x13, 0x00, 0x08, 0x00, 0x16, 0x27, 0x4B, 0x00
+#define RF_GPIO_PIN_CFG 0x13, 0x00, 0x08, 0x16, 0x17, 0x27, 0x0B, 0x00
 
 /*
 // Set properties:           RF_GLOBAL_XO_TUNE_2
@@ -77,18 +77,16 @@
 #define RF_GLOBAL_CONFIG_1 0x11, 0x00, 0x01, 0x03, 0x20
 
 /*
-// Set properties:           RF_INT_CTL_ENABLE_4
-// Number of properties:     4
+// Set properties:           RF_INT_CTL_ENABLE_2
+// Number of properties:     2
 // Group ID:                 0x01
 // Start ID:                 0x00
-// Default values:           0x04, 0x00, 0x00, 0x04, 
+// Default values:           0x04, 0x00, 
 // Descriptions:
 //   INT_CTL_ENABLE - This property provides for global enabling of the three interrupt groups (Chip, Modem and Packet Handler) in order to generate HW interrupts at the NIRQ pin.
 //   INT_CTL_PH_ENABLE - Enable individual interrupt sources within the Packet Handler Interrupt Group to generate a HW interrupt on the NIRQ output pin.
-//   INT_CTL_MODEM_ENABLE - Enable individual interrupt sources within the Modem Interrupt Group to generate a HW interrupt on the NIRQ output pin.
-//   INT_CTL_CHIP_ENABLE - Enable individual interrupt sources within the Chip Interrupt Group to generate a HW interrupt on the NIRQ output pin.
 */
-#define RF_INT_CTL_ENABLE_4 0x11, 0x01, 0x04, 0x00, 0x07, 0x00, 0x00, 0x00
+#define RF_INT_CTL_ENABLE_2 0x11, 0x01, 0x02, 0x00, 0x01, 0x00
 
 /*
 // Set properties:           RF_FRR_CTL_A_MODE_4
@@ -335,7 +333,7 @@
 //   MODEM_AFC_GAIN_1 - Sets the gain of the PLL-based AFC acquisition loop, and provides miscellaneous control bits for AFC functionality.
 //   MODEM_AFC_GAIN_0 - Sets the gain of the PLL-based AFC acquisition loop, and provides miscellaneous control bits for AFC functionality.
 */
-#define RF_MODEM_BCR_NCO_OFFSET_2_12 0x11, 0x20, 0x0C, 0x24, 0x00, 0x83, 0x12, 0x00, 0x05, 0x02, 0x02, 0x00, 0x00, 0x12, 0x80, 0x2C
+#define RF_MODEM_BCR_NCO_OFFSET_2_12 0x11, 0x20, 0x0C, 0x24, 0x00, 0x83, 0x12, 0x00, 0x03, 0x02, 0x02, 0x00, 0x00, 0x12, 0x80, 0x2C
 
 /*
 // Set properties:           RF_MODEM_AFC_LIMITER_1_3
@@ -401,7 +399,7 @@
 //   MODEM_RSSI_CONTROL2 - RSSI Jump Detection control.
 //   MODEM_RSSI_COMP - RSSI compensation value.
 */
-#define RF_MODEM_RAW_CONTROL_10 0x11, 0x20, 0x0A, 0x45, 0x01, 0x03, 0xE5, 0x01, 0x00, 0xFF, 0x06, 0x00, 0x18, 0x40
+#define RF_MODEM_RAW_CONTROL_10 0x11, 0x20, 0x0A, 0x45, 0x01, 0x03, 0xE5, 0x01, 0xF2, 0xFF, 0x06, 0x00, 0x18, 0x40
 
 /*
 // Set properties:           RF_MODEM_RAW_SEARCH2_2
@@ -425,7 +423,7 @@
 //   MODEM_SPIKE_DET - Configures the threshold for (G)FSK Spike Detection.
 //   MODEM_ONE_SHOT_AFC - Configures parameters for th e One Shot AFC function and for BCR timing/acquisition.
 */
-#define RF_MODEM_SPIKE_DET_2 0x11, 0x20, 0x02, 0x54, 0x03, 0x07
+#define RF_MODEM_SPIKE_DET_2 0x11, 0x20, 0x02, 0x54, 0x03, 0x01
 
 /*
 // Set properties:           RF_MODEM_RSSI_MUTE_1
@@ -451,7 +449,7 @@
 //   MODEM_DSA_RSSI - Signal Arrival Detect RSSI Qualifier Config
 //   MODEM_DSA_MISC - Miscellaneous detection of signal arrival bits.
 */
-#define RF_MODEM_DSA_CTRL1_5 0x11, 0x20, 0x05, 0x5B, 0x40, 0x04, 0x09, 0x78, 0x20
+#define RF_MODEM_DSA_CTRL1_5 0x11, 0x20, 0x05, 0x5B, 0x40, 0x05, 0x09, 0x78, 0x20
 
 /*
 // Set properties:           RF_MODEM_CHFLT_RX1_CHFLT_COE13_7_0_12
@@ -601,7 +599,7 @@
         0x08, RF_GPIO_PIN_CFG, \
         0x06, RF_GLOBAL_XO_TUNE_2, \
         0x05, RF_GLOBAL_CONFIG_1, \
-        0x08, RF_INT_CTL_ENABLE_4, \
+        0x06, RF_INT_CTL_ENABLE_2, \
         0x08, RF_FRR_CTL_A_MODE_4, \
         0x0D, RF_PREAMBLE_TX_LENGTH_9, \
         0x0E, RF_SYNC_CONFIG_10, \

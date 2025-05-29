@@ -1,4 +1,6 @@
 ../Core/Src/routines.c:3:6:setup	16	static
-../Core/Src/routines.c:89:6:cmd_main_win	288	static
-../Core/Src/routines.c:101:6:cmd_img_options	392	static
-../Core/Src/routines.c:119:6:capture_img	64	dynamic
+../Core/Src/routines.c:89:6:cmd_main_win	304	static
+../Core/Src/routines.c:102:6:cmd_img_options	400	static
+../Core/Src/routines.c:120:6:radio_ping	56	dynamic
+../Core/Src/routines.c:130:6:capture_img	64	dynamic
+../Core/Src/routines.c:174:6:nirq_handler	96	static

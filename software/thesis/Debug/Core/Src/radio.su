@@ -31,5 +31,10 @@
 ../Core/Src/radio.c:300:6:radio_PA_2	32	static
 ../Core/Src/radio.c:306:6:radio_masks	40	static
 ../Core/Src/radio.c:312:6:radio_PLL	32	static
-../Core/Src/radio.c:319:6:radio_mode_Rx	24	static
-../Core/Src/radio.c:326:6:radio_mode_Tx	24	static
+../Core/Src/radio.c:319:6:radio_mode_Rx	32	static
+../Core/Src/radio.c:326:6:radio_write_FIFO	64	dynamic
+../Core/Src/radio.c:337:6:radio_mode_Tx	32	static
+../Core/Src/radio.c:344:6:radio_send_packet	24	static
+../Core/Src/radio.c:351:9:radio_read_PH_status	24	static
+../Core/Src/radio.c:368:6:radio_request_repetition	24	static
+../Core/Src/radio.c:373:6:radio_repetition_requested	16	static

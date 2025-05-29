@@ -61,6 +61,8 @@ HAL_StatusTypeDef status = 0;
 fault_flag error_index = 0;
 char cmd_index = '0';
 uint8_t cam_mode_select = 0xFF;
+uint8_t radio_nirq = 0;
+uint8_t ping_in_progress = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -165,11 +167,17 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-  //setup(&status, &error_index);                       - <<<<<<--------------------------------------------------------------------------------------------
+  setup(&status, &error_index);
   HAL_Delay(1000);
   cmd_main_win();
   while (1) {
-
+	  if (radio_nirq) {
+		  // Handling of the packet IRQ
+		  nirq_handler(&status, &error_index, &ping_in_progress);
+		  radio_nirq = 0;
+		  SPI_check_CTS(&status);
+	  }
+#ifdef GROUND_STATION
 	  switch (cmd_index) {
 
 	  		  // Idle
@@ -177,13 +185,31 @@ int main(void)
 	  			HAL_Delay(100);
 	  			break;
 
+	  		  // Ping
+	  		  case '1': {
+	  			  ping_in_progress = 1;
+	  			  radio_ping(&status);
+
+
+
+
+
+	  			  uint8_t buffer[] = "Ping DONE \r\n";
+	  			  uint8_t buffer_size = sizeof(buffer);
+	  			  CDC_Transmit_HS(buffer, buffer_size);
+	  			  cmd_index = '0';
+	  			  break;
+	  			}
+
+
 	  		  // Telemetry
-	  		  case '1':
+	  		  case '2': {
 	  			  cmd_index = '0';
 	  			break;
+	  		  }
 
 	  		  // IMG
-	  		  case '2':
+	  		  case '3': {
 	  			  cmd_img_options();
 	  			  while (cam_mode_select == 0xFF) {
 	  				  if (cam_mode_select == 0xAA) {
@@ -198,8 +224,8 @@ int main(void)
 	  			  cmd_index = '0';
 	  			  cam_mode_select = 0xFF; //return to default state
 	  			break;
-
-	  		  case '3': {
+	  		  }
+	  		  case '4': {
 	  			uint8_t buffer[] = "\e[1;1H\e[2J";
 	  			uint16_t buffer_size = sizeof(buffer);
 	  			CDC_Transmit_HS(buffer, buffer_size);
@@ -215,6 +241,12 @@ int main(void)
 	  			cmd_index = '0';
 	  		  }
 	  	  }
+#endif
+
+// Command handling for satellite
+#ifndef GROUND_STATION
+
+#endif
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -629,11 +661,17 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(FLT__GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : COMMAND_DONE_Pin nIRQ_Pin */
-  GPIO_InitStruct.Pin = COMMAND_DONE_Pin|nIRQ_Pin;
+  /*Configure GPIO pin : COMMAND_DONE_Pin */
+  GPIO_InitStruct.Pin = COMMAND_DONE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+  HAL_GPIO_Init(COMMAND_DONE_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : nIRQ_Pin */
+  GPIO_InitStruct.Pin = nIRQ_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(nIRQ_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : DCMI_3V3_Pin */
   GPIO_InitStruct.Pin = DCMI_3V3_Pin;
@@ -664,13 +702,22 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Alternate = GPIO_AF0_MCO;
   HAL_GPIO_Init(DCMI_MCLK_GPIO_Port, &GPIO_InitStruct);
 
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(nIRQ_EXTI_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(nIRQ_EXTI_IRQn);
+
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
   /* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  if(GPIO_Pin == GPIO_PIN_10) {
+    radio_nirq = 1;
+  }
+}
 /* USER CODE END 4 */
 
  /* MPU Configuration */

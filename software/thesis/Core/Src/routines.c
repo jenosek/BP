@@ -90,9 +90,10 @@ void cmd_main_win() {
 	uint8_t TxBuffer[] = "==================================================\r\n"
 						 "Available ground station commands (type number):\r\n"
 						 "--------------------------------------------------\r\n"
-						 "1) Get satellite's telemetry \r\n "
-						 "2) Get image \r\n "
-						 "3) Clear terminal \r\n"
+						 "1) Ping satellite \r\n"
+						 "2) Get satellite's telemetry \r\n"
+						 "3) Get image \r\n"
+						 "4) Clear terminal \r\n"
 						 "==================================================\r\n";
 	uint16_t TxBufferLen = sizeof(TxBuffer);
 	CDC_Transmit_HS(TxBuffer, TxBufferLen);
@@ -103,10 +104,10 @@ void cmd_img_options() {
 					  	 "Select desired camera mode XY: \r\n"
 						 "--------------------------------------------------\r\n"
 						 "X - Resolution: \r\n"
-						 "1) VGA (640x480)"
-						 "2) CIF (352x288)"
-						 "3) QVGA (320x240)"
-						 "4) QCIF (176x144)"
+						 "1) VGA (640x480)\r\n"
+						 "2) CIF (352x288)\r\n"
+						 "3) QVGA (320x240)\r\n"
+						 "4) QCIF (176x144)\r\n"
 						 "--------------------------------------------------\r\n"
 						 "Y - Colour mode: \r\n"
 						 "1) Black & White \r\n"
@@ -114,6 +115,16 @@ void cmd_img_options() {
 						 "==================================================\r\n";
 	uint16_t TxBufferLen = sizeof(TxBuffer);
 	CDC_Transmit_HS(TxBuffer, TxBufferLen);
+}
+
+void radio_ping(HAL_StatusTypeDef* status) {
+	// Fill 60byte packet with dummy data (all ones)
+	uint8_t size = 60;
+	uint8_t data[size];
+	for (uint8_t i = 0; i < size; i++) {
+		data[i] = 0xFF;
+	}
+	radio_send_packet(status, data, &size);
 }
 
 void capture_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_mode) {
@@ -158,6 +169,82 @@ void capture_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* im
 	if (*status != 0) {
 		*error_index = CAM_CAPTURE;
 	}
+}
+
+void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* ping) {
+
+	// Packet handling
+	uint8_t pending_interrupts = radio_read_PH_status(status);
+
+
+	// Receiving
+	if ((pending_interrupts * (1 << 7)) == (1 << 7)) {
+		// An incoming packet matched filter, check CRC
+		if ((pending_interrupts * ((1 << 3)|(1 << 2))) == 0) {
+			// Read packet from FIFO
+			uint8_t packet[60];
+			uint8_t ones = 0;
+			uint8_t zeros = 0;
+			uint8_t rs= 60;
+			uint8_t ts = 1;
+
+			packet[0] = 0x77;
+			SPI_read(status, packet, &ts, &rs);
+			if (*status != 0) {
+				*status = HAL_ERROR;
+
+			}
+			for (uint8_t i = 0; i < 60; i++) {
+				if (packet[i] == 0xFF) {
+					ones++;
+				}
+				else if (packet[i] == 0) {
+					zeros++;
+				}
+			}
+
+			// Data handling logic
+			/// PING
+			if (ones == 60) {
+				if (*ping == 1) { // Response to ping received
+					*ping = 0;
+
+				}
+				else {
+					radio_ping(status); // Send ping response
+				}
+			}
+
+			// Data retransmission request
+			else if (zeros == 60) {
+				radio_repetition_requested(status);
+			}
+			/// TELEMETRY
+
+			/// IMG
+
+			// Due to nature of processes - return to main
+			return;
+		}
+
+		// Request packet retransmission
+		else {
+			radio_request_repetition(status);
+		}
+
+	}
+
+	if ((pending_interrupts * (1 << 6)) == (1 << 6)) {
+		// Unrecognized packet, rearm RX
+		radio_mode_Rx(status);
+
+	}
+
+	if ((pending_interrupts * 1 << 5) != (1 << 5)) {
+		// Buffer transmitted - switch to RX and listen
+		radio_mode_Rx(status);
+	}
+
 }
 
 /*

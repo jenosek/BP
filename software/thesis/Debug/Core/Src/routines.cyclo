@@ -1,4 +1,6 @@
 ../Core/Src/routines.c:3:6:setup	6
 ../Core/Src/routines.c:89:6:cmd_main_win	1
-../Core/Src/routines.c:101:6:cmd_img_options	1
-../Core/Src/routines.c:119:6:capture_img	9
+../Core/Src/routines.c:102:6:cmd_img_options	1
+../Core/Src/routines.c:120:6:radio_ping	2
+../Core/Src/routines.c:130:6:capture_img	9
+../Core/Src/routines.c:174:6:nirq_handler	12

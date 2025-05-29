@@ -142,7 +142,7 @@ void radio_global(HAL_StatusTypeDef* status) {
 }
 
 void radio_interrupts(HAL_StatusTypeDef* status) {
-	uint8_t data[] = {RF_INT_CTL_ENABLE_4};
+	uint8_t data[] = {RF_INT_CTL_ENABLE_2};
 	uint8_t size = sizeof(data);
 	SPI_write(status, data, &size);
 }
@@ -318,16 +318,58 @@ void radio_PLL(HAL_StatusTypeDef* status) {
 // Modes
 void radio_mode_Rx(HAL_StatusTypeDef* status) {
 	// Enable Rx and then enter ready mode
-	uint8_t data = {0x32, 0, 0, 0, 60, 0, 0, 8, 8};
+	uint8_t data[] = {0x32, 0, 0, 0, 60, 0, 0, 8, 8};
 	uint8_t size = sizeof(data);
 	SPI_write(status, data, &size);
+}
+
+void radio_write_FIFO(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
+	(*size)++;
+	uint8_t command[*size];
+	command[0] = 0x66;
+	for (uint8_t i = 1; i < *size; i++) {
+		command[i] = data[i];
+	}
+
+	SPI_write(status, command, size);
 }
 
 void radio_mode_Tx(HAL_StatusTypeDef* status) {
-	// Enable Tx mode. After transmission, stay in this mode
-	uint8_t data = {0x31, 0, 7, 0, 60, 0, 0};
+	// Enable Tx mode. After transmission switch to Rx
+	uint8_t data[] = {0x31, 0, 0, 0, 60, 0, 0};
 	uint8_t size = sizeof(data);
 	SPI_write(status, data, &size);
 }
 
+void radio_send_packet(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
+	// Fill FIFO
+	radio_write_FIFO(status, data, size);
+	// Begin transmission
+	radio_mode_Tx(status);
+}
 
+uint8_t radio_read_PH_status(HAL_StatusTypeDef* status) {
+	uint8_t data[2] = {0x21, 0xFF}; //Leave all interrupts pending or they will reset themselves
+	data[0] = 0x21;
+	uint8_t size = 2;
+	SPI_read(status, data, &size, &size);
+
+	uint8_t ph_status = data[0];
+	/*
+	if ((ph_status * 1 << 7) == (1 << 7)) {
+		// Incoming packet matched the filter
+
+
+	}
+	*/
+	return ph_status;
+}
+
+void radio_request_repetition(HAL_StatusTypeDef* status) {
+	uint8_t size = 60;
+	uint8_t data[] = {0};
+	radio_send_packet(status, data, &size);
+}
+void radio_repetition_requested (HAL_StatusTypeDef* status) {
+	radio_mode_Tx(status); // Reuse data in TX FIFO
+}

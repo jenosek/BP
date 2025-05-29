@@ -45,17 +45,22 @@ void camera_init(HAL_StatusTypeDef* status, uint8_t* mode){
 	uint8_t data = 0x80;
 	I2C_write(status, CAM_WRITE, CAM_COM7, &data);
 	//status = camera_write(CAM_COM7, 0x80);			// Reset all registers
-	data = 0x01;
+	I2C_read(status, CAM_WRITE, CAM_CLKRC, &data);
+	data |= 0b1;
 	I2C_write(status, CAM_WRITE, CAM_CLKRC, &data);
 	//status |= camera_write(CAM_CLKRC, 0x01);		// Set clock pre-scaler /2, since A/C converter operates up to 12 MHz and input CLK is 24 MHz
-	data = 0x0A;
+	I2C_read(status, CAM_WRITE, CAM_DBLV, &data);
+	data &= ~(1<<7 | 1<<6);
+	//data = 0x0A;
 	I2C_write(status, CAM_WRITE, CAM_DBLV, &data);
 	//status |= camera_write(CAM_DBLV, 0x0A);			// Bypass PLL
 
 	// Enable scaling for resolutions smaller than VGA
 	if ((*mode != 0x00) && (*mode != 0x01)) {
 		//status |= camera_write(CAM_COM3, 0x08);
-		data = 0x08;
+		I2C_read(status, CAM_WRITE, CAM_COM3, &data);
+		//data = 0x08;
+		data |= 1<<3;
 		I2C_write(status, CAM_WRITE, CAM_COM3, &data);
 	}
 
@@ -122,10 +127,15 @@ void camera_init(HAL_StatusTypeDef* status, uint8_t* mode){
 	// QCIF - RGB565
 	case 0x31: {
 		//status |= camera_write(CAM_COM7, 0x0C);		// Set output format
-		data = 0x0C;
+		I2C_read(status, CAM_WRITE, CAM_COM7, &data);
+		//data = 0x0C;
+		data |= (1 << 3) | (1 << 2);
+
 		I2C_write(status, CAM_WRITE, CAM_COM7, &data);
 		//status |= camera_write(CAM_COM15, 0xD0);	// Set 565 RGB option
-		data = 0xD0;
+		//data = 0xD0;
+		data &= ~(1<<5);
+		data |= (1<<4);
 		I2C_write(status, CAM_WRITE, CAM_COM15, &data);
 		break;
 	}
@@ -145,11 +155,11 @@ void camera_capture_photo(HAL_StatusTypeDef* status, uint8_t* destination_adress
 	//HAL_StatusTypeDef status;
 
 	// Begin transmission of data from camera to memory
-	*status = HAL_DCMI_Start_DMA(&hdma_dcmi, DCMI_MODE_SNAPSHOT, destination_adress, *size);
+	*status = HAL_DCMI_Start_DMA(&hdcmi, DCMI_MODE_SNAPSHOT, destination_adress, *size);
 	HAL_Delay(5000);
 
 	// End transmission
-	*status = HAL_DCMI_Stop(&hdma_dcmi);
+	*status = HAL_DCMI_Stop(&hdcmi);
 
 	//return status;
 }

@@ -1,3 +1,3 @@
 ../Core/Src/ov7670.c:21:6:camera_init	11
-../Core/Src/ov7670.c:144:6:camera_capture_photo	1
-../Core/Src/ov7670.c:157:6:camera_shut_down	1
+../Core/Src/ov7670.c:154:6:camera_capture_photo	1
+../Core/Src/ov7670.c:167:6:camera_shut_down	1

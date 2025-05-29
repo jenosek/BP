@@ -4,6 +4,10 @@
 #include "custom_typedefs.h"
 #include "comms.h"
 
+/* LINKED EXTERNAL HANDLE
+*****************************************/
+extern DCMI_HandleTypeDef hdcmi;
+
 /* ADRESSES OF REGISTERS
 *****************************************/
 // Communication modes
@@ -49,9 +53,7 @@
 
 
 
-/* LINKED EXTERNAL HANDLE
-*****************************************/
-extern DMA_HandleTypeDef hdma_dcmi;
+
 
 /* FUNCTIONS
 *****************************************/
