@@ -113,6 +113,7 @@ void SPI_check_CTS(HAL_StatusTypeDef* status) {
 
 }
 
+
 void SPI_write(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
 	// Transmit data array
 	SPI_check_CTS(status);

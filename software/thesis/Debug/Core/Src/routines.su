@@ -1,6 +1,7 @@
 ../Core/Src/routines.c:3:6:setup	16	static
-../Core/Src/routines.c:89:6:cmd_main_win	304	static
-../Core/Src/routines.c:102:6:cmd_img_options	400	static
-../Core/Src/routines.c:120:6:radio_ping	56	dynamic
-../Core/Src/routines.c:130:6:capture_img	64	dynamic
-../Core/Src/routines.c:174:6:nirq_handler	96	static
+../Core/Src/routines.c:89:6:cmd_main_win	336	static
+../Core/Src/routines.c:103:6:cmd_img_options	400	static
+../Core/Src/routines.c:121:6:radio_ping	56	dynamic
+../Core/Src/routines.c:131:6:capture_img	64	dynamic
+../Core/Src/routines.c:175:6:nirq_handler	96	static
+../Core/Src/routines.c:314:6:get_GS_state	80	static

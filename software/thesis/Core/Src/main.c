@@ -32,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define GROUND_STATION
+#define GROUND_STATION									// <<<<<<< UNCOMMENT WHEN FLASHING THE GROUND STATION
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -84,7 +84,7 @@ static void MX_SPI4_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-#ifdef GROUND_STATION
+
 void USB_CDC_RxHandler(uint8_t *buffer, uint32_t size) {
 	char cmd_temp = buffer[0];
 	if (cmd_temp == '\r') {
@@ -115,7 +115,7 @@ void USB_CDC_RxHandler(uint8_t *buffer, uint32_t size) {
 		}*/
 	}
 }
-#endif
+
 /* USER CODE END 0 */
 
 /**
@@ -168,33 +168,37 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
   setup(&status, &error_index);
-  HAL_Delay(1000);
+  //nirq_handler(&status, &error_index, &ping_in_progress);
+#ifdef GROUND_STATION
   cmd_main_win();
+#endif
+  //HAL_NVIC_EnableIRQ(nIRQ_EXTI_IRQn);
   while (1) {
 	  if (radio_nirq) {
 		  // Handling of the packet IRQ
+		  //HAL_NVIC_DisableIRQ(nIRQ_EXTI_IRQn);
 		  nirq_handler(&status, &error_index, &ping_in_progress);
+		  //HAL_NVIC_EnableIRQ(nIRQ_EXTI_IRQn);
 		  radio_nirq = 0;
-		  SPI_check_CTS(&status);
 	  }
 #ifdef GROUND_STATION
+	  if (ping_in_progress == 2) {
+		  ping_in_progress = 0;
+		  uint8_t buffer[] = "Ping received \r\n";
+		  uint8_t buffer_size = sizeof(buffer);
+		  CDC_Transmit_HS(buffer, buffer_size);
+	  }
 	  switch (cmd_index) {
 
 	  		  // Idle
 	  		  case '0':
-	  			HAL_Delay(100);
 	  			break;
 
 	  		  // Ping
 	  		  case '1': {
 	  			  ping_in_progress = 1;
 	  			  radio_ping(&status);
-
-
-
-
-
-	  			  uint8_t buffer[] = "Ping DONE \r\n";
+	  			  uint8_t buffer[] = "Ping send \r\n";
 	  			  uint8_t buffer_size = sizeof(buffer);
 	  			  CDC_Transmit_HS(buffer, buffer_size);
 	  			  cmd_index = '0';
@@ -234,6 +238,11 @@ int main(void)
 	  			cmd_main_win();
 	  			break;
 	  		  }
+	  		  case '5': {
+	  			  get_GS_state(&status);
+	  			  cmd_index = '0';
+	  			  break;
+	  		  }
 	  		  default: {
 	  			uint8_t buffer[] = "Unrecognized command \r\n";
 	  			uint16_t buffer_size = sizeof(buffer);
@@ -243,10 +252,6 @@ int main(void)
 	  	  }
 #endif
 
-// Command handling for satellite
-#ifndef GROUND_STATION
-
-#endif
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

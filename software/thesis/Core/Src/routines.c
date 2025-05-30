@@ -94,6 +94,7 @@ void cmd_main_win() {
 						 "2) Get satellite's telemetry \r\n"
 						 "3) Get image \r\n"
 						 "4) Clear terminal \r\n"
+						 "5) Ground station status \r\n"
 						 "==================================================\r\n";
 	uint16_t TxBufferLen = sizeof(TxBuffer);
 	CDC_Transmit_HS(TxBuffer, TxBufferLen);
@@ -175,12 +176,65 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 
 	// Packet handling
 	uint8_t pending_interrupts = radio_read_PH_status(status);
+	uint8_t reg = 0;
+	uint8_t control = 0;
 
+	reg = pending_interrupts & (1 << 4);
+	control = (1 << 4);
+
+	// Directly receiving
+	if (reg == control) {
+		// Read packet from FIFO
+		uint8_t packet[61]; //Ignore the first byte
+		uint8_t ones = 0;
+		uint8_t zeros = 0;
+		radio_read_fifo(status, packet);
+		if (*status != 0) {
+			*status = HAL_ERROR;
+
+		}
+		for (uint8_t i = 1; i < 61; i++) {
+			if (packet[i] == 0xFF) {
+				ones++;
+			} else if (packet[i] == 0) {
+				zeros++;
+			}
+		}
+
+		// Data handling logic
+		/// PING
+		if (ones > 58) {
+			if (*ping == 1) { // Response to ping received
+				*ping = 2;
+
+			} else {
+				HAL_Delay(100);
+				radio_ping(status); // Send ping response
+			}
+		}
+
+		// Data retransmission request
+		else if (zeros == 60) {
+			radio_repetition_requested(status);
+		}
+		/// TELEMETRY
+
+		/// IMG
+
+		radio_clear_PH_status(status);
+		return;
+	}
+
+
+	reg = pending_interrupts & (1 << 7);
+	control = (1 << 7);
 
 	// Receiving
-	if ((pending_interrupts * (1 << 7)) == (1 << 7)) {
+	if (reg == control) {
 		// An incoming packet matched filter, check CRC
-		if ((pending_interrupts * ((1 << 3)|(1 << 2))) == 0) {
+		reg = pending_interrupts & ((1 << 3) | (1 << 2));
+		control = 0;
+		if (reg == control) {
 			// Read packet from FIFO
 			uint8_t packet[60];
 			uint8_t ones = 0;
@@ -207,7 +261,7 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 			/// PING
 			if (ones == 60) {
 				if (*ping == 1) { // Response to ping received
-					*ping = 0;
+					*ping = 2;
 
 				}
 				else {
@@ -223,7 +277,8 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 
 			/// IMG
 
-			// Due to nature of processes - return to main
+			radio_read_PH_status(status);
+			radio_mode_Rx(status);
 			return;
 		}
 
@@ -233,20 +288,86 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 		}
 
 	}
-
-	if ((pending_interrupts * (1 << 6)) == (1 << 6)) {
+	/*
+	reg = pending_interrupts & (1 << 6);
+	control = 1 << 6;
+	if (reg == control) {
 		// Unrecognized packet, rearm RX
 		radio_mode_Rx(status);
 
 	}
 
-	if ((pending_interrupts * 1 << 5) != (1 << 5)) {
+	reg = pending_interrupts & (1 << 5);
+	control = 1 << 5;
+	if (reg == control) {
 		// Buffer transmitted - switch to RX and listen
 		radio_mode_Rx(status);
 	}
 
+	*/
+	radio_mode_Rx(status);
+
+
+	radio_clear_PH_status(status);
 }
 
+void get_GS_state(HAL_StatusTypeDef* status) {
+	uint8_t rf_state[2] = {0x33, 0};
+	uint8_t ts = 1;
+	uint8_t rs = 2;
+
+	SPI_read(status, rf_state, &ts, &rs);
+
+	uint8_t main_state = rf_state[0] & 0b1111;
+	uint8_t current_channel = rf_state[1];
+	uint8_t state_buffer[24] = "                      \r\n";
+	switch (main_state) {
+		case 2: {
+			strcpy(state_buffer, "State: SPI_ACTIVE");
+			break;
+		}
+		case 3:
+		case 4: {
+			strcpy(state_buffer,"State: READY");
+			break;
+		}
+		case 5: {
+			strcpy(state_buffer,"State: TX_TUNE");
+			break;
+		}
+		case 6: {
+			strcpy(state_buffer,"State: RX_TUNE");
+			break;
+		}
+		case 7: {
+			strcpy(state_buffer,"State: TX");
+			break;
+		}
+		case 8: {
+			strcpy(state_buffer,"State: RX");
+			break;
+		}
+		default: {
+			strcpy(state_buffer,"State: not recognized");
+		}
+	}
+	uint16_t state_buffer_len = sizeof(state_buffer);
+	CDC_Transmit_HS(state_buffer, state_buffer_len);
+
+
+	uint8_t ch_buff[] = "Current channel: ";
+	state_buffer_len = sizeof(ch_buff);
+	CDC_Transmit_HS(ch_buff, state_buffer_len);
+
+
+	current_channel += (uint8_t) '0';
+	CDC_Transmit_HS(&current_channel, 1);
+
+	strcpy(ch_buff, "               \r\n");
+	state_buffer_len = sizeof(ch_buff);
+	CDC_Transmit_HS(ch_buff, state_buffer_len);
+
+}
 /*
 char** get_radio_hw_info(HAL_StatusTypeDef* status, fault_flag* error_index) {
 	// Returns char array with info about used transceiver

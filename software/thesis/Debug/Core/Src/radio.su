@@ -35,6 +35,8 @@
 ../Core/Src/radio.c:326:6:radio_write_FIFO	64	dynamic
 ../Core/Src/radio.c:337:6:radio_mode_Tx	32	static
 ../Core/Src/radio.c:344:6:radio_send_packet	24	static
-../Core/Src/radio.c:351:9:radio_read_PH_status	24	static
-../Core/Src/radio.c:368:6:radio_request_repetition	24	static
-../Core/Src/radio.c:373:6:radio_repetition_requested	16	static
+../Core/Src/radio.c:351:6:radio_read_fifo	88	static
+../Core/Src/radio.c:358:9:radio_read_PH_status	24	static
+../Core/Src/radio.c:374:6:radio_clear_PH_status	24	static
+../Core/Src/radio.c:380:6:radio_request_repetition	24	static
+../Core/Src/radio.c:385:6:radio_repetition_requested	16	static

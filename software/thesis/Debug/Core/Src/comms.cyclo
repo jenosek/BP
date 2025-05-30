@@ -4,7 +4,7 @@
 ../Core/Src/comms.c:87:6:HAL_SPI_TxCpltCallback	1
 ../Core/Src/comms.c:92:6:HAL_SPI_TxRxCpltCallback	1
 ../Core/Src/comms.c:97:6:SPI_check_CTS	3
-../Core/Src/comms.c:116:6:SPI_write	2
-../Core/Src/comms.c:124:6:SPI_read	4
-../Core/Src/comms.c:171:6:send_image	3
-../Core/Src/comms.c:187:6:receive_image	2
+../Core/Src/comms.c:117:6:SPI_write	2
+../Core/Src/comms.c:125:6:SPI_read	4
+../Core/Src/comms.c:172:6:send_image	3
+../Core/Src/comms.c:188:6:receive_image	2
