@@ -39,4 +39,5 @@
 ../Core/Src/radio.c:358:9:radio_read_PH_status	1
 ../Core/Src/radio.c:374:6:radio_clear_PH_status	1
 ../Core/Src/radio.c:380:6:radio_request_repetition	1
-../Core/Src/radio.c:385:6:radio_repetition_requested	1
+../Core/Src/radio.c:384:6:radio_repetition_requested	1
+../Core/Src/radio.c:387:6:radio_send_ACK	2

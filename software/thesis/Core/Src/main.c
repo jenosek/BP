@@ -32,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define GROUND_STATION									// <<<<<<< UNCOMMENT WHEN FLASHING THE GROUND STATION
+//#define GROUND_STATION									// <<<<<<< UNCOMMENT WHEN FLASHING THE GROUND STATION
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -63,6 +63,11 @@ char cmd_index = '0';
 uint8_t cam_mode_select = 0xFF;
 uint8_t radio_nirq = 0;
 uint8_t ping_in_progress = 0;
+uint8_t* img_buffer;
+uint32_t img_size;
+uint8_t img_flag = 0; // img is not being transmitted
+uint32_t img_progress = 0x100000000; // indicate actual position of transmitted img data - idle
+uint8_t ack = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -177,9 +182,14 @@ int main(void)
 	  if (radio_nirq) {
 		  // Handling of the packet IRQ
 		  //HAL_NVIC_DisableIRQ(nIRQ_EXTI_IRQn);
-		  nirq_handler(&status, &error_index, &ping_in_progress);
+		  nirq_handler(&status, &error_index, &ping_in_progress, &ack, &img_progress);
 		  //HAL_NVIC_EnableIRQ(nIRQ_EXTI_IRQn);
 		  radio_nirq = 0;
+	  }
+	  if (img_flag && ack) {
+		  transmit_img(&status, &error_index, &img_progress, &img_size);
+		  ack = 0;
+
 	  }
 #ifdef GROUND_STATION
 	  if (ping_in_progress == 2) {
@@ -224,7 +234,8 @@ int main(void)
 	  					  break;
 	  				  }
 	  			  }
-	  			  capture_img(&status, &error_index, &cam_mode_select);
+	  			  //capture_img(&status, &error_index, &cam_mode_select);
+	  			  request_img(&status, &error_index, &cam_mode_select);
 	  			  cmd_index = '0';
 	  			  cam_mode_select = 0xFF; //return to default state
 	  			break;

@@ -15,7 +15,8 @@ typedef enum {
 	IMG_DEF,
 	CAM_INIT,
 	CAM_CAPTURE,
-	RADIO_FIFO_READ
+	RADIO_FIFO_READ,
+	MEM_REALLOC
 }fault_flag;
 
 // Setup - device adresses

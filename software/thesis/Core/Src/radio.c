@@ -323,15 +323,15 @@ void radio_mode_Rx(HAL_StatusTypeDef* status) {
 	SPI_write(status, data, &size);
 }
 
-void radio_write_FIFO(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
-	(*size)++;
-	uint8_t command[*size];
+void radio_write_FIFO(HAL_StatusTypeDef* status, uint8_t* data) {
+	uint8_t size = 61;
+	uint8_t command[size];
 	command[0] = 0x66;
-	for (uint8_t i = 1; i < *size; i++) {
+	for (uint8_t i = 1; i < size; i++) {
 		command[i] = data[i-1];
 	}
 
-	SPI_write(status, command, size);
+	SPI_write(status, command, &size);
 }
 
 void radio_mode_Tx(HAL_StatusTypeDef* status) {
@@ -341,9 +341,9 @@ void radio_mode_Tx(HAL_StatusTypeDef* status) {
 	SPI_write(status, data, &size);
 }
 
-void radio_send_packet(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size) {
+void radio_send_packet(HAL_StatusTypeDef* status, uint8_t* data) {
 	// Fill FIFO
-	radio_write_FIFO(status, data, size);
+	radio_write_FIFO(status, data);
 	// Begin transmission
 	radio_mode_Tx(status);
 }
@@ -378,10 +378,16 @@ void radio_clear_PH_status(HAL_StatusTypeDef* status) {
 }
 
 void radio_request_repetition(HAL_StatusTypeDef* status) {
-	uint8_t size = 60;
-	uint8_t data[] = {0};
-	radio_send_packet(status, data, &size);
+	uint8_t data[60] = {0};
+	radio_send_packet(status, data);
 }
 void radio_repetition_requested (HAL_StatusTypeDef* status) {
 	radio_mode_Tx(status); // Reuse data in TX FIFO
+}
+void radio_send_ACK(HAL_StatusTypeDef* status) {
+	uint8_t ack_packet[60];
+	for (uint8_t i = 0; i < 60; i++) {
+		ack_packet[i] = 0x11;
+	}
+	radio_send_packet(status, ack_packet);
 }

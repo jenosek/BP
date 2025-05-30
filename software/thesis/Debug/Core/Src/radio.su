@@ -32,11 +32,12 @@
 ../Core/Src/radio.c:306:6:radio_masks	40	static
 ../Core/Src/radio.c:312:6:radio_PLL	32	static
 ../Core/Src/radio.c:319:6:radio_mode_Rx	32	static
-../Core/Src/radio.c:326:6:radio_write_FIFO	64	dynamic
+../Core/Src/radio.c:326:6:radio_write_FIFO	56	dynamic
 ../Core/Src/radio.c:337:6:radio_mode_Tx	32	static
-../Core/Src/radio.c:344:6:radio_send_packet	24	static
+../Core/Src/radio.c:344:6:radio_send_packet	16	static
 ../Core/Src/radio.c:351:6:radio_read_fifo	88	static
 ../Core/Src/radio.c:358:9:radio_read_PH_status	24	static
 ../Core/Src/radio.c:374:6:radio_clear_PH_status	24	static
-../Core/Src/radio.c:380:6:radio_request_repetition	24	static
-../Core/Src/radio.c:385:6:radio_repetition_requested	16	static
+../Core/Src/radio.c:380:6:radio_request_repetition	80	static
+../Core/Src/radio.c:384:6:radio_repetition_requested	16	static
+../Core/Src/radio.c:387:6:radio_send_ACK	80	static

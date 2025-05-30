@@ -46,9 +46,9 @@ void radio_PLL(HAL_StatusTypeDef* status);
 
 // Modes
 void radio_mode_Rx(HAL_StatusTypeDef* status);
-void radio_write_FIFO(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size);
+void radio_write_FIFO(HAL_StatusTypeDef* status, uint8_t* data);
 void radio_mode_Tx(HAL_StatusTypeDef* status);
-void radio_send_packet(HAL_StatusTypeDef* status, uint8_t* data, uint8_t* size);
+void radio_send_packet(HAL_StatusTypeDef* status, uint8_t* data);
 void radio_read_fifo(HAL_StatusTypeDef* status, uint8_t* data);
 
 // NIRQ handling
@@ -56,6 +56,7 @@ uint8_t radio_read_PH_status(HAL_StatusTypeDef* status);
 void radio_clear_PH_status(HAL_StatusTypeDef* status);
 void radio_request_repetition(HAL_StatusTypeDef* status);
 void radio_repetition_requested (HAL_StatusTypeDef* status);
+void radio_send_ACK(HAL_StatusTypeDef* status);
 
 
 #endif /* INC_RADIO_H_ */

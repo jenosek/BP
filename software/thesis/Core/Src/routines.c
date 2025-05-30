@@ -120,59 +120,115 @@ void cmd_img_options() {
 
 void radio_ping(HAL_StatusTypeDef* status) {
 	// Fill 60byte packet with dummy data (all ones)
-	uint8_t size = 60;
-	uint8_t data[size];
-	for (uint8_t i = 0; i < size; i++) {
+	uint8_t data[60];
+	for (uint8_t i = 0; i < 60; i++) {
 		data[i] = 0xFF;
 	}
-	radio_send_packet(status, data, &size);
+	radio_send_packet(status, data);
+}
+void get_img_res(HAL_StatusTypeDef* status, uint8_t* img_mode) {
+	// Allocate sufficient memory space for requested image
+		/// VGA = 640 * 480 * 2 = 614400
+		/// CIF = 352 * 288 * 2 = 202752
+		/// QVGA = 320 * 240 * 2 = 153600
+		/// QCIF = 176 * 144 * 2 = 50688
+
+			uint8_t res = (*img_mode & 0b11110000);
+			switch (res) {
+				case (0x00): {
+					img_size = 614400;
+					break;
+				}
+				case (0x10): {
+					img_size = 202752;
+					break;
+				}
+				case (0x20): {
+					img_size = 153600;
+					break;
+				}
+				case (0x30): {
+					img_size = 50688;
+					break;
+				}
+				default: {
+					*status = HAL_ERROR;
+					img_size = 0;
+				}
+			}
+}
+void request_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_mode) {
+
+		get_img_res(status, img_mode);
+		if (*status != 0) {
+			*error_index = IMG_DEF;
+		}
+
+		// Realloc globally defined image buffer to required size
+		uint8_t* prev_buff_loc = img_buffer;
+		if (!((uint8_t*) realloc(img_buffer, img_size))) {
+			free(prev_buff_loc);
+			*status = HAL_ERROR;
+			*error_index = MEM_REALLOC;
+			return;
+		}
+
+		// Send request
+		uint8_t packet_buffer[60];
+		for (uint8_t i = 0; i < 60; i++) {
+			packet_buffer[i] = 0xCC;
+		}
+		packet_buffer[1] = *img_mode;
+		radio_send_packet(status, packet_buffer);
+		img_flag = 1; // Activate flag
 }
 
 void capture_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_mode) {
-	/*#define IMG_SIZE 614400 // VGA = 640 * 480 * 2
-//#define IMG_SIZE 202752 // CIF = 352 * 288 * 2
-//#define IMG_SIZE 153600 // QVGA = 320 * 240 * 2
-//#define IMG_SIZE 50688 // QCIF = 176 * 144 * 2*/
+	get_img_res(status, img_mode);
 
-	uint8_t res = (*img_mode & 0b11110000);
-	uint32_t size;
-	switch (res) {
-		case (0x00): {
-			size = 614400;
-			break;
-		}
-		case (0x10): {
-			size = 202752;
-			break;
-		}
-		case (0x20): {
-			size = 153600;
-			break;
-		}
-		case (0x30): {
-			size = 50688;
-			break;
-		}
-		default: {
-			*status = HAL_ERROR;
-			*error_index = IMG_DEF;
-			return;
-		}
+	// Realloc globally defined image buffer to required size
+	uint8_t* prev_buff_loc = img_buffer;
+	if (!((uint8_t*) realloc(img_buffer, img_size))) {
+		free(prev_buff_loc);
+		*status = HAL_ERROR;
+		*error_index = MEM_REALLOC;
+		return;
 	}
 
-	uint8_t buff[size];
 	camera_init(status, img_mode);
 	if (*status != 0) {
 		*error_index = CAM_INIT;
+		return;
 	}
-	camera_capture_photo(status, buff, &size);
+	camera_capture_photo(status, img_buffer, &img_size);
 
 	if (*status != 0) {
 		*error_index = CAM_CAPTURE;
+		return;
 	}
+	img_flag = 1; // Set flag to indicate that image is stored in buffer and ready to be transmitted
+
 }
 
-void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* ping) {
+void transmit_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint32_t* index, uint32_t* size) {
+	uint8_t packet[60];
+	uint8_t prev_idex = *index;
+	// Load data block to packet
+	for (uint8_t i = 0; i < 60; i++) {
+		if (*index >= *size) {
+			img_flag = 0;
+			*size = 0x100000000;
+			break;
+		}
+		packet[i] = img_buffer[*index];
+		(*index)++;
+	}
+
+	// Send packet
+	radio_send_packet(status, &packet);
+}
+
+void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* ping, uint8_t* ack, uint32_t* index) {
 
 	// Packet handling
 	uint8_t pending_interrupts = radio_read_PH_status(status);
@@ -186,24 +242,59 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 	if (reg == control) {
 		// Read packet from FIFO
 		uint8_t packet[61]; //Ignore the first byte
-		uint8_t ones = 0;
+		uint8_t AAs = 0;
+		uint8_t CCs = 0;
+		uint8_t FFs = 0;
 		uint8_t zeros = 0;
+
 		radio_read_fifo(status, packet);
 		if (*status != 0) {
 			*status = HAL_ERROR;
 
 		}
+
+
 		for (uint8_t i = 1; i < 61; i++) {
-			if (packet[i] == 0xFF) {
-				ones++;
-			} else if (packet[i] == 0) {
+			if (packet[i] == 0xAA) {
+				AAs++;
+			}
+			else if (packet[i] == 0xCC) {
+				CCs++;
+			}
+			else if (packet[i] == 0xFF) {
+				FFs++;
+			}
+			else if (packet[i] == 0) {
 				zeros++;
 			}
+
 		}
 
 		// Data handling logic
-		/// PING
-		if (ones > 58) {
+		//--------------------------------------------------------------------------------------------------------
+		/// PING - all bytes 0xFF
+
+		/// Request for resend - all bytes 0x00
+
+		/// Send ACK - all bytes 0xAA
+
+		/// Request image (code numbers are in hexadecimal)
+		//// 1st byte of 0xCC
+		//// 2nd byte - resolution at the fist 4 bits (that includes MSB):
+		///// 0x - VGA => allocate 614400 B
+		///// 1x - CIF => allocate 202752 B
+		///// 2x - QVGA => allocate 153600 B
+		///// 3x - QCIF => allocate 50688 B
+		//// ... colour scheme on 4 bits (side of LSB):
+		///// x0 - B&W
+		///// x1 - RGB565
+		//// 3rd to 60th bytes are filled with 0xCC
+		// NOTE: When B&W data are transmitted, expect only half of RF_FIFO usage due to erased chrominance
+		/// After Tx receives ACK packet, transmission of 60 bytes of image data interleaved with ACKs begins
+		//--------------------------------------------------------------------------------------------------------
+
+		// PING
+		if (FFs == 60) {
 			if (*ping == 1) { // Response to ping received
 				*ping = 2;
 
@@ -217,19 +308,40 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 		else if (zeros == 60) {
 			radio_repetition_requested(status);
 		}
+		/// ACK
+		else if (AAs == 60) {
+			*ack = 1;
+		}
+
 		/// TELEMETRY
 
 		/// IMG
+		else if (CCs == 59) {
+			uint8_t img_mode = packet[2];
+			capture_img(status, error_index, &img_mode);
 
+		}
+		else if (img_flag) {
+			for (uint8_t i = 1; i < 61; i++) {
+				img_buffer[*index] = packet[i];
+				(*index)++;
+			}
+		}
+
+		// Return from function as data are about to be transmitted
 		radio_clear_PH_status(status);
 		return;
 	}
 
+	// Receiving process - transceiver is not using this for some reason
+	// 1. detect packet header
+	// 2. Control CRC
+	// 3. Read RX_FIFO
 
 	reg = pending_interrupts & (1 << 7);
 	control = (1 << 7);
 
-	// Receiving
+
 	if (reg == control) {
 		// An incoming packet matched filter, check CRC
 		reg = pending_interrupts & ((1 << 3) | (1 << 2));
@@ -277,8 +389,8 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 
 			/// IMG
 
-			radio_read_PH_status(status);
-			radio_mode_Rx(status);
+			// Clear IRQ and wait for transmission
+			radio_clear_PH_status(status);
 			return;
 		}
 
@@ -305,10 +417,11 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 	}
 
 	*/
+	radio_clear_PH_status(status);
 	radio_mode_Rx(status);
 
 
-	radio_clear_PH_status(status);
+
 }
 
 void get_GS_state(HAL_StatusTypeDef* status) {

@@ -2,6 +2,9 @@
 ../Core/Src/routines.c:89:6:cmd_main_win	1
 ../Core/Src/routines.c:103:6:cmd_img_options	1
 ../Core/Src/routines.c:121:6:radio_ping	2
-../Core/Src/routines.c:131:6:capture_img	9
-../Core/Src/routines.c:175:6:nirq_handler	18
-../Core/Src/routines.c:314:6:get_GS_state	7
+../Core/Src/routines.c:129:6:get_img_res	7
+../Core/Src/routines.c:160:6:request_img	4
+../Core/Src/routines.c:186:6:capture_img	4
+../Core/Src/routines.c:213:6:transmit_img	3
+../Core/Src/routines.c:231:6:nirq_handler	24
+../Core/Src/routines.c:427:6:get_GS_state	7
