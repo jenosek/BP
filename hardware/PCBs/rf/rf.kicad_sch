@@ -6012,7 +6012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bf2b4f8-80e7-4b19-b220-ce189ab3a57d")
-		(property "Reference" "TCXO"
+		(property "Reference" "TCXO1"
 			(at 44.45 16.51 0)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "178"
+		(property "Value" "110"
 			(at 24.13 73.6599 0)
 			(effects
 				(font

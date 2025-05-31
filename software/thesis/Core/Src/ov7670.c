@@ -129,13 +129,16 @@ void camera_init(HAL_StatusTypeDef* status, uint8_t* mode){
 		//status |= camera_write(CAM_COM7, 0x0C);		// Set output format
 		I2C_read(status, CAM_WRITE, CAM_COM7, &data);
 		//data = 0x0C;
-		data |= (1 << 3) | (1 << 2);
-
+		data |= (1 << 2);
+		data &= ~(1);
+		//data = 0x0C;
 		I2C_write(status, CAM_WRITE, CAM_COM7, &data);
 		//status |= camera_write(CAM_COM15, 0xD0);	// Set 565 RGB option
 		//data = 0xD0;
+		I2C_read(status, CAM_WRITE, CAM_COM15, &data);
 		data &= ~(1<<5);
 		data |= (1<<4);
+		//data = 0xD0;
 		I2C_write(status, CAM_WRITE, CAM_COM15, &data);
 		break;
 	}
@@ -159,7 +162,7 @@ void camera_capture_photo(HAL_StatusTypeDef* status, uint8_t* destination_adress
 	HAL_Delay(5000);
 
 	// End transmission
-	*status = HAL_DCMI_Stop(&hdcmi);
+	*status |= HAL_DCMI_Stop(&hdcmi);
 
 	//return status;
 }

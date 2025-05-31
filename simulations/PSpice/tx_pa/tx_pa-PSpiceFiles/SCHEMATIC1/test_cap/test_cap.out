@@ -1,5 +1,5 @@
-
-**** 04/20/25 23:34:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+**** 05/31/25 09:04:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
 
@@ -42,7 +42,7 @@ R_R2         0 OUT  50 TC=0,0
 **** RESUMING test_cap.cir ****
 .END
 
-**** 04/20/25 23:34:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 05/31/25 09:04:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
 
@@ -73,7 +73,7 @@ R_R2         0 OUT  50 TC=0,0
 
           JOB CONCLUDED
 
-**** 04/20/25 23:34:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 05/31/25 09:04:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-test_cap"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\tx_pa\tx_pa-pspicefiles\schematic1\test_cap.sim ] 
 

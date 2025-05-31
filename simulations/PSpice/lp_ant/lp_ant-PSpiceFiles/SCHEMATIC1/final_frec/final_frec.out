@@ -1,5 +1,5 @@
 
-**** 04/20/25 23:31:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 05/31/25 09:15:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-final_frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\final_frec.si
 
@@ -42,7 +42,7 @@ R_R2         0 OUT  50 TC=0,0
 **** RESUMING final_frec.cir ****
 .END
 
-**** 04/20/25 23:31:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 05/31/25 09:15:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-final_frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\final_frec.si
 
@@ -73,7 +73,7 @@ R_R2         0 OUT  50 TC=0,0
 
           JOB CONCLUDED
 
-**** 04/20/25 23:31:59 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 05/31/25 09:15:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-final_frec"  [ C:\Skola\VUT\CubeSat\BP\simulations\PSpice\lp_ant\lp_ant-pspicefiles\schematic1\final_frec.si
 
@@ -85,5 +85,5 @@ R_R2         0 OUT  50 TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .05
+  Total job time (using Solver 1)   =         .02
 

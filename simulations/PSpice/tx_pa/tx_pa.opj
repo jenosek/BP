@@ -22,7 +22,7 @@
          ".\tx_pa-pspicefiles\schematic1\test_cap.sim"
         (DisplayName "SCHEMATIC1-test_cap")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\tx_pa-pspicefiles\schematic1\ac.sim"))
+      (ActiveProfile ".\tx_pa-pspicefiles\schematic1\test_cap.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"

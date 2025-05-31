@@ -56,18 +56,20 @@ DMA_HandleTypeDef hdma_spi4_rx;
 /* USER CODE BEGIN PV */
 /* USER CODE BEGIN PV */
 // Include of setup.h has to happen here, to support extern loading of globally defined variable
-#include <routines.h>
+
 HAL_StatusTypeDef status = 0;
 fault_flag error_index = 0;
 char cmd_index = '0';
 uint8_t cam_mode_select = 0xFF;
 uint8_t radio_nirq = 0;
 uint8_t ping_in_progress = 0;
-uint8_t* img_buffer;
+
+
 uint32_t img_size;
 uint8_t img_flag = 0; // img is not being transmitted
 uint32_t img_progress = 0x100000000; // indicate actual position of transmitted img data - idle
 uint8_t ack = 0;
+#include <routines.h>
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -173,21 +175,22 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
   setup(&status, &error_index);
+  uint8_t img_buffer[614400] = {0};
   //nirq_handler(&status, &error_index, &ping_in_progress);
 #ifdef GROUND_STATION
   cmd_main_win();
 #endif
   //HAL_NVIC_EnableIRQ(nIRQ_EXTI_IRQn);
   while (1) {
-	  if (radio_nirq) {
+ 	  if (radio_nirq) {
 		  // Handling of the packet IRQ
 		  //HAL_NVIC_DisableIRQ(nIRQ_EXTI_IRQn);
-		  nirq_handler(&status, &error_index, &ping_in_progress, &ack, &img_progress);
+		  nirq_handler(&status, &error_index, &ping_in_progress, &ack, img_buffer, &img_progress);
 		  //HAL_NVIC_EnableIRQ(nIRQ_EXTI_IRQn);
 		  radio_nirq = 0;
 	  }
 	  if (img_flag && ack) {
-		  transmit_img(&status, &error_index, &img_progress, &img_size);
+		  transmit_img(&status, &error_index, img_buffer, &img_progress);
 		  ack = 0;
 
 	  }
@@ -253,6 +256,16 @@ int main(void)
 	  			  get_GS_state(&status);
 	  			  cmd_index = '0';
 	  			  break;
+	  		  }
+	  		  case '6': {
+	  			img_flag = 0;
+	  			cmd_index = '0';
+	  			uint8_t buffer[] = "Flags reset \r\n";
+	  			uint16_t buffer_size = sizeof(buffer);
+	  			CDC_Transmit_HS(buffer, buffer_size);
+	  			radio_mode_Rx(status);
+
+	  			break;
 	  		  }
 	  		  default: {
 	  			uint8_t buffer[] = "Unrecognized command \r\n";

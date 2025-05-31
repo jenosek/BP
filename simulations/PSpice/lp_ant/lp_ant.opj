@@ -22,7 +22,7 @@
          ".\lp_ant-pspicefiles\schematic1\final_frec.sim"
         (DisplayName "SCHEMATIC1-final_frec")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\lp_ant-pspicefiles\schematic1\frec.sim"))
+      (ActiveProfile ".\lp_ant-pspicefiles\schematic1\final_frec.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"

@@ -95,6 +95,7 @@ void cmd_main_win() {
 						 "3) Get image \r\n"
 						 "4) Clear terminal \r\n"
 						 "5) Ground station status \r\n"
+						 "6) Command reset \r\n"
 						 "==================================================\r\n";
 	uint16_t TxBufferLen = sizeof(TxBuffer);
 	CDC_Transmit_HS(TxBuffer, TxBufferLen);
@@ -163,16 +164,16 @@ void request_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* im
 		if (*status != 0) {
 			*error_index = IMG_DEF;
 		}
-
+		/*
 		// Realloc globally defined image buffer to required size
-		uint8_t* prev_buff_loc = img_buffer;
+
 		if (!((uint8_t*) realloc(img_buffer, img_size))) {
 			free(prev_buff_loc);
 			*status = HAL_ERROR;
 			*error_index = MEM_REALLOC;
 			return;
 		}
-
+		*/
 		// Send request
 		uint8_t packet_buffer[60];
 		for (uint8_t i = 0; i < 60; i++) {
@@ -183,10 +184,11 @@ void request_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* im
 		img_flag = 1; // Activate flag
 }
 
-void capture_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_mode) {
+void capture_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_buffer, uint8_t* img_mode) {
 	get_img_res(status, img_mode);
 
 	// Realloc globally defined image buffer to required size
+	/*
 	uint8_t* prev_buff_loc = img_buffer;
 	if (!((uint8_t*) realloc(img_buffer, img_size))) {
 		free(prev_buff_loc);
@@ -194,30 +196,32 @@ void capture_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* im
 		*error_index = MEM_REALLOC;
 		return;
 	}
-
+	*/
+	uint8_t data[img_size];
 	camera_init(status, img_mode);
 	if (*status != 0) {
 		*error_index = CAM_INIT;
 		return;
 	}
-	camera_capture_photo(status, img_buffer, &img_size);
+	camera_capture_photo(status, data, &img_size);
 
 	if (*status != 0) {
 		*error_index = CAM_CAPTURE;
 		return;
 	}
+	memcpy(img_buffer, data, img_size);
 	img_flag = 1; // Set flag to indicate that image is stored in buffer and ready to be transmitted
 
 }
 
-void transmit_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint32_t* index, uint32_t* size) {
+void transmit_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* img_buffer, uint32_t* index) {
 	uint8_t packet[60];
 	uint8_t prev_idex = *index;
 	// Load data block to packet
 	for (uint8_t i = 0; i < 60; i++) {
-		if (*index >= *size) {
+		if (*index >= img_size) {
 			img_flag = 0;
-			*size = 0x100000000;
+			img_size = 0x100000000;
 			break;
 		}
 		packet[i] = img_buffer[*index];
@@ -228,7 +232,7 @@ void transmit_img(HAL_StatusTypeDef* status, fault_flag* error_index, uint32_t* 
 	radio_send_packet(status, &packet);
 }
 
-void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* ping, uint8_t* ack, uint32_t* index) {
+void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* ping, uint8_t* ack, uint8_t* img_buffer, uint32_t* index) {
 
 	// Packet handling
 	uint8_t pending_interrupts = radio_read_PH_status(status);
@@ -318,7 +322,8 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 		/// IMG
 		else if (CCs == 59) {
 			uint8_t img_mode = packet[2];
-			capture_img(status, error_index, &img_mode);
+			capture_img(status, error_index, img_buffer, &img_mode);
+			transmit_img(status, error_index, img_buffer, index);
 
 		}
 		else if (img_flag) {
@@ -326,6 +331,7 @@ void nirq_handler(HAL_StatusTypeDef* status, fault_flag* error_index, uint8_t* p
 				img_buffer[*index] = packet[i];
 				(*index)++;
 			}
+			radio_send_ACK(status);
 		}
 
 		// Return from function as data are about to be transmitted
